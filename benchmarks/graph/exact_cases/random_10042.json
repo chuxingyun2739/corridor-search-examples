@@ -1,0 +1,204 @@
+{
+  "case": "random_10042",
+  "nodes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "source": 1,
+  "target": 10,
+  "branches": [
+    {
+      "source": 1,
+      "target": 2,
+      "r_pu": 0.02665336356937536,
+      "x_pu": 0.005161649587376065,
+      "rate_pu": null
+    },
+    {
+      "source": 2,
+      "target": 1,
+      "r_pu": 0.02665336356937536,
+      "x_pu": 0.005161649587376065,
+      "rate_pu": null
+    },
+    {
+      "source": 2,
+      "target": 3,
+      "r_pu": 0.04209200309265058,
+      "x_pu": 0.008761096002655918,
+      "rate_pu": null
+    },
+    {
+      "source": 3,
+      "target": 2,
+      "r_pu": 0.04209200309265058,
+      "x_pu": 0.008761096002655918,
+      "rate_pu": null
+    },
+    {
+      "source": 3,
+      "target": 4,
+      "r_pu": 0.04426538429242061,
+      "x_pu": 0.009972246758338039,
+      "rate_pu": null
+    },
+    {
+      "source": 4,
+      "target": 3,
+      "r_pu": 0.04426538429242061,
+      "x_pu": 0.009972246758338039,
+      "rate_pu": null
+    },
+    {
+      "source": 4,
+      "target": 5,
+      "r_pu": 0.027082264508334956,
+      "x_pu": 0.0060476540341443275,
+      "rate_pu": null
+    },
+    {
+      "source": 4,
+      "target": 6,
+      "r_pu": 0.03746628082198676,
+      "x_pu": 0.01728347782074198,
+      "rate_pu": null
+    },
+    {
+      "source": 5,
+      "target": 4,
+      "r_pu": 0.027082264508334956,
+      "x_pu": 0.0060476540341443275,
+      "rate_pu": null
+    },
+    {
+      "source": 5,
+      "target": 6,
+      "r_pu": 0.030339281142546547,
+      "x_pu": 0.015687338349071968,
+      "rate_pu": null
+    },
+    {
+      "source": 5,
+      "target": 8,
+      "r_pu": 0.026089968939534074,
+      "x_pu": 0.012740821263629227,
+      "rate_pu": null
+    },
+    {
+      "source": 6,
+      "target": 5,
+      "r_pu": 0.030339281142546547,
+      "x_pu": 0.015687338349071968,
+      "rate_pu": null
+    },
+    {
+      "source": 6,
+      "target": 7,
+      "r_pu": 0.04549898840839085,
+      "x_pu": 0.014069914240727458,
+      "rate_pu": null
+    },
+    {
+      "source": 6,
+      "target": 4,
+      "r_pu": 0.03746628082198676,
+      "x_pu": 0.01728347782074198,
+      "rate_pu": null
+    },
+    {
+      "source": 7,
+      "target": 6,
+      "r_pu": 0.04549898840839085,
+      "x_pu": 0.014069914240727458,
+      "rate_pu": null
+    },
+    {
+      "source": 7,
+      "target": 8,
+      "r_pu": 0.022945736750338265,
+      "x_pu": 0.007251106989410218,
+      "rate_pu": null
+    },
+    {
+      "source": 7,
+      "target": 10,
+      "r_pu": 0.056934187305442197,
+      "x_pu": 0.021297996813850195,
+      "rate_pu": null
+    },
+    {
+      "source": 8,
+      "target": 7,
+      "r_pu": 0.022945736750338265,
+      "x_pu": 0.007251106989410218,
+      "rate_pu": null
+    },
+    {
+      "source": 8,
+      "target": 9,
+      "r_pu": 0.02784181389260032,
+      "x_pu": 0.019403814762174305,
+      "rate_pu": null
+    },
+    {
+      "source": 8,
+      "target": 5,
+      "r_pu": 0.026089968939534074,
+      "x_pu": 0.012740821263629227,
+      "rate_pu": null
+    },
+    {
+      "source": 9,
+      "target": 8,
+      "r_pu": 0.02784181389260032,
+      "x_pu": 0.019403814762174305,
+      "rate_pu": null
+    },
+    {
+      "source": 9,
+      "target": 10,
+      "r_pu": 0.034631702690047596,
+      "x_pu": 0.014717450781899274,
+      "rate_pu": null
+    },
+    {
+      "source": 10,
+      "target": 9,
+      "r_pu": 0.034631702690047596,
+      "x_pu": 0.014717450781899274,
+      "rate_pu": null
+    },
+    {
+      "source": 10,
+      "target": 7,
+      "r_pu": 0.056934187305442197,
+      "x_pu": 0.021297996813850195,
+      "rate_pu": null
+    }
+  ],
+  "supports": {},
+  "config": {
+    "nominal_voltage_pu": 1.0,
+    "voltage_lower_bound": 0.9,
+    "voltage_upper_bound": 1.1,
+    "max_support_nodes": 2,
+    "p_transfer_pu": 0.21866001820639175,
+    "q_transfer_pu": 0.09450272095864404,
+    "lambda_support_count": 0.01,
+    "lambda_support_capacity": 0.0,
+    "dominance_eps": 1e-10,
+    "heuristic_label_cap": null,
+    "allow_support_at_source": false,
+    "allow_support_at_target": false
+  },
+  "network_type": "synthetic_exact_validation",
+  "directed": true
+}

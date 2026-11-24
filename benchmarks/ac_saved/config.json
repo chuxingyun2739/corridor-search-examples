@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "source_protocol_sha256": "3c13662fe49582d492276a72a6dc3d029fcb043aa669035d7f0ae7b07c5dfe93",
+  "historical_protocol": {
+    "version": "SCIENCE_CLOSURE_V2",
+    "seed": 20261023,
+    "starts": [
+      "flat",
+      "dc"
+    ],
+    "stage_cpu_seconds": 8.0,
+    "max_iterations": 200,
+    "solver_tolerance": 1e-10,
+    "certificate_tolerance": 1e-06,
+    "redispatch_fraction_load": 0.2,
+    "max_candidates": 8,
+    "Q_total_mvar": 40.0,
+    "Q_each_mvar": 13.333333333333334,
+    "max_hosts": 3,
+    "method_wall_seconds": 180.0,
+    "max_optimizer_calls": 32,
+    "max_total_ac_calls": 256,
+    "runtime_scope": "Serial method runs include native loading, reference PF, ranking, indexing, generation, subprocess initialization, optimization and certification; common Python import outside timer"
+  },
+  "verification": {
+    "scalar_abs_tolerance": 1e-06,
+    "rms_abs_tolerance": 1e-09,
+    "relative_path_convention": "Archive scientific references use raw/ac; Windows separators are normalized only during lookup"
+  },
+  "scope": "L5: verify saved arrays/metadata only; no model imports or solver execution; L6 unsupported"
+}

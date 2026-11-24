@@ -1,0 +1,3501 @@
+[
+  {
+    "case": "path_history_dominance_counterexample",
+    "input_sha256": "fc14b6da6a085ff6fd25cd792dbc10ebedf4ec0d8d41cb952faa330012ddea90",
+    "feasible": true,
+    "objective": 0.20401903076633665,
+    "path": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "support_nodes": [
+      3
+    ]
+  },
+  {
+    "case": "synthetic_6_node",
+    "input_sha256": "e62ead602f6ffe9c5c60a030063c5936cd79c708fd31891e0a6a0f07d0b44b1b",
+    "feasible": true,
+    "objective": 0.012174558369491023,
+    "path": [
+      1,
+      3,
+      5,
+      6
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "synthetic_8_node",
+    "input_sha256": "b3844901b93c84f8545a362ce5f746537e77690b690d2739623ff3f88e5850a0",
+    "feasible": true,
+    "objective": 0.016879228525143272,
+    "path": [
+      1,
+      3,
+      5,
+      7,
+      8
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "synthetic_10_node",
+    "input_sha256": "caf772f7da249be1bbbe052939b31449a470da5065553563f55f4be7d4e77071",
+    "feasible": true,
+    "objective": 0.02173428578673516,
+    "path": [
+      1,
+      3,
+      5,
+      7,
+      9,
+      10
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "synthetic_12_node",
+    "input_sha256": "76edaba7d2ed9b27b81e4c653cef88cae5221c5844403c22a34dd9d62e957302",
+    "feasible": true,
+    "objective": 0.0273852474111679,
+    "path": [
+      1,
+      3,
+      4,
+      6,
+      8,
+      10,
+      11,
+      12
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_00",
+    "input_sha256": "f25da5a0c669d7427e3770d7c1d0480ef4edb5b4099f58407c2c1306a5d60623",
+    "feasible": true,
+    "objective": 0.010735526591142557,
+    "path": [
+      1,
+      4,
+      3,
+      6,
+      7,
+      8
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_01",
+    "input_sha256": "520c95905922eac32b2b7058c980dd340f32e07e8e8a8c0e82d962c620fc0d59",
+    "feasible": true,
+    "objective": 0.015785895838503716,
+    "path": [
+      1,
+      4,
+      5,
+      8,
+      9,
+      10
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_02",
+    "input_sha256": "eac2896e50b58747f0f1c50e8c85fc13aa7401b5883c0660fb720203ee7112c7",
+    "feasible": true,
+    "objective": 0.026120978081112817,
+    "path": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      10,
+      12
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_03",
+    "input_sha256": "9eb7d8780e0881b66a6e5283a5b3bb7d4537d52843af3ec9c7f63529fda4224d",
+    "feasible": true,
+    "objective": 0.014090591988685409,
+    "path": [
+      1,
+      3,
+      6,
+      7,
+      8
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_04",
+    "input_sha256": "cdd78048169f4076b06bbb3db511912539a082d5cf7a462606b04cd99b6ef76d",
+    "feasible": true,
+    "objective": 0.009312847093549445,
+    "path": [
+      1,
+      3,
+      5,
+      6,
+      9,
+      10
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_05",
+    "input_sha256": "eb94c7a236916a184e1957c93a074a460e93cbe36b3b20c4ad27dd41871aa813",
+    "feasible": true,
+    "objective": 0.033033119642753406,
+    "path": [
+      1,
+      2,
+      5,
+      8,
+      9,
+      10,
+      12
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_06",
+    "input_sha256": "d934ba39c82058b86555564e976a6e8d2f117400e927ba304e446d97fadbc30b",
+    "feasible": true,
+    "objective": 0.014796801627064118,
+    "path": [
+      1,
+      4,
+      6,
+      7,
+      8
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_07",
+    "input_sha256": "510119c3b82cdcf860561f9d610e47980f3f1cd14b403714a91c7e0a0649b074",
+    "feasible": true,
+    "objective": 0.030446958910386953,
+    "path": [
+      1,
+      2,
+      3,
+      4,
+      7,
+      8,
+      10
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_08",
+    "input_sha256": "a9edff61cdd8786e5ca7930cb0805c38c56727866daa3506a2b2ad873211e487",
+    "feasible": true,
+    "objective": 0.013785104702926602,
+    "path": [
+      1,
+      2,
+      3,
+      6,
+      7,
+      8,
+      10,
+      11,
+      12
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_09",
+    "input_sha256": "c69707a00b44abd9dee4a59703b1282156f87b618bc61129935baefed607597e",
+    "feasible": true,
+    "objective": 0.0215486149101315,
+    "path": [
+      1,
+      2,
+      5,
+      7,
+      8
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_10",
+    "input_sha256": "9824d88bc9eb7d06b467b822c06a4ba34962558cfadd183382eee708eae236c2",
+    "feasible": true,
+    "objective": 0.06876495646192579,
+    "path": [
+      1,
+      2,
+      4,
+      7,
+      8,
+      9,
+      10
+    ],
+    "support_nodes": [
+      2
+    ]
+  },
+  {
+    "case": "random_11",
+    "input_sha256": "1e80e1299ecb72c9e4814aa1ff50acacee9fb3c0999b56a37c543b5602ce76e3",
+    "feasible": true,
+    "objective": 0.008692674383102126,
+    "path": [
+      1,
+      3,
+      4,
+      5,
+      8,
+      9,
+      10,
+      12
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_12",
+    "input_sha256": "00a2c33ba81ee69dd137d02c8872aeb28390aa3ab314da70bbc8c8746090aae7",
+    "feasible": true,
+    "objective": 0.006925225947272181,
+    "path": [
+      1,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_13",
+    "input_sha256": "bd9ff22609e320176171c00eed347353aa8a81d0bad37b8fdcdecf01f0d3ae0a",
+    "feasible": true,
+    "objective": 0.010569473492217716,
+    "path": [
+      1,
+      2,
+      3,
+      6,
+      8,
+      9,
+      10
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_14",
+    "input_sha256": "6d6142765699c85166a4facc8905042d5ae0652fdc58c6c8dda45e138984743c",
+    "feasible": true,
+    "objective": 0.029354966936684254,
+    "path": [
+      1,
+      2,
+      3,
+      4,
+      7,
+      10,
+      11,
+      12
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_15",
+    "input_sha256": "947f33f9ddc88aa11b068088403ed2c9a4cf740c6b7af93e90417b3320f074df",
+    "feasible": true,
+    "objective": 0.012558122653538721,
+    "path": [
+      1,
+      3,
+      5,
+      7,
+      8
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_16",
+    "input_sha256": "e490f0c62a114bd1efab59f97e8e75afae84f02244c840971e4466b2c39c1729",
+    "feasible": true,
+    "objective": 0.021618282567570174,
+    "path": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      8,
+      9,
+      10
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_17",
+    "input_sha256": "91bea9279efa35876e827efc52ff1d452fa5a2c0588acaa70b46705912c87a87",
+    "feasible": true,
+    "objective": 0.02608189103555652,
+    "path": [
+      1,
+      2,
+      3,
+      6,
+      8,
+      9,
+      10,
+      12
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_18",
+    "input_sha256": "a2eb43abdfbaae56041c9c74c367c176027898f8c14bbc8a94f95ae8d958186f",
+    "feasible": true,
+    "objective": 0.029656074726794674,
+    "path": [
+      1,
+      3,
+      4,
+      5,
+      6,
+      8
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_19",
+    "input_sha256": "c8f6264bf926c2114e395066e63c97b163d844212b64184b9dac25ff229d12fb",
+    "feasible": true,
+    "objective": 0.029946925588195228,
+    "path": [
+      1,
+      2,
+      4,
+      5,
+      6,
+      7,
+      10
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_20",
+    "input_sha256": "23864d1671e1d14b3892ff2df53308167241be104c56673e1d46ebe04b610299",
+    "feasible": true,
+    "objective": 0.0612190581966544,
+    "path": [
+      1,
+      2,
+      5,
+      6,
+      7,
+      10,
+      12
+    ],
+    "support_nodes": [
+      10
+    ]
+  },
+  {
+    "case": "random_21",
+    "input_sha256": "83e96d3b3be8778fecdf1ff823668be99d3410ef186a220cc9e30a21c4abdfe9",
+    "feasible": true,
+    "objective": 0.025834952239707616,
+    "path": [
+      1,
+      3,
+      4,
+      5,
+      6,
+      8
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_22",
+    "input_sha256": "9ed919df3e62591aa63583bc2941e2d551484c8ef21795f0135a0e627c12c2b3",
+    "feasible": true,
+    "objective": 0.03556675838957689,
+    "path": [
+      1,
+      4,
+      5,
+      7,
+      8,
+      9,
+      10
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_23",
+    "input_sha256": "12226b9f9a5e3ac22b9aff52d61f50410a5895b702fbd2aee117c7af64900b39",
+    "feasible": true,
+    "objective": 0.013265274269409813,
+    "path": [
+      1,
+      3,
+      4,
+      5,
+      7,
+      10,
+      12
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_24",
+    "input_sha256": "aa55a7e19c5bc7c5ac6634b62050bdf3dea76229a57fdeaa1b7e6f6796aa27dc",
+    "feasible": true,
+    "objective": 0.01177725246664917,
+    "path": [
+      1,
+      4,
+      6,
+      8
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_25",
+    "input_sha256": "6e43599e7eff339bb9ef192a78c7c1a9826a5d323273625f646ae1c21ffad28b",
+    "feasible": true,
+    "objective": 0.0333341549398316,
+    "path": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      8,
+      9,
+      10
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_26",
+    "input_sha256": "fe0386ae414eba4993e0feff72ef46e23cc54e27ebf3fc433d831e64c89df887",
+    "feasible": true,
+    "objective": 0.03143492661624321,
+    "path": [
+      1,
+      2,
+      3,
+      4,
+      7,
+      9,
+      12
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_27",
+    "input_sha256": "cbc691d78d71f089a0d6b1e729e9a9b8ffe5813c60c01d9a5292e057a0ef019b",
+    "feasible": true,
+    "objective": 0.02696856224044565,
+    "path": [
+      1,
+      3,
+      4,
+      7,
+      8
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_28",
+    "input_sha256": "0240752c88163948f535c390ea71a632acafeeb444ad1fe4d99d3bf0cc3cfd47",
+    "feasible": true,
+    "objective": 0.03113111124520336,
+    "path": [
+      1,
+      2,
+      4,
+      5,
+      6,
+      8,
+      9,
+      10
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_29",
+    "input_sha256": "514853012c5972363a9a537a4a838123fec32ead5e467884581d6d78b23ab585",
+    "feasible": true,
+    "objective": 0.024394157749543757,
+    "path": [
+      1,
+      3,
+      4,
+      5,
+      7,
+      8,
+      9,
+      12
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_30",
+    "input_sha256": "be8700675f5334eeb255cbed1d4a717899be08bc024fd8ce501c5ba542509855",
+    "feasible": true,
+    "objective": 0.027741676070010962,
+    "path": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_31",
+    "input_sha256": "2a3fe000dc5235eae3af38478d4517d7e6c58a34147dc14e6389ef0fdcc7db0b",
+    "feasible": true,
+    "objective": 0.07299620708825687,
+    "path": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "support_nodes": [
+      3
+    ]
+  },
+  {
+    "case": "random_32",
+    "input_sha256": "40b14c3f5984f8c221897c4857dec87f027a5506d317042453fa9fdd6da830d6",
+    "feasible": true,
+    "objective": 0.04120198594360665,
+    "path": [
+      1,
+      4,
+      7,
+      8,
+      9,
+      12
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_33",
+    "input_sha256": "926bb82366f3593e916a8d1a7e342623197c4bb1e8d031061b5afb4ef63c1b2b",
+    "feasible": true,
+    "objective": 0.021506556721803113,
+    "path": [
+      1,
+      3,
+      4,
+      7,
+      8
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_34",
+    "input_sha256": "b6c5b0961eebfbe031c20d5c54af4fa3c891ea2de082aa0db24d3db4ad9162be",
+    "feasible": true,
+    "objective": 0.01361654678171878,
+    "path": [
+      1,
+      4,
+      7,
+      8,
+      10
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_35",
+    "input_sha256": "d5b2641b3ebb1bbe8cb8ba7e2ff3737248a14d91c03b27f4c3508bfa216c9208",
+    "feasible": true,
+    "objective": 0.01692853408804173,
+    "path": [
+      1,
+      2,
+      3,
+      6,
+      9,
+      10,
+      11,
+      12
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_36",
+    "input_sha256": "a9ab07f653cf295281baad819f345dec2d32c865c936c8a298e9e7a4fc315f1d",
+    "feasible": true,
+    "objective": 0.00533672494712948,
+    "path": [
+      1,
+      3,
+      5,
+      8
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_37",
+    "input_sha256": "3eada406cc4bcef4f89fd02f6ab1dc9ecacbf53bbba7ad4edcbf5294ce2f548c",
+    "feasible": true,
+    "objective": 0.010154477216985276,
+    "path": [
+      1,
+      2,
+      3,
+      5,
+      6,
+      7,
+      10
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_38",
+    "input_sha256": "5fcec2c5546fed21d04adf7659da61358993b765e45976ba69776d298f8ebd11",
+    "feasible": true,
+    "objective": 0.03432041447217954,
+    "path": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      7,
+      10,
+      12
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_39",
+    "input_sha256": "e8d85935db1db93dd3b15a9664354c06a0cce43bb7774c4b44bbeca2d692bb26",
+    "feasible": true,
+    "objective": 0.005152892331295601,
+    "path": [
+      1,
+      2,
+      5,
+      8
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_40",
+    "input_sha256": "7a47bf6f101add5ad7e1178cb69adb67272af2002197106b421d700cdb05b685",
+    "feasible": true,
+    "objective": 0.02690314092896354,
+    "path": [
+      1,
+      4,
+      5,
+      6,
+      7,
+      8,
+      10
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_41",
+    "input_sha256": "87ebe7078b12b2c2bf60972fdbb0b055f5fdd24a71353c62072986098e7029ce",
+    "feasible": true,
+    "objective": 0.03436581556501643,
+    "path": [
+      1,
+      4,
+      5,
+      7,
+      9,
+      12
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_42",
+    "input_sha256": "6b8296c15dc7147dd41d22b327cfd2c31b377d7c573c4d6d7a6987a0bef8be15",
+    "feasible": true,
+    "objective": 0.023714271500982684,
+    "path": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      8
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_43",
+    "input_sha256": "356d6477762ff25e76975f64032a12fd005e2b6db0758b0d5eeb7c52c3355d71",
+    "feasible": true,
+    "objective": 0.01830316352010484,
+    "path": [
+      1,
+      2,
+      4,
+      5,
+      8,
+      10
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_44",
+    "input_sha256": "6c4adad969d9da96eb258b447f779723d6663b2eaf40fec915564c0c329d55e8",
+    "feasible": true,
+    "objective": 0.02499911056956538,
+    "path": [
+      1,
+      4,
+      5,
+      6,
+      8,
+      11,
+      12
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_45",
+    "input_sha256": "e1b89232dbd594dcf5bc04c8322040d810e35926e71b86334d463ff5314a7a90",
+    "feasible": true,
+    "objective": 0.024609282363770503,
+    "path": [
+      1,
+      2,
+      5,
+      8
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_46",
+    "input_sha256": "2501ecdc903dbb56f822a761040b9a9bf56ef90a7694cab054f895752b3ff3e6",
+    "feasible": true,
+    "objective": 0.01196770299261799,
+    "path": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      8,
+      10
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_47",
+    "input_sha256": "f7dcbe553b9f8f5198862431d3ef78a308a93cd3b3a71442479406a94ea5d5ca",
+    "feasible": true,
+    "objective": 0.03207650801266521,
+    "path": [
+      1,
+      2,
+      3,
+      6,
+      9,
+      11,
+      12
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_48",
+    "input_sha256": "e890301af26b69db4a8e525564ae78edf379730494b7c72a100afc7c823ccdd6",
+    "feasible": true,
+    "objective": 0.01782773901353254,
+    "path": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      7,
+      8
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_49",
+    "input_sha256": "af30e68c6647cf0175237047b9228fb7a6c5aa4037cbeb8b9fd98d3475498474",
+    "feasible": true,
+    "objective": 0.01009649898809678,
+    "path": [
+      1,
+      2,
+      5,
+      8,
+      10
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "path_history_dominance_counterexample_lb0.88",
+    "input_sha256": "d529e8a284b7c9c7179a1683eba29503bae7fc4ba914caf03f98b1257811f73d",
+    "feasible": true,
+    "objective": 0.08269293772320321,
+    "path": [
+      1,
+      4,
+      5
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "path_history_dominance_counterexample_lb0.90",
+    "input_sha256": "50acd9eee82e57b1d76a9383732f80bb6b8015e744d8d45cc6d4e687d7e0f500",
+    "feasible": true,
+    "objective": 0.08269293772320321,
+    "path": [
+      1,
+      4,
+      5
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "path_history_dominance_counterexample_lb0.92",
+    "input_sha256": "d92e5457dcef7c6d02555292976801b6a9e9cc22f66488b89cde65839534edd4",
+    "feasible": true,
+    "objective": 0.20401903076633665,
+    "path": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "support_nodes": [
+      3
+    ]
+  },
+  {
+    "case": "path_history_dominance_counterexample_support_cap0.75_cost0.00",
+    "input_sha256": "9ebacffb16a5b5a6bcf10a2f9e164a3d1d8fcec995177768563c810e94abd1a8",
+    "feasible": true,
+    "objective": 0.20401903076633665,
+    "path": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "support_nodes": [
+      3
+    ]
+  },
+  {
+    "case": "path_history_dominance_counterexample_support_cap1.25_cost0.00",
+    "input_sha256": "9cef9de2fbf4b7a191cacf2237387b4a6f97b5cc5c56100e63231363224cfa4b",
+    "feasible": true,
+    "objective": 0.20401903076633665,
+    "path": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "support_nodes": [
+      3
+    ]
+  },
+  {
+    "case": "path_history_dominance_counterexample_support_cap1.00_cost0.02",
+    "input_sha256": "705dcad88aef070f19e96056d98609517fd76776c7679247436d89694dc14fb2",
+    "feasible": true,
+    "objective": 0.2240190307663366,
+    "path": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "support_nodes": [
+      3
+    ]
+  },
+  {
+    "case": "synthetic_6_node_lb0.88",
+    "input_sha256": "1456f2628db276d6365eacb32c3f1882947df3f310972e91d5b8bcfb459fc41b",
+    "feasible": true,
+    "objective": 0.012174558369491023,
+    "path": [
+      1,
+      3,
+      5,
+      6
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "synthetic_6_node_lb0.90",
+    "input_sha256": "2ea8e3784b4a6ca68fa5d233bb7440739277d07bf88cbb4f06526e5d1a510d1c",
+    "feasible": true,
+    "objective": 0.012174558369491023,
+    "path": [
+      1,
+      3,
+      5,
+      6
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "synthetic_6_node_lb0.92",
+    "input_sha256": "66a3592ae225f7a077bf1c2588fdf37a1326d9e82df59c60966af9d4e8658d63",
+    "feasible": true,
+    "objective": 0.012174558369491023,
+    "path": [
+      1,
+      3,
+      5,
+      6
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "synthetic_6_node_support_cap0.75_cost0.00",
+    "input_sha256": "fae70d28042933701ad4f010b73d03496da282ebe73eeec0816ab81b89ae55fb",
+    "feasible": true,
+    "objective": 0.012174558369491023,
+    "path": [
+      1,
+      3,
+      5,
+      6
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "synthetic_6_node_support_cap1.25_cost0.00",
+    "input_sha256": "f87ca4ee7c593b5394efb05e10b3d049a57c26942516af603e7896f30027680e",
+    "feasible": true,
+    "objective": 0.012174558369491023,
+    "path": [
+      1,
+      3,
+      5,
+      6
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "synthetic_6_node_support_cap1.00_cost0.02",
+    "input_sha256": "64a617289aa049773ff060254208fde4cf7ef27082645fe82f91122f9a5daab3",
+    "feasible": true,
+    "objective": 0.012174558369491023,
+    "path": [
+      1,
+      3,
+      5,
+      6
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "synthetic_8_node_lb0.88",
+    "input_sha256": "a4719d12afc995a10ddb07469f80b075bb30e8b165f7cf21e28ea95aa30d91ca",
+    "feasible": true,
+    "objective": 0.016879228525143272,
+    "path": [
+      1,
+      3,
+      5,
+      7,
+      8
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "synthetic_8_node_lb0.90",
+    "input_sha256": "4e64190c5e629557938105a9c0117f6c86212dbcf9d129f42ae2f98d63036f22",
+    "feasible": true,
+    "objective": 0.016879228525143272,
+    "path": [
+      1,
+      3,
+      5,
+      7,
+      8
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "synthetic_8_node_lb0.92",
+    "input_sha256": "0d1edb67068c684f9c8834b00fecbbb6804fecac4de53aa980d33971125ac9fc",
+    "feasible": true,
+    "objective": 0.016879228525143272,
+    "path": [
+      1,
+      3,
+      5,
+      7,
+      8
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "synthetic_8_node_support_cap0.75_cost0.00",
+    "input_sha256": "4487f3cb4cce131c4152906580f00abaccbcc73574748dae90d08db0c16ad7d4",
+    "feasible": true,
+    "objective": 0.016879228525143272,
+    "path": [
+      1,
+      3,
+      5,
+      7,
+      8
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "synthetic_8_node_support_cap1.25_cost0.00",
+    "input_sha256": "b911e3ee5bc6bb07b6a537c041aeeb779392e81f77e24a19aa9244867eadd4ba",
+    "feasible": true,
+    "objective": 0.016879228525143272,
+    "path": [
+      1,
+      3,
+      5,
+      7,
+      8
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "synthetic_8_node_support_cap1.00_cost0.02",
+    "input_sha256": "5ef66ac47f28e71ce94d2aac1026f2cb82d8e9cd4bda8312c0c8b6c270c6f70f",
+    "feasible": true,
+    "objective": 0.016879228525143272,
+    "path": [
+      1,
+      3,
+      5,
+      7,
+      8
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "synthetic_10_node_lb0.88",
+    "input_sha256": "2a7af910dd48935c057e039e3a8dd6136f8f41d3b736e1d5a8ade32a2486cffb",
+    "feasible": true,
+    "objective": 0.02173428578673516,
+    "path": [
+      1,
+      3,
+      5,
+      7,
+      9,
+      10
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "synthetic_10_node_lb0.90",
+    "input_sha256": "2893f45791d6cf252618b70372797eabfdcdbf04f71e3443709b84b971fe22d5",
+    "feasible": true,
+    "objective": 0.02173428578673516,
+    "path": [
+      1,
+      3,
+      5,
+      7,
+      9,
+      10
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "synthetic_10_node_lb0.92",
+    "input_sha256": "8a1544fe52488db74bca9b41b08c3f2922f23aece61ff0986eec22560889e28a",
+    "feasible": true,
+    "objective": 0.02173428578673516,
+    "path": [
+      1,
+      3,
+      5,
+      7,
+      9,
+      10
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "synthetic_10_node_support_cap0.75_cost0.00",
+    "input_sha256": "6a123699d622f4dcfd135304fa7bbeb5fa2cbf416aef0f17d12e3410373fab58",
+    "feasible": true,
+    "objective": 0.02173428578673516,
+    "path": [
+      1,
+      3,
+      5,
+      7,
+      9,
+      10
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "synthetic_10_node_support_cap1.25_cost0.00",
+    "input_sha256": "b922bbb90d17b75d893349d1c5f48329b0b1c9c8f4bddc2fa878ecd88bed84d4",
+    "feasible": true,
+    "objective": 0.02173428578673516,
+    "path": [
+      1,
+      3,
+      5,
+      7,
+      9,
+      10
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "synthetic_10_node_support_cap1.00_cost0.02",
+    "input_sha256": "44f368aa01005f559409ac1c1abed1c8c66432dc9974d6203f6ad2f5595348fe",
+    "feasible": true,
+    "objective": 0.02173428578673516,
+    "path": [
+      1,
+      3,
+      5,
+      7,
+      9,
+      10
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "synthetic_12_node_lb0.88",
+    "input_sha256": "22482071ac362dd0c4134e827299bd31d0e37b1e770e43277cd2f789daed14d3",
+    "feasible": true,
+    "objective": 0.0273852474111679,
+    "path": [
+      1,
+      3,
+      4,
+      6,
+      8,
+      10,
+      11,
+      12
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "synthetic_12_node_lb0.90",
+    "input_sha256": "e81ebdd2a4201445841e7ceebb73f5f19e779ccb4e71083432b86f63149f9282",
+    "feasible": true,
+    "objective": 0.0273852474111679,
+    "path": [
+      1,
+      3,
+      4,
+      6,
+      8,
+      10,
+      11,
+      12
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "synthetic_12_node_lb0.92",
+    "input_sha256": "2fb38b6a39272bf79a386020f232cc05bd672780261a3773e5c53a82cb8f58ca",
+    "feasible": true,
+    "objective": 0.0561525197200184,
+    "path": [
+      1,
+      3,
+      4,
+      6,
+      8,
+      10,
+      11,
+      12
+    ],
+    "support_nodes": [
+      6
+    ]
+  },
+  {
+    "case": "synthetic_12_node_support_cap0.75_cost0.00",
+    "input_sha256": "c03ef5834b25e046f87f558b837944da3237085acb8159305777f42f10439422",
+    "feasible": true,
+    "objective": 0.0273852474111679,
+    "path": [
+      1,
+      3,
+      4,
+      6,
+      8,
+      10,
+      11,
+      12
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "synthetic_12_node_support_cap1.25_cost0.00",
+    "input_sha256": "649a3096deb76ebaf2e61f942518cdf072a1c371ac1a1fad8af83c60c27a5db9",
+    "feasible": true,
+    "objective": 0.0273852474111679,
+    "path": [
+      1,
+      3,
+      4,
+      6,
+      8,
+      10,
+      11,
+      12
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "synthetic_12_node_support_cap1.00_cost0.02",
+    "input_sha256": "b8f6750286ddb79ed6774fc8b21db8187e71c9a05bdb8286681b80942fe1530f",
+    "feasible": true,
+    "objective": 0.0273852474111679,
+    "path": [
+      1,
+      3,
+      4,
+      6,
+      8,
+      10,
+      11,
+      12
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_00_lb0.88",
+    "input_sha256": "870a5dde48845a70cdf3886fa6d5eda4545e8da15b89f0fe11a24e83c3ea4b35",
+    "feasible": true,
+    "objective": 0.010735526591142557,
+    "path": [
+      1,
+      4,
+      3,
+      6,
+      7,
+      8
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_00_lb0.90",
+    "input_sha256": "9d843d283d84d04c35c2ba31c7743c04e0ecece0abe771cb2439fe8d74a4e788",
+    "feasible": true,
+    "objective": 0.010735526591142557,
+    "path": [
+      1,
+      4,
+      3,
+      6,
+      7,
+      8
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_00_lb0.92",
+    "input_sha256": "d812cc829c23b77890fe7368977440a120fe5871dc0d7035db80f4f4c927836b",
+    "feasible": true,
+    "objective": 0.010735526591142557,
+    "path": [
+      1,
+      4,
+      3,
+      6,
+      7,
+      8
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_00_support_cap0.75_cost0.00",
+    "input_sha256": "e7c5fd8cc63d09812a43b544c6b6e80d9e59a4ae7b228a65e9a3e6331b2a74dc",
+    "feasible": true,
+    "objective": 0.010735526591142557,
+    "path": [
+      1,
+      4,
+      3,
+      6,
+      7,
+      8
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_00_support_cap1.25_cost0.00",
+    "input_sha256": "91cbcfc64046965fca1700e830c8e26b5afb95900bcffcbb47d86d23943e5168",
+    "feasible": true,
+    "objective": 0.010735526591142557,
+    "path": [
+      1,
+      4,
+      3,
+      6,
+      7,
+      8
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_00_support_cap1.00_cost0.02",
+    "input_sha256": "c1af2fe0b0829b03e39e60531b46a21a148b0b9b522a0db802f3a5228abbdae9",
+    "feasible": true,
+    "objective": 0.010735526591142557,
+    "path": [
+      1,
+      4,
+      3,
+      6,
+      7,
+      8
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_01_lb0.88",
+    "input_sha256": "23765f9fcba9c012ec428f7141314b7e0d9a960fe082bfd0aa6f2bdf98675d3e",
+    "feasible": true,
+    "objective": 0.015785895838503716,
+    "path": [
+      1,
+      4,
+      5,
+      8,
+      9,
+      10
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_01_lb0.90",
+    "input_sha256": "10f94dac671ec2e1c9508575d905807f6a7052f957920084670cbfcd148e0c10",
+    "feasible": true,
+    "objective": 0.015785895838503716,
+    "path": [
+      1,
+      4,
+      5,
+      8,
+      9,
+      10
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_01_lb0.92",
+    "input_sha256": "27fc20d015574ff5e31edd8d020f8653a4427a40bea22e279c670ad3ea131461",
+    "feasible": true,
+    "objective": 0.015785895838503716,
+    "path": [
+      1,
+      4,
+      5,
+      8,
+      9,
+      10
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_01_support_cap0.75_cost0.00",
+    "input_sha256": "f3afe0f9ae72052b2283fd8a0ae430161fcc00a8951dc00d3611e52bd221d4b3",
+    "feasible": true,
+    "objective": 0.015785895838503716,
+    "path": [
+      1,
+      4,
+      5,
+      8,
+      9,
+      10
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_01_support_cap1.25_cost0.00",
+    "input_sha256": "76dda0e4d17d724088e2fc8b195d10a5854473745b4a37b3741825c2a99f692d",
+    "feasible": true,
+    "objective": 0.015785895838503716,
+    "path": [
+      1,
+      4,
+      5,
+      8,
+      9,
+      10
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_01_support_cap1.00_cost0.02",
+    "input_sha256": "4bbf4c485377e0b5b77a35cc7632b38b8ac21df2ba5e61ce624c2341f67637d5",
+    "feasible": true,
+    "objective": 0.015785895838503716,
+    "path": [
+      1,
+      4,
+      5,
+      8,
+      9,
+      10
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_02_lb0.88",
+    "input_sha256": "b811e345b2f8e421defc2901a9a33142063bd0aee3bd54a9b9acf69898fc5d5b",
+    "feasible": true,
+    "objective": 0.026120978081112817,
+    "path": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      10,
+      12
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_02_lb0.90",
+    "input_sha256": "4e11d0057f61ba34085bd4fbbe12587f6bbdec90f3f6d7a766a017f1448163c6",
+    "feasible": true,
+    "objective": 0.026120978081112817,
+    "path": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      10,
+      12
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_02_lb0.92",
+    "input_sha256": "623d1e554004778f7f0e3841a87cf45a0b43e7ace4e95077984f63c22be1f475",
+    "feasible": true,
+    "objective": 0.04854997011519438,
+    "path": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      10,
+      12
+    ],
+    "support_nodes": [
+      10
+    ]
+  },
+  {
+    "case": "random_02_support_cap0.75_cost0.00",
+    "input_sha256": "82bac12776dc21e59e16fed65c8176b44bbbe04871afcff32f1aa585b657f690",
+    "feasible": true,
+    "objective": 0.026120978081112817,
+    "path": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      10,
+      12
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_02_support_cap1.25_cost0.00",
+    "input_sha256": "a397db9f7f0173bcc8e1821ef3c19957abdee7986db2c31ffeebca20b0d1332a",
+    "feasible": true,
+    "objective": 0.026120978081112817,
+    "path": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      10,
+      12
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_02_support_cap1.00_cost0.02",
+    "input_sha256": "8e8885a9b83a09355ec22fbe7321b5134cee9819e0cd836b5716cc2bebfa1bf5",
+    "feasible": true,
+    "objective": 0.026120978081112817,
+    "path": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      10,
+      12
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_03_lb0.88",
+    "input_sha256": "e021fa026294a5fad9dbb0801745bbebdb85ca73c9c2ceac4cf0cf63710df6e5",
+    "feasible": true,
+    "objective": 0.014090591988685409,
+    "path": [
+      1,
+      3,
+      6,
+      7,
+      8
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_03_lb0.90",
+    "input_sha256": "d57a3d434e05fb8a16503a0305dc98f7fa5fac9eca3d367076eec6479ea671fd",
+    "feasible": true,
+    "objective": 0.014090591988685409,
+    "path": [
+      1,
+      3,
+      6,
+      7,
+      8
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_03_lb0.92",
+    "input_sha256": "70a0feb94069e469116a6f4c22be42f8bf650b7d59326031968af999a8436f6c",
+    "feasible": true,
+    "objective": 0.014090591988685409,
+    "path": [
+      1,
+      3,
+      6,
+      7,
+      8
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_03_support_cap0.75_cost0.00",
+    "input_sha256": "9fe768cb66d905aa056d44df889ab22d1fb6ca19baf56366d8c6cad2cdd06545",
+    "feasible": true,
+    "objective": 0.014090591988685409,
+    "path": [
+      1,
+      3,
+      6,
+      7,
+      8
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_03_support_cap1.25_cost0.00",
+    "input_sha256": "19203f79552202f3c5ee114c08402868ee5bdf147ea2b9ba40aec92cde615eaa",
+    "feasible": true,
+    "objective": 0.014090591988685409,
+    "path": [
+      1,
+      3,
+      6,
+      7,
+      8
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_03_support_cap1.00_cost0.02",
+    "input_sha256": "3a2e2eba2fb8a1c718b08b1eb24436272b38932ee4126e9457fdc6dfd8233dee",
+    "feasible": true,
+    "objective": 0.014090591988685409,
+    "path": [
+      1,
+      3,
+      6,
+      7,
+      8
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_04_lb0.88",
+    "input_sha256": "9414a1e654088b1625352d3e6cbe6c7f69a98a14a614d3e4fdae872cfb962593",
+    "feasible": true,
+    "objective": 0.009312847093549445,
+    "path": [
+      1,
+      3,
+      5,
+      6,
+      9,
+      10
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_04_lb0.90",
+    "input_sha256": "2c4bbd844be95382ba18a1daddc3965ac6aafea4d3f349a698819beb566cf08d",
+    "feasible": true,
+    "objective": 0.009312847093549445,
+    "path": [
+      1,
+      3,
+      5,
+      6,
+      9,
+      10
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_04_lb0.92",
+    "input_sha256": "202ef233d403a014fd48356ac7d7574dd3a38488cbb21533db78e3a3f95d5c92",
+    "feasible": true,
+    "objective": 0.009312847093549445,
+    "path": [
+      1,
+      3,
+      5,
+      6,
+      9,
+      10
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_04_support_cap0.75_cost0.00",
+    "input_sha256": "799514aafb6ffc3b834f8be6706ad50c88e7dfc181198a4c4e17bf97dddd4d72",
+    "feasible": true,
+    "objective": 0.009312847093549445,
+    "path": [
+      1,
+      3,
+      5,
+      6,
+      9,
+      10
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_04_support_cap1.25_cost0.00",
+    "input_sha256": "59525defdfdba9c0da3988e49d0dc89ab81451fefd8785d9917cc0be5a68f35d",
+    "feasible": true,
+    "objective": 0.009312847093549445,
+    "path": [
+      1,
+      3,
+      5,
+      6,
+      9,
+      10
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_04_support_cap1.00_cost0.02",
+    "input_sha256": "651d405dd67fddb01a30edb6067888a575cc7a4fce31090f9bd7d9693a542707",
+    "feasible": true,
+    "objective": 0.009312847093549445,
+    "path": [
+      1,
+      3,
+      5,
+      6,
+      9,
+      10
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_05_lb0.88",
+    "input_sha256": "4a427dafc22f1e2c90725e9a564c7afaaa9fabc2c82d664f21fd726612e42065",
+    "feasible": true,
+    "objective": 0.033033119642753406,
+    "path": [
+      1,
+      2,
+      5,
+      8,
+      9,
+      10,
+      12
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_05_lb0.90",
+    "input_sha256": "b4fdcc3e769bd644e0f407abfbcfdfd5dde4c07766eeb59d16fa594fea99e79c",
+    "feasible": true,
+    "objective": 0.033033119642753406,
+    "path": [
+      1,
+      2,
+      5,
+      8,
+      9,
+      10,
+      12
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_05_lb0.92",
+    "input_sha256": "38ca7eb0a7468b2b0b5fc692f4863967792405af3dbac2327c28f6cffe1c141f",
+    "feasible": true,
+    "objective": 0.05913045620820043,
+    "path": [
+      1,
+      2,
+      5,
+      8,
+      9,
+      10,
+      12
+    ],
+    "support_nodes": [
+      9
+    ]
+  },
+  {
+    "case": "random_05_support_cap0.75_cost0.00",
+    "input_sha256": "ed9d55e8f0c85d92ae02155df7ab39005d72299d4d405bef3184d8a7563a59af",
+    "feasible": true,
+    "objective": 0.033033119642753406,
+    "path": [
+      1,
+      2,
+      5,
+      8,
+      9,
+      10,
+      12
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_05_support_cap1.25_cost0.00",
+    "input_sha256": "5bde1b749e97fe15ed422539831e0de606b04b3aa5171412e5fa054a872e7fdd",
+    "feasible": true,
+    "objective": 0.033033119642753406,
+    "path": [
+      1,
+      2,
+      5,
+      8,
+      9,
+      10,
+      12
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_05_support_cap1.00_cost0.02",
+    "input_sha256": "680db47c150bc00cbcc81847b0bfda031d1d4ffd13ed0a8c117d2605f68a07d6",
+    "feasible": true,
+    "objective": 0.033033119642753406,
+    "path": [
+      1,
+      2,
+      5,
+      8,
+      9,
+      10,
+      12
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_06_lb0.88",
+    "input_sha256": "fa861fee2afb946cfafc7c9830c79dbf4378e5950733fa163282cb982df05871",
+    "feasible": true,
+    "objective": 0.014796801627064118,
+    "path": [
+      1,
+      4,
+      6,
+      7,
+      8
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_06_lb0.90",
+    "input_sha256": "248ea84cc8d5587b0e412cd8c1a0a2842e42e4d2146ca864d50921cf1db1d513",
+    "feasible": true,
+    "objective": 0.014796801627064118,
+    "path": [
+      1,
+      4,
+      6,
+      7,
+      8
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_06_lb0.92",
+    "input_sha256": "5914af3a955a98b05768ce6df7442ca4f293a041f86012501771da487404e69e",
+    "feasible": true,
+    "objective": 0.014796801627064118,
+    "path": [
+      1,
+      4,
+      6,
+      7,
+      8
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_06_support_cap0.75_cost0.00",
+    "input_sha256": "f40646ef4ae15cbe6788828b30b97aaf3c384197742c3f58ceb2543d158582c8",
+    "feasible": true,
+    "objective": 0.014796801627064118,
+    "path": [
+      1,
+      4,
+      6,
+      7,
+      8
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_06_support_cap1.25_cost0.00",
+    "input_sha256": "7fccdce9bb1520d241b2343784be563f88b4a6637a2137e9f71d239e7987a7b1",
+    "feasible": true,
+    "objective": 0.014796801627064118,
+    "path": [
+      1,
+      4,
+      6,
+      7,
+      8
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_06_support_cap1.00_cost0.02",
+    "input_sha256": "564be91630fb8ad6711308e8e8f6b310608872e3f53dc4220498590c72ec6f05",
+    "feasible": true,
+    "objective": 0.014796801627064118,
+    "path": [
+      1,
+      4,
+      6,
+      7,
+      8
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_10000",
+    "input_sha256": "f4ee04c4a1c73600b89918621bfae6c93d28a75c0c9fafc08cc4126bb16b6764",
+    "feasible": true,
+    "objective": 0.014409219981948192,
+    "path": [
+      1,
+      2,
+      3,
+      6
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_10001",
+    "input_sha256": "bfb7d582e7a5f493b540cf6eb978db463e97472de0e9184dbb146eafc6a2c244",
+    "feasible": true,
+    "objective": 0.032747855470775265,
+    "path": [
+      1,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_10002",
+    "input_sha256": "59e5b23257a87bc354f7925d1a4777a799490d9f216ff6fd6dda119cfc579ccf",
+    "feasible": true,
+    "objective": 0.07045607594460465,
+    "path": [
+      1,
+      2,
+      3,
+      4,
+      7,
+      8,
+      9,
+      10
+    ],
+    "support_nodes": [
+      4
+    ]
+  },
+  {
+    "case": "random_10003",
+    "input_sha256": "93a9fadc12fa2f7565c1e4ea24e31dbbe67b149a83bc32550eb29f244f97f546",
+    "feasible": true,
+    "objective": 0.03673089851678275,
+    "path": [
+      1,
+      2,
+      5,
+      7,
+      8,
+      10,
+      11,
+      12
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_10004",
+    "input_sha256": "76d111a3205f78308466013b64e79876c7c71c8ae858f27042a9d6e9621d5cd3",
+    "feasible": true,
+    "objective": 0.008025145139325491,
+    "path": [
+      1,
+      2,
+      3,
+      6
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_10005",
+    "input_sha256": "20e81814c32125127e468e4f5ec09d9dba0de73c5bc9f593bca4030a644a2f10",
+    "feasible": true,
+    "objective": 0.02479542817224553,
+    "path": [
+      1,
+      2,
+      3,
+      4,
+      7,
+      8
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_10006",
+    "input_sha256": "c17d6fd3d6f3eee1a0f2c6155a2a0500279012e160aadfee3d55961977057414",
+    "feasible": true,
+    "objective": 0.007532140757662708,
+    "path": [
+      1,
+      2,
+      3,
+      4,
+      7,
+      10
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_10007",
+    "input_sha256": "ade2c0200a754a35a40667efbc863eedd5c80b2eecfd19a1da8924b00b9e7900",
+    "feasible": true,
+    "objective": 0.011723069872469283,
+    "path": [
+      1,
+      4,
+      6,
+      7,
+      9,
+      11,
+      12
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_10008",
+    "input_sha256": "252d348593564e6d38f940a248fc55839f2acd38e09d17acfa6a1ae1a07954a1",
+    "feasible": true,
+    "objective": 0.015504847027251403,
+    "path": [
+      1,
+      2,
+      4,
+      6
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_10009",
+    "input_sha256": "73f3bde4c5e9ace0044d9e11d799562be355bd4a3c12cffee33f2ef4c09259a5",
+    "feasible": true,
+    "objective": 0.0185945933776891,
+    "path": [
+      1,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_10010",
+    "input_sha256": "3cbde981bc2a3049fe9d1f97d3cfbd179a8dc56f641d3e6ce4a7ca2c194a7a5b",
+    "feasible": true,
+    "objective": 0.022752650556264617,
+    "path": [
+      1,
+      4,
+      7,
+      8,
+      10
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_10011",
+    "input_sha256": "6234a98e0fecff2578d4447027be41ab6d34320b4fd5085d1f2348aa30b1dca2",
+    "feasible": true,
+    "objective": 0.014986079433748961,
+    "path": [
+      1,
+      2,
+      3,
+      5,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_10012",
+    "input_sha256": "cc4f7002c76cd0ec105fc028a8535c2355f2846f1e239d276e88b4d5230e8f6e",
+    "feasible": true,
+    "objective": 0.01327985996625663,
+    "path": [
+      1,
+      2,
+      5,
+      6
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_10013",
+    "input_sha256": "4818fdea9f020c241cb2d18e62219d937c556d03c253f7d6cd9fb11a4f88a371",
+    "feasible": true,
+    "objective": 0.0029073893614079776,
+    "path": [
+      1,
+      4,
+      5,
+      8
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_10014",
+    "input_sha256": "bdb8c36aa71c42a6fb676538fe7c484ce48e8200c575c4c0f8aa4c331a399f19",
+    "feasible": true,
+    "objective": 0.017316226395581367,
+    "path": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      7,
+      8,
+      9,
+      10
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_10015",
+    "input_sha256": "917d5e6ee561fedc34736aea335140f6d9c46f58d73970f962514dae263b39fc",
+    "feasible": true,
+    "objective": 0.08388536361574994,
+    "path": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      11,
+      12
+    ],
+    "support_nodes": [
+      6
+    ]
+  },
+  {
+    "case": "random_10016",
+    "input_sha256": "260fbafb9c8a6bef110685dd5e3a2196fd4f55e275d6159eff62c22b213f0e3c",
+    "feasible": true,
+    "objective": 0.009350208604450943,
+    "path": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_10017",
+    "input_sha256": "a4ca66bf3212f5e3ff1ff9169d171b3a6b2f2bd0aaa74854c3f20e53e31a8969",
+    "feasible": true,
+    "objective": 0.021266213524531796,
+    "path": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      8
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_10018",
+    "input_sha256": "490af54035bd120aaa7a50793af7226bbdab7a046f0549a9b6e6c754e7a6511b",
+    "feasible": true,
+    "objective": 0.033412974353039894,
+    "path": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      7,
+      9,
+      10
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_10019",
+    "input_sha256": "ecbac513ce8f263b7f9b9c901aedc15ac5ee4df64a46a3de0bece24a0ae57961",
+    "feasible": true,
+    "objective": 0.021907451230248252,
+    "path": [
+      1,
+      2,
+      3,
+      5,
+      7,
+      8,
+      9,
+      12
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_10020",
+    "input_sha256": "03dd5a68d43a7e1153dbd262892f63db9817a43dd364b146243c7ad1e5e42898",
+    "feasible": true,
+    "objective": 0.02001150225212979,
+    "path": [
+      1,
+      2,
+      3,
+      6
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_10021",
+    "input_sha256": "0dd690b000c7d4ce342f269f117ea55fb742fcc35af64745de20608a4b34ff18",
+    "feasible": true,
+    "objective": 0.021414992562874265,
+    "path": [
+      1,
+      2,
+      4,
+      7,
+      8
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_10022",
+    "input_sha256": "de844670c76a10f99d4e69f3163974c16c78ece856a935ce881d7246525f6f42",
+    "feasible": true,
+    "objective": 0.01580523048907564,
+    "path": [
+      1,
+      2,
+      3,
+      4,
+      6,
+      9,
+      10
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_10023",
+    "input_sha256": "4e920dca540e9fe086e87ff0d5a3c83014bc578526fd79a0f40086accf0a1e11",
+    "feasible": true,
+    "objective": 0.03199772162038494,
+    "path": [
+      1,
+      3,
+      6,
+      8,
+      9,
+      12
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_10024",
+    "input_sha256": "ee8a11e8f12021301cb2c729431d8479b1d82dc6da4b111c8a69f33142c709eb",
+    "feasible": true,
+    "objective": 0.004470773377920947,
+    "path": [
+      1,
+      2,
+      3,
+      4,
+      6
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_10025",
+    "input_sha256": "930133267668f102cf7cc54e71acbee250a347e926351cd6c31d97eaa84bdfe3",
+    "feasible": true,
+    "objective": 0.03191295707114019,
+    "path": [
+      1,
+      2,
+      3,
+      5,
+      6,
+      7,
+      8
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_10026",
+    "input_sha256": "b8c029d1cf260ae6afa3b572abb732d591736e4a7bf408d0fadefa92f52c45d4",
+    "feasible": true,
+    "objective": 0.009947514694074953,
+    "path": [
+      1,
+      3,
+      4,
+      5,
+      6,
+      7,
+      10
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_10027",
+    "input_sha256": "3b06b0e4995a4f95dcd5cff06e0a367ea9884238b36e5a77ae069c7d013079a9",
+    "feasible": true,
+    "objective": 0.057940214028861875,
+    "path": [
+      1,
+      2,
+      5,
+      8,
+      9,
+      11,
+      12
+    ],
+    "support_nodes": [
+      11
+    ]
+  },
+  {
+    "case": "random_10028",
+    "input_sha256": "160f800c906ab626391788df0e3188875ccc77014408866951b4ad485b65c44d",
+    "feasible": true,
+    "objective": 0.008000675626942202,
+    "path": [
+      1,
+      2,
+      3,
+      6
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_10029",
+    "input_sha256": "cdfee41990f65d76370f8d60611e7f43624c76cc5a8e9704d3beee105bb81619",
+    "feasible": true,
+    "objective": 0.00874748417185393,
+    "path": [
+      1,
+      4,
+      5,
+      8
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_10030",
+    "input_sha256": "01ed00f78d346fb0e22c7c18f54d8d5d62728732412383ec31d5de6446104e59",
+    "feasible": true,
+    "objective": 0.008077231692602979,
+    "path": [
+      1,
+      2,
+      5,
+      8,
+      10
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_10031",
+    "input_sha256": "b371af9238b78475356d6bb34e7b71199a6da5ba8f56b3c2fed3b771882ea7b5",
+    "feasible": true,
+    "objective": 0.06303618899436855,
+    "path": [
+      1,
+      2,
+      3,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "support_nodes": [
+      10
+    ]
+  },
+  {
+    "case": "random_10032",
+    "input_sha256": "9dc1c9be6a98dd0b7cc7b11aabb5c1bed7e440e799c4422d94ebc581e72f1a5d",
+    "feasible": true,
+    "objective": 0.012724187148266267,
+    "path": [
+      1,
+      3,
+      5,
+      6
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_10033",
+    "input_sha256": "16c27b3007a54720739241fd368ea2f2c39d76206c84ad4f6dabe85de4962909",
+    "feasible": true,
+    "objective": 0.014283435588392193,
+    "path": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      8
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_10034",
+    "input_sha256": "464a3719c087b0d6c3af76c4c6f196a77a902f6a61bb6643c803ca8d683f5eea",
+    "feasible": true,
+    "objective": 0.027910378484702816,
+    "path": [
+      1,
+      2,
+      3,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_10035",
+    "input_sha256": "13f18a679ede83d67e90a937fa1e7d5268cd13c728aedd51ae13b15dfd6d7fd7",
+    "feasible": true,
+    "objective": 0.021786401918848175,
+    "path": [
+      1,
+      3,
+      6,
+      7,
+      10,
+      12
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_10036",
+    "input_sha256": "ebb65a70ae773d4403e8e12278ec6628ca115b00d6f42a2c5a49af792f1995b9",
+    "feasible": true,
+    "objective": 0.006650297961828276,
+    "path": [
+      1,
+      4,
+      5,
+      6
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_10037",
+    "input_sha256": "a08be806bab091e502d8e6a0df77138046fa0523565e6064b84c1468207e7261",
+    "feasible": true,
+    "objective": 0.011194349779694423,
+    "path": [
+      1,
+      2,
+      5,
+      8
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_10038",
+    "input_sha256": "a2f2054d5bec5ad32ceb96f013a93582e5adaff04495e474baf72d4fa1659bd8",
+    "feasible": true,
+    "objective": 0.0060418727331911035,
+    "path": [
+      1,
+      2,
+      3,
+      6,
+      9,
+      10
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_10039",
+    "input_sha256": "730b44fb1dc8cf9b8abcf0aef08dab893763723e55b1416f2ffcc5f2aaef93e0",
+    "feasible": true,
+    "objective": 0.00707858861986994,
+    "path": [
+      1,
+      3,
+      4,
+      5,
+      8,
+      9,
+      12
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_10040",
+    "input_sha256": "cb14e18cad6dd08873f66e549d65787b0af2a077071b588ed3c09be1256af49b",
+    "feasible": true,
+    "objective": 0.010641232454598372,
+    "path": [
+      1,
+      3,
+      4,
+      6
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_10041",
+    "input_sha256": "c6f87071cca7a66496333aaed58c28a087183723988ae6401031c3de11f16b7b",
+    "feasible": true,
+    "objective": 0.013208875876567112,
+    "path": [
+      1,
+      2,
+      4,
+      6,
+      8
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_10042",
+    "input_sha256": "647af976f4f24bf90e1a456b4be290993faf339847542d9e43377f64eda4eeef",
+    "feasible": true,
+    "objective": 0.013629640803009586,
+    "path": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      8,
+      9,
+      10
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_10043",
+    "input_sha256": "b16b1e43826845feffb0c0e54e3e9b685c5d1e375ebc6bd63fdd5c6fd694951b",
+    "feasible": true,
+    "objective": 0.010004208980790165,
+    "path": [
+      1,
+      3,
+      4,
+      7,
+      8,
+      10,
+      12
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_10044",
+    "input_sha256": "83c612f86fdc4042b5745337f1d75c0708a85b5969c7b7a2986113af3a8c5dcf",
+    "feasible": true,
+    "objective": 0.011037743766347264,
+    "path": [
+      1,
+      2,
+      3,
+      6
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_10045",
+    "input_sha256": "21ac054f6548f85ef78f5f15ade0e749400fd43c6339957ba6f3180dfbe9d8f9",
+    "feasible": true,
+    "objective": 0.008286615796506502,
+    "path": [
+      1,
+      3,
+      6,
+      8
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_10046",
+    "input_sha256": "4f54af6922cbf6d12ea2f424ff107fbd49f43d64e2f04fa9e8865c5243f6f0ae",
+    "feasible": true,
+    "objective": 0.010447724738748203,
+    "path": [
+      1,
+      3,
+      5,
+      8,
+      9,
+      10
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_10047",
+    "input_sha256": "69bb18d657c131d9da14e06e613d2558d4ecfaaf1e1f2472f715df6d9057985d",
+    "feasible": true,
+    "objective": 0.021183077157875447,
+    "path": [
+      1,
+      2,
+      3,
+      4,
+      7,
+      9,
+      12
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_10048",
+    "input_sha256": "18ef526ba056ca050a046585412f093a9360ca732506df09b114ff3e1aef23ec",
+    "feasible": true,
+    "objective": 0.0070735602496936065,
+    "path": [
+      1,
+      4,
+      5,
+      6
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_10049",
+    "input_sha256": "e710968215790ca074bc53d32e8b955d99e3a297a56734e1950d1e6c72c430f3",
+    "feasible": true,
+    "objective": 0.012946784738032924,
+    "path": [
+      1,
+      2,
+      5,
+      6,
+      7,
+      8
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_10050",
+    "input_sha256": "982f3ed831e1501ad5292686b83424841f84b3393772a77f61ca380552e9f4b7",
+    "feasible": true,
+    "objective": 0.015829301475053233,
+    "path": [
+      1,
+      4,
+      5,
+      7,
+      8,
+      9,
+      10
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_10051",
+    "input_sha256": "b1be42b190165c5736d6887aa4142ae08155753135ee687d166bb8e3d31555c3",
+    "feasible": true,
+    "objective": 0.0938278046752197,
+    "path": [
+      1,
+      2,
+      3,
+      6,
+      7,
+      9,
+      10,
+      11,
+      12
+    ],
+    "support_nodes": [
+      9
+    ]
+  },
+  {
+    "case": "random_10052",
+    "input_sha256": "84f7a93c0c3d88319249e40c6cf4d7dfa3aebaa012e4de835e804a8e9be4bf36",
+    "feasible": true,
+    "objective": 0.003345337959569248,
+    "path": [
+      1,
+      4,
+      5,
+      6
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_10053",
+    "input_sha256": "9a6c58333c2697481d43e7f91427f29bf226158ff82ba376d855a3cc2fd4cdf5",
+    "feasible": true,
+    "objective": 0.020084404918763572,
+    "path": [
+      1,
+      2,
+      5,
+      8
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_10054",
+    "input_sha256": "0d4c0f5d955a00e5c5905436f954f4fde1574ffee4fdf67e6b57561c90421bf0",
+    "feasible": true,
+    "objective": 0.06598327895871467,
+    "path": [
+      1,
+      3,
+      4,
+      6,
+      7,
+      10
+    ],
+    "support_nodes": [
+      4
+    ]
+  },
+  {
+    "case": "random_10055",
+    "input_sha256": "f4d48b3927f000ee676d4338d709496a840d40eb4b20f0accddd68f3e187ad94",
+    "feasible": true,
+    "objective": 0.012852434340080734,
+    "path": [
+      1,
+      2,
+      5,
+      6,
+      7,
+      8,
+      9,
+      12
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_10056",
+    "input_sha256": "6aadf807c0ce950dfa1f0f5c6a7590fb052a3149e33c3a7884e3b7842c1ca6a6",
+    "feasible": true,
+    "objective": 0.006465294718190608,
+    "path": [
+      1,
+      3,
+      4,
+      6
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_10057",
+    "input_sha256": "42c0a9b9f0ea4c857747e0991fab1a96a1ff5154ade05514c765b79bbe5e558e",
+    "feasible": true,
+    "objective": 0.017227516233073427,
+    "path": [
+      1,
+      2,
+      5,
+      6,
+      8
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_10058",
+    "input_sha256": "d2a8c2a48e7f50a73223b3c55ec6c8b71a15ee8a9a184fbc2bbe70b2ee9df70a",
+    "feasible": true,
+    "objective": 0.011848222814411042,
+    "path": [
+      1,
+      2,
+      3,
+      5,
+      7,
+      8,
+      9,
+      10
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_10059",
+    "input_sha256": "f688f586d2d91af2fed2d8ccf5ce3e3e068cbe8153d45d3abedeef45d78196a2",
+    "feasible": true,
+    "objective": 0.010802539181905256,
+    "path": [
+      1,
+      2,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      12
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_10060",
+    "input_sha256": "355ba96d9f67873915b07dc2be1033a883246e4cf0d88a1712830af173594d2a",
+    "feasible": true,
+    "objective": 0.013612118839957055,
+    "path": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_10061",
+    "input_sha256": "0f0d29ab0bd84d2b1b5a5445a4ffa6470043b4435427ca8e9cac4efac3297106",
+    "feasible": true,
+    "objective": 0.016524063100134614,
+    "path": [
+      1,
+      2,
+      3,
+      6,
+      8
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_10062",
+    "input_sha256": "758f3fb76cd90fbfae90c454fe4db10c578d74c9015419fbe08031c9a54747f5",
+    "feasible": true,
+    "objective": 0.05703152386636279,
+    "path": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "support_nodes": [
+      6
+    ]
+  },
+  {
+    "case": "random_10063",
+    "input_sha256": "5505060ce91f26751c29f7a318878008999300c50feeccc86a0026250dcbf2c1",
+    "feasible": true,
+    "objective": 0.050423381408629314,
+    "path": [
+      1,
+      4,
+      6,
+      7,
+      9,
+      10,
+      11,
+      12
+    ],
+    "support_nodes": [
+      4
+    ]
+  },
+  {
+    "case": "random_10064",
+    "input_sha256": "705d235cf4047a40825b61d2a989927f64b5eb03964087c77f1479f1db139b26",
+    "feasible": true,
+    "objective": 0.006518718314996816,
+    "path": [
+      1,
+      4,
+      5,
+      6
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_10065",
+    "input_sha256": "abada412b63b5cc8410fdf8dd75d05edde1479bb0b8cf16f96931e73418d4435",
+    "feasible": true,
+    "objective": 0.03706205079633866,
+    "path": [
+      1,
+      2,
+      3,
+      4,
+      6,
+      7,
+      8
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_10066",
+    "input_sha256": "abe3df160cfaa10c04729a52350d0c720419eef4d7da8f0c199d21cc9a5ff280",
+    "feasible": true,
+    "objective": 0.013398348974892955,
+    "path": [
+      1,
+      2,
+      3,
+      4,
+      6,
+      7,
+      8,
+      10
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_10067",
+    "input_sha256": "ba9425a9fd289d1224a6e138e9828e508a493ff9689e1d35aed24b2f196e1abe",
+    "feasible": true,
+    "objective": 0.021678548113164227,
+    "path": [
+      1,
+      2,
+      3,
+      5,
+      6,
+      9,
+      10,
+      12
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_10068",
+    "input_sha256": "24c595f7cc93ab583b4b2040d229a13b1c3e7bece41dd37b01b8b9351afb494d",
+    "feasible": true,
+    "objective": 0.012280532868562687,
+    "path": [
+      1,
+      2,
+      4,
+      5,
+      6
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_10069",
+    "input_sha256": "028aea50aa09ab0233dffb65c5fd5d9327e857ecd35b8871d3c6f6ea2bd1cd64",
+    "feasible": true,
+    "objective": 0.022403531262291963,
+    "path": [
+      1,
+      4,
+      6,
+      7,
+      8
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_10070",
+    "input_sha256": "c2095e819f6b250674d1aff42812b95227dac4e6027eccf50502eb22ca35e0fb",
+    "feasible": true,
+    "objective": 0.0137635963367178,
+    "path": [
+      1,
+      2,
+      4,
+      5,
+      6,
+      9,
+      10
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_10071",
+    "input_sha256": "68d910b4f3965bee3e5c8bb7a7c32263de8a7b95e95b50df8278c508e46700d7",
+    "feasible": true,
+    "objective": 0.027652807362466086,
+    "path": [
+      1,
+      2,
+      5,
+      7,
+      8,
+      10,
+      11,
+      12
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_10072",
+    "input_sha256": "43ac437fa0d416ccceca0ab6b24ff1d3ebf570ca052e150b5248dc39bd5e5fa6",
+    "feasible": true,
+    "objective": 0.008321216693140237,
+    "path": [
+      1,
+      2,
+      3,
+      4,
+      6
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_10073",
+    "input_sha256": "acead9b144974f569d9f3a37c1d04c3c96f494da1c34802d305ab3a442469c79",
+    "feasible": true,
+    "objective": 0.011131075156586588,
+    "path": [
+      1,
+      2,
+      4,
+      7,
+      8
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_10074",
+    "input_sha256": "8f8b7f51017c0ae1b3e10a90081eefe9fba14e8705ccaa8798c5ab0237486af4",
+    "feasible": true,
+    "objective": 0.01823512178318895,
+    "path": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      9,
+      10
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_10075",
+    "input_sha256": "5ba5a315fd515d4349ca31944dfc9ff691b49c3bca1675a11286760530d07d6e",
+    "feasible": true,
+    "objective": 0.013062730613888233,
+    "path": [
+      1,
+      2,
+      3,
+      4,
+      7,
+      10,
+      11,
+      12
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_10076",
+    "input_sha256": "1e5ee4f6c326da5bdcb50253759b11d0ad77d47695231d186d7ff67926167304",
+    "feasible": true,
+    "objective": 0.008561879148555173,
+    "path": [
+      1,
+      2,
+      3,
+      4,
+      6
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_10077",
+    "input_sha256": "b2b1597e9ceb3753e383582a9469ecd8000c31e5633c7515bf965bb09785fdf5",
+    "feasible": true,
+    "objective": 0.0369812812722588,
+    "path": [
+      1,
+      2,
+      3,
+      5,
+      6,
+      8
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_10078",
+    "input_sha256": "df4e62abca04e05a6ccc5d13e257d9f6aa9ae87770a181bf9840a16df997a889",
+    "feasible": true,
+    "objective": 0.009346336398489714,
+    "path": [
+      1,
+      4,
+      7,
+      10
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_10079",
+    "input_sha256": "f20f13bbcbb4086ca7dbc6871a5c1070ac20758c24e46bab38eea58b857f6d00",
+    "feasible": true,
+    "objective": 0.025956263279672934,
+    "path": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      10,
+      12
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_10080",
+    "input_sha256": "4ebbe353e739297b86f930559efe05135d6f7b4449a5ecfb284be62ddc16bfb6",
+    "feasible": true,
+    "objective": 0.008537735832408182,
+    "path": [
+      1,
+      2,
+      3,
+      6
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_10081",
+    "input_sha256": "1de6ae6e4ca3bb1a404f555fb24052ae29c462461244b75e73c0774e083ea5b4",
+    "feasible": true,
+    "objective": 0.012301516499202242,
+    "path": [
+      1,
+      4,
+      5,
+      8
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_10082",
+    "input_sha256": "1050c1d6603eae3abcd73cd5c4f5a00671d421cd432bea8c0b532b07c5eee986",
+    "feasible": true,
+    "objective": 0.0383238971673939,
+    "path": [
+      1,
+      2,
+      3,
+      5,
+      6,
+      7,
+      10
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_10083",
+    "input_sha256": "ee1bc5770bde5fb32cf7d6252a25492f0a716461eb3747d46320ee6eec485550",
+    "feasible": true,
+    "objective": 0.008866146658487645,
+    "path": [
+      1,
+      2,
+      3,
+      5,
+      8,
+      10,
+      11,
+      12
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_10084",
+    "input_sha256": "3fc9683b6a2404f16025d6d22fc5f3bbf85d1f1e7c28814fdd64701a6ad7f665",
+    "feasible": true,
+    "objective": 0.007896762621771105,
+    "path": [
+      1,
+      2,
+      3,
+      4,
+      6
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_10085",
+    "input_sha256": "e40269e4405b6cade265e1722d12cfa7020e5b1849c48d43dd0d788ffd30b892",
+    "feasible": true,
+    "objective": 0.03102878441087356,
+    "path": [
+      1,
+      2,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_10086",
+    "input_sha256": "dd0a65e1e67627897ea04462e19e39ffd75bfc521936a6449a221fa3d874d297",
+    "feasible": true,
+    "objective": 0.018134634180832398,
+    "path": [
+      1,
+      2,
+      3,
+      4,
+      7,
+      9,
+      10
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_10087",
+    "input_sha256": "5716072cb9ad42f40196089f662fe4a3a6bd38f78c93641ff85ed8c6b301b77b",
+    "feasible": true,
+    "objective": 0.03338760087369472,
+    "path": [
+      1,
+      2,
+      5,
+      8,
+      9,
+      11,
+      12
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_10088",
+    "input_sha256": "bd97ebf40453c3f7cd5ebbb05d6837e47502a53c345c89af610818c8d676fd0d",
+    "feasible": true,
+    "objective": 0.014411716759257414,
+    "path": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_10089",
+    "input_sha256": "df70d472544fdedbee5b67b9af6d44f7c3ac74f614839f496ab20ecda59bd9d1",
+    "feasible": true,
+    "objective": 0.018923260441043324,
+    "path": [
+      1,
+      4,
+      5,
+      6,
+      8
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_10090",
+    "input_sha256": "81465109da1477d09d8db9012ae5616cf7c6db5b3c65305a29e64b39b5598365",
+    "feasible": true,
+    "objective": 0.008631353239332598,
+    "path": [
+      1,
+      2,
+      3,
+      4,
+      7,
+      10
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_10091",
+    "input_sha256": "5e81c956532d4c5cb3f56f63f9ac1923f4fb69c2b106473e26a3cf9ff46a356f",
+    "feasible": true,
+    "objective": 0.07729687511672965,
+    "path": [
+      1,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "support_nodes": [
+      5
+    ]
+  },
+  {
+    "case": "random_10092",
+    "input_sha256": "50d15b60f6088b3a4b36d6ea8290884e2386c2f9bbd8ef3ee7f130ac19fbdcca",
+    "feasible": true,
+    "objective": 0.01166992002691123,
+    "path": [
+      1,
+      2,
+      4,
+      5,
+      6
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_10093",
+    "input_sha256": "0c99af8b5bd0a36a4203e785055c9491b905dd4bd1dc3d28beb1da23f52d1c04",
+    "feasible": true,
+    "objective": 0.008878508350421465,
+    "path": [
+      1,
+      2,
+      3,
+      5,
+      6,
+      7,
+      8
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_10094",
+    "input_sha256": "3bf775145790ae8933df99b5e316ad44fa79b2402efbeea16ee867c699485383",
+    "feasible": true,
+    "objective": 0.012774123230072128,
+    "path": [
+      1,
+      2,
+      3,
+      6,
+      9,
+      10
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_10095",
+    "input_sha256": "bd42b6c5a14c6053eed1914da36a4c03f8d43c3faf6cb4a0b82fd70cfcb2919d",
+    "feasible": true,
+    "objective": 0.027000821741701167,
+    "path": [
+      1,
+      2,
+      3,
+      6,
+      7,
+      8,
+      10,
+      12
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_10096",
+    "input_sha256": "beb994e473091aaf3df67b99b9e2f17299c8687819543d65b19ead8bd93b4161",
+    "feasible": true,
+    "objective": 0.01722905528887212,
+    "path": [
+      1,
+      2,
+      5,
+      6
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_10097",
+    "input_sha256": "67c1c9d8113ca8f5559cec5f568e1f61137b8636ab2efe6793943e5cce7c85e8",
+    "feasible": true,
+    "objective": 0.01358796735746469,
+    "path": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      8
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_10098",
+    "input_sha256": "5694e373273236ab3918da44c3da29216cfb13b756adaf40b9cbbc8fca9fc8c8",
+    "feasible": true,
+    "objective": 0.040202509002241364,
+    "path": [
+      1,
+      2,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "support_nodes": []
+  },
+  {
+    "case": "random_10099",
+    "input_sha256": "78f8c8b75cbb3074142490d5b3cb41d944a04836b25a5a6e7aa61c203aea2577",
+    "feasible": true,
+    "objective": 0.02567340940125371,
+    "path": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      11,
+      12
+    ],
+    "support_nodes": []
+  }
+]

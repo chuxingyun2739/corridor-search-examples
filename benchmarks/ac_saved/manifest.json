@@ -1,0 +1,264 @@
+{
+  "schema_version": 1,
+  "manuscript_id": "Access-2026-57387",
+  "level": "L5",
+  "publication_status": "AUTHOR_AUTHORIZED_PUBLIC_DISTRIBUTION",
+  "source_archive_sha256": "be882f13bf3b2f91bf6e740963c8a1789a52d8bf7a8bcb65e2a17d424cac33a9",
+  "source_archive_name": "IEEE_ACCESS_R3_57387_REVIEWER_PRIVATE_REPRO.zip",
+  "selection_scope": "Five illustrative method records from three IEEE30/IEEE57 scenarios, deliberately retaining contrasting loss and termination outcomes; not a random or representative statistical sample and not a substitute for 504-record results",
+  "expected": {
+    "method_records": 5,
+    "selected_certificates": 4,
+    "context_projections": 5,
+    "candidate_mappings": 26,
+    "recorded_events": 84,
+    "accepted_events": 48,
+    "terminal_status_counts": {
+      "COMPLETED_FEASIBLE": 3,
+      "RESOURCE_LIMIT": 2
+    },
+    "certified_resource_limit_records": 1,
+    "uncertified_resource_limit_records": 1
+  },
+  "records": [
+    {
+      "id": "ieee30_L110_CAP20__demand__DVR_MLS_PORTFOLIO_V2_ANCHOR",
+      "scenario_id": "ieee30_L110_CAP20",
+      "method": "DVR_MLS_PORTFOLIO_V2_ANCHOR",
+      "ranker": "demand",
+      "method_result": "raw/ac/ieee30_L110_CAP20/demand/DVR_MLS_PORTFOLIO_V2_ANCHOR/method_result.json",
+      "context": "raw/ac/ieee30_L110_CAP20/demand/DVR_MLS_PORTFOLIO_V2_ANCHOR/context.json",
+      "certificate": "raw/ac/ieee30_L110_CAP20/demand/DVR_MLS_PORTFOLIO_V2_ANCHOR/hostset_008/dc_B_LOSS/certificate.json",
+      "status_controls": "raw/ac/ieee30_L110_CAP20/demand/DVR_MLS_PORTFOLIO_V2_ANCHOR/hostset_008/dc_B_LOSS/status.json"
+    },
+    {
+      "id": "ieee30_L110_CAP20__demand__AC_K8",
+      "scenario_id": "ieee30_L110_CAP20",
+      "method": "AC_K8",
+      "ranker": "demand",
+      "method_result": "raw/ac/ieee30_L110_CAP20/demand/AC_K8/method_result.json",
+      "context": "raw/ac/ieee30_L110_CAP20/demand/AC_K8/context.json",
+      "certificate": "raw/ac/ieee30_L110_CAP20/demand/AC_K8/hostset_004/flat_B_LOSS/certificate.json",
+      "status_controls": "raw/ac/ieee30_L110_CAP20/demand/AC_K8/hostset_004/flat_B_LOSS/status.json"
+    },
+    {
+      "id": "ieee57_L110_CAP20__demand__DVR_MLS_PORTFOLIO_V2_ANCHOR",
+      "scenario_id": "ieee57_L110_CAP20",
+      "method": "DVR_MLS_PORTFOLIO_V2_ANCHOR",
+      "ranker": "demand",
+      "method_result": "raw/ac/ieee57_L110_CAP20/demand/DVR_MLS_PORTFOLIO_V2_ANCHOR/method_result.json",
+      "context": "raw/ac/ieee57_L110_CAP20/demand/DVR_MLS_PORTFOLIO_V2_ANCHOR/context.json",
+      "certificate": "raw/ac/ieee57_L110_CAP20/demand/DVR_MLS_PORTFOLIO_V2_ANCHOR/hostset_001/dc_B_LOSS/certificate.json",
+      "status_controls": "raw/ac/ieee57_L110_CAP20/demand/DVR_MLS_PORTFOLIO_V2_ANCHOR/hostset_001/dc_B_LOSS/status.json"
+    },
+    {
+      "id": "ieee57_L110_CAP20__demand__AC_K8",
+      "scenario_id": "ieee57_L110_CAP20",
+      "method": "AC_K8",
+      "ranker": "demand",
+      "method_result": "raw/ac/ieee57_L110_CAP20/demand/AC_K8/method_result.json",
+      "context": "raw/ac/ieee57_L110_CAP20/demand/AC_K8/context.json",
+      "certificate": "raw/ac/ieee57_L110_CAP20/demand/AC_K8/hostset_003/flat_B_LOSS/certificate.json",
+      "status_controls": "raw/ac/ieee57_L110_CAP20/demand/AC_K8/hostset_003/flat_B_LOSS/status.json"
+    },
+    {
+      "id": "ieee57_L115_CAP20__demand__DVR_MLS_PORTFOLIO_V2_ANCHOR",
+      "scenario_id": "ieee57_L115_CAP20",
+      "method": "DVR_MLS_PORTFOLIO_V2_ANCHOR",
+      "ranker": "demand",
+      "method_result": "raw/ac/ieee57_L115_CAP20/demand/DVR_MLS_PORTFOLIO_V2_ANCHOR/method_result.json",
+      "context": "raw/ac/ieee57_L115_CAP20/demand/DVR_MLS_PORTFOLIO_V2_ANCHOR/context.json",
+      "certificate": null,
+      "status_controls": null
+    }
+  ],
+  "files": [
+    {
+      "path": "raw/ac/ieee30_L110_CAP20/demand/DVR_MLS_PORTFOLIO_V2_ANCHOR/method_result.json",
+      "bytes": 86728,
+      "sha256": "19f567d4b057047532a415197926e2882373683a4976aa9e0ec09c6d5bca8c60",
+      "archive_member": "input/ac_validation_snapshot/raw/ac/ieee30_L110_CAP20/demand/DVR_MLS_PORTFOLIO_V2_ANCHOR/method_result.json",
+      "before_sha256": "19f567d4b057047532a415197926e2882373683a4976aa9e0ec09c6d5bca8c60",
+      "transformation": "NONE: selected original JSON preserved byte for byte after privacy scan",
+      "role": "SAVED_METHOD_RESULT"
+    },
+    {
+      "path": "raw/ac/ieee30_L110_CAP20/demand/DVR_MLS_PORTFOLIO_V2_ANCHOR/context.json",
+      "bytes": 3846,
+      "sha256": "1d5bf6f78f17d27251a854b7d060d31c914358d75cfc6f589487d92fac7f0e0e",
+      "archive_member": "input/ac_validation_snapshot/raw/ac/ieee30_L110_CAP20/demand/DVR_MLS_PORTFOLIO_V2_ANCHOR/context.json",
+      "before_sha256": "d8b3c16ca7edd9e234a3f287ab9fa0e889b7798981ba404fdfae8a4790650674",
+      "transformation": "PROJECT_JSON: retain exactly native_identity,model_hash,eligible,demand,reference; omit graph (full topology/config not needed for L5); reserialize UTF-8 indent=2 newline; all retained values equal original",
+      "role": "PROJECTED_SAVED_CONTEXT"
+    },
+    {
+      "path": "raw/ac/ieee30_L110_CAP20/demand/DVR_MLS_PORTFOLIO_V2_ANCHOR/hostset_008/dc_B_LOSS/certificate.json",
+      "bytes": 9319,
+      "sha256": "c4be5f63203dc8a9adf8fe9eb4ee8eac89b6dd59783bd631e81213b91195960a",
+      "archive_member": "input/ac_validation_snapshot/raw/ac/ieee30_L110_CAP20/demand/DVR_MLS_PORTFOLIO_V2_ANCHOR/hostset_008/dc_B_LOSS/certificate.json",
+      "before_sha256": "c4be5f63203dc8a9adf8fe9eb4ee8eac89b6dd59783bd631e81213b91195960a",
+      "transformation": "NONE: selected original JSON preserved byte for byte after privacy scan",
+      "role": "SAVED_SELECTED_CERTIFICATE"
+    },
+    {
+      "path": "raw/ac/ieee30_L110_CAP20/demand/DVR_MLS_PORTFOLIO_V2_ANCHOR/hostset_008/dc_B_LOSS/status.json",
+      "bytes": 18198,
+      "sha256": "6016e727253b4a87bbac02dc80f75b41a33aef15c35a3b597e9490db98fdbe29",
+      "archive_member": "input/ac_validation_snapshot/raw/ac/ieee30_L110_CAP20/demand/DVR_MLS_PORTFOLIO_V2_ANCHOR/hostset_008/dc_B_LOSS/status.json",
+      "before_sha256": "6016e727253b4a87bbac02dc80f75b41a33aef15c35a3b597e9490db98fdbe29",
+      "transformation": "NONE: selected original JSON preserved byte for byte after privacy scan",
+      "role": "SAVED_SELECTED_OPTIMIZER_STATUS_CONTROLS"
+    },
+    {
+      "path": "raw/ac/ieee30_L110_CAP20/demand/AC_K8/method_result.json",
+      "bytes": 65289,
+      "sha256": "c13b92f1db768d656cf9f38f36dcc089b351b2b7ad8a5a7fe7b44ef4f2a164f8",
+      "archive_member": "input/ac_validation_snapshot/raw/ac/ieee30_L110_CAP20/demand/AC_K8/method_result.json",
+      "before_sha256": "c13b92f1db768d656cf9f38f36dcc089b351b2b7ad8a5a7fe7b44ef4f2a164f8",
+      "transformation": "NONE: selected original JSON preserved byte for byte after privacy scan",
+      "role": "SAVED_METHOD_RESULT"
+    },
+    {
+      "path": "raw/ac/ieee30_L110_CAP20/demand/AC_K8/context.json",
+      "bytes": 3846,
+      "sha256": "1d5bf6f78f17d27251a854b7d060d31c914358d75cfc6f589487d92fac7f0e0e",
+      "archive_member": "input/ac_validation_snapshot/raw/ac/ieee30_L110_CAP20/demand/AC_K8/context.json",
+      "before_sha256": "d8b3c16ca7edd9e234a3f287ab9fa0e889b7798981ba404fdfae8a4790650674",
+      "transformation": "PROJECT_JSON: retain exactly native_identity,model_hash,eligible,demand,reference; omit graph (full topology/config not needed for L5); reserialize UTF-8 indent=2 newline; all retained values equal original",
+      "role": "PROJECTED_SAVED_CONTEXT"
+    },
+    {
+      "path": "raw/ac/ieee30_L110_CAP20/demand/AC_K8/hostset_004/flat_B_LOSS/certificate.json",
+      "bytes": 9353,
+      "sha256": "3d8a8b6522c97b8cd39e405ff8171af5f66b93824fa48a60246b510395405313",
+      "archive_member": "input/ac_validation_snapshot/raw/ac/ieee30_L110_CAP20/demand/AC_K8/hostset_004/flat_B_LOSS/certificate.json",
+      "before_sha256": "3d8a8b6522c97b8cd39e405ff8171af5f66b93824fa48a60246b510395405313",
+      "transformation": "NONE: selected original JSON preserved byte for byte after privacy scan",
+      "role": "SAVED_SELECTED_CERTIFICATE"
+    },
+    {
+      "path": "raw/ac/ieee30_L110_CAP20/demand/AC_K8/hostset_004/flat_B_LOSS/status.json",
+      "bytes": 18446,
+      "sha256": "aabf1d7dbe0589fbe12247392b28e717f170ff9077f8bbd2fe1d6c6c60d4b32a",
+      "archive_member": "input/ac_validation_snapshot/raw/ac/ieee30_L110_CAP20/demand/AC_K8/hostset_004/flat_B_LOSS/status.json",
+      "before_sha256": "aabf1d7dbe0589fbe12247392b28e717f170ff9077f8bbd2fe1d6c6c60d4b32a",
+      "transformation": "NONE: selected original JSON preserved byte for byte after privacy scan",
+      "role": "SAVED_SELECTED_OPTIMIZER_STATUS_CONTROLS"
+    },
+    {
+      "path": "raw/ac/ieee57_L110_CAP20/demand/DVR_MLS_PORTFOLIO_V2_ANCHOR/method_result.json",
+      "bytes": 22238,
+      "sha256": "1630178ca5266da68f5a838a2142622c2c1d79efb2d38819252805ef03114ab7",
+      "archive_member": "input/ac_validation_snapshot/raw/ac/ieee57_L110_CAP20/demand/DVR_MLS_PORTFOLIO_V2_ANCHOR/method_result.json",
+      "before_sha256": "1630178ca5266da68f5a838a2142622c2c1d79efb2d38819252805ef03114ab7",
+      "transformation": "NONE: selected original JSON preserved byte for byte after privacy scan",
+      "role": "SAVED_METHOD_RESULT"
+    },
+    {
+      "path": "raw/ac/ieee57_L110_CAP20/demand/DVR_MLS_PORTFOLIO_V2_ANCHOR/context.json",
+      "bytes": 4806,
+      "sha256": "324e9a8470143b5703c8277d9865dc37530c0e326c8950482f935f577c88ecf2",
+      "archive_member": "input/ac_validation_snapshot/raw/ac/ieee57_L110_CAP20/demand/DVR_MLS_PORTFOLIO_V2_ANCHOR/context.json",
+      "before_sha256": "06b30c8d8b8a00312cb09405c27ba505994e073fade94cc3dfc81be75f675385",
+      "transformation": "PROJECT_JSON: retain exactly native_identity,model_hash,eligible,demand,reference; omit graph (full topology/config not needed for L5); reserialize UTF-8 indent=2 newline; all retained values equal original",
+      "role": "PROJECTED_SAVED_CONTEXT"
+    },
+    {
+      "path": "raw/ac/ieee57_L110_CAP20/demand/DVR_MLS_PORTFOLIO_V2_ANCHOR/hostset_001/dc_B_LOSS/certificate.json",
+      "bytes": 12927,
+      "sha256": "c437322b31b5d6aae13fc4c7d67270302e46b7c5dd9229ecd303e08b663aee44",
+      "archive_member": "input/ac_validation_snapshot/raw/ac/ieee57_L110_CAP20/demand/DVR_MLS_PORTFOLIO_V2_ANCHOR/hostset_001/dc_B_LOSS/certificate.json",
+      "before_sha256": "c437322b31b5d6aae13fc4c7d67270302e46b7c5dd9229ecd303e08b663aee44",
+      "transformation": "NONE: selected original JSON preserved byte for byte after privacy scan",
+      "role": "SAVED_SELECTED_CERTIFICATE"
+    },
+    {
+      "path": "raw/ac/ieee57_L110_CAP20/demand/DVR_MLS_PORTFOLIO_V2_ANCHOR/hostset_001/dc_B_LOSS/status.json",
+      "bytes": 23277,
+      "sha256": "6203b5aefb93e56841207755bafe31e40ba7330962d043c7cd91a31d26ac5687",
+      "archive_member": "input/ac_validation_snapshot/raw/ac/ieee57_L110_CAP20/demand/DVR_MLS_PORTFOLIO_V2_ANCHOR/hostset_001/dc_B_LOSS/status.json",
+      "before_sha256": "6203b5aefb93e56841207755bafe31e40ba7330962d043c7cd91a31d26ac5687",
+      "transformation": "NONE: selected original JSON preserved byte for byte after privacy scan",
+      "role": "SAVED_SELECTED_OPTIMIZER_STATUS_CONTROLS"
+    },
+    {
+      "path": "raw/ac/ieee57_L110_CAP20/demand/AC_K8/method_result.json",
+      "bytes": 65540,
+      "sha256": "d6f7fa4c8d09369a4d99e4887bb75264e673e722fa44c71b3d36292e91ea9062",
+      "archive_member": "input/ac_validation_snapshot/raw/ac/ieee57_L110_CAP20/demand/AC_K8/method_result.json",
+      "before_sha256": "d6f7fa4c8d09369a4d99e4887bb75264e673e722fa44c71b3d36292e91ea9062",
+      "transformation": "NONE: selected original JSON preserved byte for byte after privacy scan",
+      "role": "SAVED_METHOD_RESULT"
+    },
+    {
+      "path": "raw/ac/ieee57_L110_CAP20/demand/AC_K8/context.json",
+      "bytes": 4806,
+      "sha256": "324e9a8470143b5703c8277d9865dc37530c0e326c8950482f935f577c88ecf2",
+      "archive_member": "input/ac_validation_snapshot/raw/ac/ieee57_L110_CAP20/demand/AC_K8/context.json",
+      "before_sha256": "06b30c8d8b8a00312cb09405c27ba505994e073fade94cc3dfc81be75f675385",
+      "transformation": "PROJECT_JSON: retain exactly native_identity,model_hash,eligible,demand,reference; omit graph (full topology/config not needed for L5); reserialize UTF-8 indent=2 newline; all retained values equal original",
+      "role": "PROJECTED_SAVED_CONTEXT"
+    },
+    {
+      "path": "raw/ac/ieee57_L110_CAP20/demand/AC_K8/hostset_003/flat_B_LOSS/certificate.json",
+      "bytes": 12910,
+      "sha256": "f4806796885f10caf3d064bc7c2412825e07899d691089aa0d01745152722133",
+      "archive_member": "input/ac_validation_snapshot/raw/ac/ieee57_L110_CAP20/demand/AC_K8/hostset_003/flat_B_LOSS/certificate.json",
+      "before_sha256": "f4806796885f10caf3d064bc7c2412825e07899d691089aa0d01745152722133",
+      "transformation": "NONE: selected original JSON preserved byte for byte after privacy scan",
+      "role": "SAVED_SELECTED_CERTIFICATE"
+    },
+    {
+      "path": "raw/ac/ieee57_L110_CAP20/demand/AC_K8/hostset_003/flat_B_LOSS/status.json",
+      "bytes": 23046,
+      "sha256": "b5ff5e5f706633e91c4eddb5df32e8d797e82cd7846c1972e9120785ad1aaa52",
+      "archive_member": "input/ac_validation_snapshot/raw/ac/ieee57_L110_CAP20/demand/AC_K8/hostset_003/flat_B_LOSS/status.json",
+      "before_sha256": "b5ff5e5f706633e91c4eddb5df32e8d797e82cd7846c1972e9120785ad1aaa52",
+      "transformation": "NONE: selected original JSON preserved byte for byte after privacy scan",
+      "role": "SAVED_SELECTED_OPTIMIZER_STATUS_CONTROLS"
+    },
+    {
+      "path": "raw/ac/ieee57_L115_CAP20/demand/DVR_MLS_PORTFOLIO_V2_ANCHOR/method_result.json",
+      "bytes": 14555,
+      "sha256": "b3638f801b09291f05ff30f86be981fd8f0a0200dfd7108a9d046cef3b42b45e",
+      "archive_member": "input/ac_validation_snapshot/raw/ac/ieee57_L115_CAP20/demand/DVR_MLS_PORTFOLIO_V2_ANCHOR/method_result.json",
+      "before_sha256": "b3638f801b09291f05ff30f86be981fd8f0a0200dfd7108a9d046cef3b42b45e",
+      "transformation": "NONE: selected original JSON preserved byte for byte after privacy scan",
+      "role": "SAVED_METHOD_RESULT"
+    },
+    {
+      "path": "raw/ac/ieee57_L115_CAP20/demand/DVR_MLS_PORTFOLIO_V2_ANCHOR/context.json",
+      "bytes": 4813,
+      "sha256": "dfb2177c9c39a902d30fcf0e758bf275e6bde9e39cd1e398ce966cc721faea06",
+      "archive_member": "input/ac_validation_snapshot/raw/ac/ieee57_L115_CAP20/demand/DVR_MLS_PORTFOLIO_V2_ANCHOR/context.json",
+      "before_sha256": "c5bafdfab3ddb0a864d16726c334033b94dc80af8014bf6cd58911eaea3e8b84",
+      "transformation": "PROJECT_JSON: retain exactly native_identity,model_hash,eligible,demand,reference; omit graph (full topology/config not needed for L5); reserialize UTF-8 indent=2 newline; all retained values equal original",
+      "role": "PROJECTED_SAVED_CONTEXT"
+    },
+    {
+      "path": "config.json",
+      "bytes": 1160,
+      "sha256": "35091c362a62e6d281580770af9e1b864232c97c5a2b7f1d0b45ccf77e335768",
+      "archive_member": "input/ac_validation_snapshot/protocol/SCIENCE_CLOSURE_V2.json",
+      "before_sha256": "3c13662fe49582d492276a72a6dc3d029fcb043aa669035d7f0ae7b07c5dfe93",
+      "transformation": "PROJECT_PROTOCOL: retain version,seed,starts,stage_cpu_seconds,max_iterations,solver_tolerance,certificate_tolerance,redispatch_fraction_load,max_candidates,Q_total_mvar,Q_each_mvar,max_hosts,method_wall_seconds,max_optimizer_calls,max_total_ac_calls,runtime_scope; add explicitly labeled L5 checker tolerances and scope; retained protocol values unchanged",
+      "role": "PROJECTED_FROZEN_PROTOCOL_WITH_CHECK_CONFIG"
+    },
+    {
+      "path": "selected_summary.csv",
+      "bytes": 2639,
+      "sha256": "93dd19e7f91ef07a081192f94bd1ca5905c49c3a5232da3b53a2d04aa824f273",
+      "archive_member": "input/ac_validation_snapshot/04_PORTFOLIO_V1_V2_K8_CASE_MATRIX.csv",
+      "before_sha256": "5db56fb22a723ba609792bece6543a647a0628925cf95a666d4f6a35bca434d2",
+      "transformation": "SELECT_ROWS_AND_COLUMNS: exactly the five manifest record identities and listed header columns; original string cells retained, empty means no certified result; UTF-8 CSV LF; omitted all generation/source file location columns",
+      "role": "PROJECTED_SAVED_SUMMARY"
+    }
+  ],
+  "limits": [
+    "Saved certificate checks are claims from historical execution, not newly executed physical validation.",
+    "Only the four selected certificate/status pairs are included; other event certificate references are historical identifiers and not promised files.",
+    "No complete native/corrected AC inputs or original solver environment; L6 unsupported.",
+    "Context graph payloads omitted; all retained context field values equal original.",
+    "Author confirmed the necessary rights to these selected benchmark-derived materials and authorized public distribution. No additional author license is granted."
+  ]
+}

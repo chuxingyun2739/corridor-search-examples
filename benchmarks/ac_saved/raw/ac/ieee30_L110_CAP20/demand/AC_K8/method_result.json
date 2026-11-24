@@ -1,0 +1,2295 @@
+{
+  "scenario_id": "ieee30_L110_CAP20",
+  "native_case_id": "ieee30_L110",
+  "split": "SEEN_REGRESSION",
+  "method": "AC_K8",
+  "ranker": "demand",
+  "source": 1,
+  "target": 26,
+  "protocol_sha256": "3c13662fe49582d492276a72a6dc3d029fcb043aa669035d7f0ae7b07c5dfe93",
+  "candidate_cap": 8,
+  "method_budget_s": 180.0,
+  "redispatch_fraction_load": 0.2,
+  "max_optimizer_calls": 32,
+  "max_total_ac_calls": 256,
+  "status": "COMPLETED_FEASIBLE",
+  "certified": true,
+  "metrics": {
+    "P_loss_AC_MW": 2.0356084724362926,
+    "P_loss_pct_load": 0.9780936346513035,
+    "Vm_min": 1.0183598081316976,
+    "Vm_max": 1.0776200271269176,
+    "voltage_RMS_deviation": 0.04064033449681287,
+    "max_voltage_deviation": 0.07762002712691762,
+    "support_Q_Mvar": 30.577189078479783,
+    "redispatch_L1_MW": 41.62399886769085,
+    "redispatch_limit_MW": 41.623999999999995,
+    "branch_active_loss_mw": 2.035608472436294,
+    "bus_shunt_active_consumption_mw": 0.0,
+    "active_generation_mw": 210.15560847243694,
+    "active_demand_mw": 208.11999999999998,
+    "active_balance_residual_mw": 6.683542608243442e-13,
+    "voltage_violations": 0,
+    "extra_accounting_pass": true
+  },
+  "selected": {
+    "attempt_id": "flat_B_LOSS",
+    "start": "flat",
+    "stage": "B_LOSS",
+    "status": "COMPLETED_FEASIBLE",
+    "certified": true,
+    "physical_certificate_pass": true,
+    "optimizer_converged": true,
+    "on_time": true,
+    "metrics": {
+      "P_loss_AC_MW": 2.0356084724362926,
+      "P_loss_pct_load": 0.9780936346513035,
+      "Vm_min": 1.0183598081316976,
+      "Vm_max": 1.0776200271269176,
+      "voltage_RMS_deviation": 0.04064033449681287,
+      "max_voltage_deviation": 0.07762002712691762,
+      "support_Q_Mvar": 30.577189078479783,
+      "redispatch_L1_MW": 41.62399886769085,
+      "redispatch_limit_MW": 41.623999999999995,
+      "branch_active_loss_mw": 2.035608472436294,
+      "bus_shunt_active_consumption_mw": 0.0,
+      "active_generation_mw": 210.15560847243694,
+      "active_demand_mw": 208.11999999999998,
+      "active_balance_residual_mw": 6.683542608243442e-13,
+      "voltage_violations": 0,
+      "extra_accounting_pass": true
+    },
+    "solver_message": "Solve_Succeeded",
+    "runtime_seconds": 0.17967240000143647,
+    "completed_perf_counter": 33484.519423,
+    "completed_method_seconds": 8.888866399996914,
+    "started_method_seconds": 8.709193999995477,
+    "optimizer_calls": 1,
+    "pf_calls": 1,
+    "certificate_file": "raw\\ac\\ieee30_L110_CAP20\\demand\\AC_K8\\hostset_004\\flat_B_LOSS\\certificate.json",
+    "max_required_residual": 1.4367673717430307e-11,
+    "support_controls": [
+      3.9105242011793924,
+      13.333331685186831,
+      13.33333319211356
+    ],
+    "unique_solve_id": 4,
+    "candidate_slot": 4,
+    "path": [
+      1,
+      3,
+      4,
+      6,
+      8,
+      28,
+      27,
+      25,
+      26
+    ],
+    "hosts": [
+      3,
+      4,
+      8
+    ],
+    "path_cost": 0.006594500000000001
+  },
+  "candidates": [
+    {
+      "candidate_slot": 1,
+      "path": [
+        1,
+        3,
+        4,
+        6,
+        28,
+        27,
+        25,
+        26
+      ],
+      "hosts": [
+        4,
+        3
+      ],
+      "status": "UNKNOWN",
+      "certified": false,
+      "unique_solve_id": 1,
+      "cache_reuse": false,
+      "seconds": 6.734978699998464,
+      "support_nodes": [],
+      "common_evaluation": {
+        "feasible": true,
+        "objective": 0.006444365632950774,
+        "active_loss": 0.006444365632950774,
+        "reactive_loss": 0.018483186076461072,
+        "voltage_drop": 0.09644552352289251,
+        "terminal_voltage": 0.9035544764771076,
+        "minimum_voltage": 0.9035544764771076,
+        "pre": [
+          1.0,
+          0.98823,
+          0.9857811773574978,
+          0.9833262714863114,
+          0.9790753935008367,
+          0.9655932857003319,
+          0.9458851950561454,
+          0.9035544764771076
+        ],
+        "operational": [
+          1.0,
+          0.98823,
+          0.9857811773574978,
+          0.9833262714863114,
+          0.9790753935008367,
+          0.9655932857003319,
+          0.9458851950561454,
+          0.9035544764771076
+        ],
+        "support_events": [],
+        "reasons": []
+      },
+      "voltage_history": [
+        1.0,
+        0.98823,
+        0.9857811773574978,
+        0.9833262714863114,
+        0.9790753935008367,
+        0.9655932857003319,
+        0.9458851950561454,
+        0.9035544764771076
+      ],
+      "support_configurations": 4,
+      "path_cost": 0.005935050000000002,
+      "failure_reason": "NO_STRICT_CERTIFICATE"
+    },
+    {
+      "candidate_slot": 2,
+      "path": [
+        1,
+        2,
+        6,
+        28,
+        27,
+        25,
+        26
+      ],
+      "hosts": [],
+      "status": "UNKNOWN",
+      "certified": false,
+      "unique_solve_id": 2,
+      "cache_reuse": false,
+      "seconds": 0.6387491999994381,
+      "support_nodes": [],
+      "common_evaluation": {
+        "feasible": true,
+        "objective": 0.006577100762637191,
+        "active_loss": 0.006577100762637191,
+        "reactive_loss": 0.01808263643253558,
+        "voltage_drop": 0.09655288276800134,
+        "terminal_voltage": 0.9034471172319987,
+        "minimum_voltage": 0.9034471172319987,
+        "pre": [
+          1.0,
+          0.99582,
+          0.9832273627764054,
+          0.9789760571697381,
+          0.9654925813448423,
+          0.9457824350757814,
+          0.9034471172319987
+        ],
+        "operational": [
+          1.0,
+          0.99582,
+          0.9832273627764054,
+          0.9789760571697381,
+          0.9654925813448423,
+          0.9457824350757814,
+          0.9034471172319987
+        ],
+        "support_events": [],
+        "reasons": []
+      },
+      "voltage_history": [
+        1.0,
+        0.99582,
+        0.9832273627764054,
+        0.9789760571697381,
+        0.9654925813448423,
+        0.9457824350757814,
+        0.9034471172319987
+      ],
+      "support_configurations": 1,
+      "path_cost": 0.006066940000000002,
+      "failure_reason": "NO_STRICT_CERTIFICATE"
+    },
+    {
+      "candidate_slot": 3,
+      "path": [
+        1,
+        2,
+        4,
+        6,
+        28,
+        27,
+        25,
+        26
+      ],
+      "hosts": [
+        4
+      ],
+      "status": "UNKNOWN",
+      "certified": false,
+      "unique_solve_id": 3,
+      "cache_reuse": false,
+      "seconds": 0.7795448999968357,
+      "support_nodes": [],
+      "common_evaluation": {
+        "feasible": true,
+        "objective": 0.006738939203059116,
+        "active_loss": 0.006738939203059116,
+        "reactive_loss": 0.01856235379981897,
+        "voltage_drop": 0.09886429949146484,
+        "terminal_voltage": 0.9011357005085352,
+        "minimum_voltage": 0.9011357005085352,
+        "pre": [
+          1.0,
+          0.99582,
+          0.9835587479665,
+          0.9810982950398158,
+          0.9768377637341016,
+          0.9633247726417619,
+          0.9435702718332616,
+          0.9011357005085352
+        ],
+        "operational": [
+          1.0,
+          0.99582,
+          0.9835587479665,
+          0.9810982950398158,
+          0.9768377637341016,
+          0.9633247726417619,
+          0.9435702718332616,
+          0.9011357005085352
+        ],
+        "support_events": [],
+        "reasons": []
+      },
+      "voltage_history": [
+        1.0,
+        0.99582,
+        0.9835587479665,
+        0.9810982950398158,
+        0.9768377637341016,
+        0.9633247726417619,
+        0.9435702718332616,
+        0.9011357005085352
+      ],
+      "support_configurations": 2,
+      "path_cost": 0.0061988300000000015,
+      "failure_reason": "NO_STRICT_CERTIFICATE"
+    },
+    {
+      "candidate_slot": 4,
+      "path": [
+        1,
+        3,
+        4,
+        6,
+        8,
+        28,
+        27,
+        25,
+        26
+      ],
+      "hosts": [
+        8,
+        4,
+        3
+      ],
+      "status": "COMPLETED_FEASIBLE",
+      "certified": true,
+      "unique_solve_id": 4,
+      "cache_reuse": false,
+      "seconds": 0.9602778999978909,
+      "support_nodes": [
+        8
+      ],
+      "common_evaluation": {
+        "feasible": true,
+        "objective": 0.019204249745131654,
+        "active_loss": 0.0070129021137630716,
+        "reactive_loss": 0.0206213264610066,
+        "voltage_drop": 0.10723709382770857,
+        "terminal_voltage": 0.9118976693091497,
+        "minimum_voltage": 0.9118976693091497,
+        "pre": [
+          1.0,
+          0.98823,
+          0.9857811773574978,
+          0.9833262714863114,
+          0.9808652368631419,
+          0.9868,
+          0.9734234292663154,
+          0.9538738689949511,
+          0.9118976693091497
+        ],
+        "operational": [
+          1.0,
+          0.98823,
+          0.9857811773574978,
+          0.9833262714863114,
+          1.0,
+          0.9868,
+          0.9734234292663154,
+          0.9538738689949511,
+          0.9118976693091497
+        ],
+        "support_events": [
+          {
+            "node": 8,
+            "before": 0.9808652368631419,
+            "after": 1.0,
+            "used_capacity": 0.019134763136858135,
+            "cost": 0.012191347631368582
+          }
+        ],
+        "reasons": []
+      },
+      "voltage_history": [
+        1.0,
+        0.98823,
+        0.9857811773574978,
+        0.9833262714863114,
+        1.0,
+        0.9868,
+        0.9734234292663154,
+        0.9538738689949511,
+        0.9118976693091497
+      ],
+      "support_configurations": 8,
+      "path_cost": 0.006594500000000001,
+      "failure_reason": ""
+    },
+    {
+      "candidate_slot": 5,
+      "path": [
+        1,
+        2,
+        6,
+        8,
+        28,
+        27,
+        25,
+        26
+      ],
+      "hosts": [
+        8
+      ],
+      "status": "COMPLETED_FEASIBLE",
+      "certified": true,
+      "unique_solve_id": 5,
+      "cache_reuse": false,
+      "seconds": 0.9342107999982545,
+      "support_nodes": [
+        8
+      ],
+      "common_evaluation": {
+        "feasible": true,
+        "objective": 0.01933682351012212,
+        "active_loss": 0.007144484315952837,
+        "reactive_loss": 0.0202177679551437,
+        "voltage_drop": 0.10733625010777867,
+        "terminal_voltage": 0.9118976693091497,
+        "minimum_voltage": 0.9118976693091497,
+        "pre": [
+          1.0,
+          0.99582,
+          0.9832273627764054,
+          0.9807660805830718,
+          0.9868,
+          0.9734234292663154,
+          0.9538738689949511,
+          0.9118976693091497
+        ],
+        "operational": [
+          1.0,
+          0.99582,
+          0.9832273627764054,
+          1.0,
+          0.9868,
+          0.9734234292663154,
+          0.9538738689949511,
+          0.9118976693091497
+        ],
+        "support_events": [
+          {
+            "node": 8,
+            "before": 0.9807660805830718,
+            "after": 1.0,
+            "used_capacity": 0.019233919416928202,
+            "cost": 0.012192339194169283
+          }
+        ],
+        "reasons": []
+      },
+      "voltage_history": [
+        1.0,
+        0.99582,
+        0.9832273627764054,
+        1.0,
+        0.9868,
+        0.9734234292663154,
+        0.9538738689949511,
+        0.9118976693091497
+      ],
+      "support_configurations": 2,
+      "path_cost": 0.006726390000000001,
+      "failure_reason": ""
+    },
+    {
+      "candidate_slot": 6,
+      "path": [
+        1,
+        2,
+        4,
+        6,
+        8,
+        28,
+        27,
+        25,
+        26
+      ],
+      "hosts": [
+        8,
+        4
+      ],
+      "status": "COMPLETED_FEASIBLE",
+      "certified": true,
+      "unique_solve_id": 6,
+      "cache_reuse": false,
+      "seconds": 1.026312499998312,
+      "support_nodes": [
+        8
+      ],
+      "common_evaluation": {
+        "feasible": true,
+        "objective": 0.01949509658621742,
+        "active_loss": 0.007281413302740387,
+        "reactive_loss": 0.02063248434985691,
+        "voltage_drop": 0.10947065903855333,
+        "terminal_voltage": 0.9118976693091497,
+        "minimum_voltage": 0.9118976693091497,
+        "pre": [
+          1.0,
+          0.99582,
+          0.9835587479665,
+          0.9810982950398158,
+          0.978631671652297,
+          0.9868,
+          0.9734234292663154,
+          0.9538738689949511,
+          0.9118976693091497
+        ],
+        "operational": [
+          1.0,
+          0.99582,
+          0.9835587479665,
+          0.9810982950398158,
+          1.0,
+          0.9868,
+          0.9734234292663154,
+          0.9538738689949511,
+          0.9118976693091497
+        ],
+        "support_events": [
+          {
+            "node": 8,
+            "before": 0.978631671652297,
+            "after": 1.0,
+            "used_capacity": 0.02136832834770297,
+            "cost": 0.01221368328347703
+          }
+        ],
+        "reasons": []
+      },
+      "voltage_history": [
+        1.0,
+        0.99582,
+        0.9835587479665,
+        0.9810982950398158,
+        1.0,
+        0.9868,
+        0.9734234292663154,
+        0.9538738689949511,
+        0.9118976693091497
+      ],
+      "support_configurations": 4,
+      "path_cost": 0.006858280000000001,
+      "failure_reason": ""
+    },
+    {
+      "candidate_slot": 7,
+      "path": [
+        1,
+        2,
+        5,
+        7,
+        6,
+        28,
+        27,
+        25,
+        26
+      ],
+      "hosts": [
+        7
+      ],
+      "status": "UNKNOWN",
+      "certified": false,
+      "unique_solve_id": 7,
+      "cache_reuse": false,
+      "seconds": 0.9825275000039255,
+      "support_nodes": [
+        7
+      ],
+      "common_evaluation": {
+        "feasible": true,
+        "objective": 0.019653762304161264,
+        "active_loss": 0.007394283860189156,
+        "reactive_loss": 0.020703675093640607,
+        "voltage_drop": 0.11075335588304908,
+        "terminal_voltage": 0.9151944885141614,
+        "minimum_voltage": 0.9151944885141614,
+        "pre": [
+          1.0,
+          0.99582,
+          0.9836692096965315,
+          0.9740521556027895,
+          0.9940599999999999,
+          0.9898550224332535,
+          0.97651973625412,
+          0.9570321628918057,
+          0.9151944885141614
+        ],
+        "operational": [
+          1.0,
+          0.99582,
+          0.9836692096965315,
+          1.0,
+          0.9940599999999999,
+          0.9898550224332535,
+          0.97651973625412,
+          0.9570321628918057,
+          0.9151944885141614
+        ],
+        "support_events": [
+          {
+            "node": 7,
+            "before": 0.9740521556027895,
+            "after": 1.0,
+            "used_capacity": 0.02594784439721054,
+            "cost": 0.012259478443972106
+          }
+        ],
+        "reasons": []
+      },
+      "voltage_history": [
+        1.0,
+        0.99582,
+        0.9836692096965315,
+        1.0,
+        0.9940599999999999,
+        0.9898550224332535,
+        0.97651973625412,
+        0.9570321628918057,
+        0.9151944885141614
+      ],
+      "support_configurations": 2,
+      "path_cost": 0.006990170000000002,
+      "failure_reason": "NO_STRICT_CERTIFICATE"
+    },
+    {
+      "candidate_slot": 8,
+      "path": [
+        1,
+        3,
+        4,
+        2,
+        6,
+        28,
+        27,
+        25,
+        26
+      ],
+      "hosts": [
+        4,
+        3
+      ],
+      "status": "UNKNOWN",
+      "certified": false,
+      "unique_solve_id": 1,
+      "cache_reuse": true,
+      "seconds": 0.0,
+      "support_nodes": [],
+      "common_evaluation": {
+        "feasible": false,
+        "objective": 0.00824102658800512,
+        "active_loss": 0.00824102658800512,
+        "reactive_loss": 0.023499675475407416,
+        "voltage_drop": 0.12125856588328311,
+        "terminal_voltage": 0.8787414341167169,
+        "minimum_voltage": 0.8787414341167169,
+        "pre": [
+          1.0,
+          0.98823,
+          0.9857811773574978,
+          0.9733950613710571,
+          0.9605123167407967,
+          0.9561604724935688,
+          0.9423552584319838,
+          0.9221611757548577,
+          0.8787414341167169
+        ],
+        "operational": [
+          1.0,
+          0.98823,
+          0.9857811773574978,
+          0.9733950613710571,
+          0.9605123167407967,
+          0.9561604724935688,
+          0.9423552584319838,
+          0.9221611757548577,
+          0.8787414341167169
+        ],
+        "support_events": [],
+        "reasons": [
+          "operational voltage bound violation"
+        ]
+      },
+      "voltage_history": [
+        1.0,
+        0.98823,
+        0.9857811773574978,
+        0.9733950613710571,
+        0.9605123167407967,
+        0.9561604724935688,
+        0.9423552584319838,
+        0.9221611757548577,
+        0.8787414341167169
+      ],
+      "support_configurations": 4,
+      "path_cost": 0.007385840000000002,
+      "failure_reason": "WITHIN_METHOD_IDENTICAL_HOSTSET_REUSE"
+    }
+  ],
+  "events": [
+    {
+      "attempt_id": "flat_A_FEAS",
+      "start": "flat",
+      "stage": "A_FEAS",
+      "status": "UNKNOWN",
+      "certified": false,
+      "physical_certificate_pass": false,
+      "optimizer_converged": false,
+      "on_time": true,
+      "metrics": null,
+      "solver_message": "Infeasible_Problem_Detected",
+      "runtime_seconds": 0.5161312999989605,
+      "completed_perf_counter": 33482.2125532,
+      "completed_method_seconds": 6.581996599998092,
+      "started_method_seconds": 6.065865299999132,
+      "optimizer_calls": 1,
+      "pf_calls": 1,
+      "certificate_file": "raw\\ac\\ieee30_L110_CAP20\\demand\\AC_K8\\hostset_001\\flat_A_FEAS\\certificate.json",
+      "max_required_residual": 10.236073243321542,
+      "support_controls": [
+        11.850512148238499,
+        13.333333328646885
+      ],
+      "unique_solve_id": 1,
+      "candidate_slot": 1,
+      "path": [
+        1,
+        3,
+        4,
+        6,
+        28,
+        27,
+        25,
+        26
+      ],
+      "hosts": [
+        3,
+        4
+      ],
+      "path_cost": 0.005935050000000002
+    },
+    {
+      "attempt_id": "flat_B_LOSS",
+      "status": "NOT_APPLICABLE",
+      "certified": false,
+      "reason": "FEASIBILITY_NOT_CERTIFIED",
+      "unique_solve_id": 1,
+      "candidate_slot": 1,
+      "path": [
+        1,
+        3,
+        4,
+        6,
+        28,
+        27,
+        25,
+        26
+      ],
+      "hosts": [
+        3,
+        4
+      ],
+      "path_cost": 0.005935050000000002
+    },
+    {
+      "attempt_id": "dc_A_FEAS",
+      "start": "dc",
+      "stage": "A_FEAS",
+      "status": "UNKNOWN",
+      "certified": false,
+      "physical_certificate_pass": false,
+      "optimizer_converged": false,
+      "on_time": true,
+      "metrics": null,
+      "solver_message": "Infeasible_Problem_Detected",
+      "runtime_seconds": 0.27038480000192067,
+      "completed_perf_counter": 33482.4972548,
+      "completed_method_seconds": 6.866698199999519,
+      "started_method_seconds": 6.596313399997598,
+      "optimizer_calls": 1,
+      "pf_calls": 1,
+      "certificate_file": "raw\\ac\\ieee30_L110_CAP20\\demand\\AC_K8\\hostset_001\\dc_A_FEAS\\certificate.json",
+      "max_required_residual": 10.240238216782288,
+      "support_controls": [
+        13.33333332865163,
+        13.333333330419283
+      ],
+      "unique_solve_id": 1,
+      "candidate_slot": 1,
+      "path": [
+        1,
+        3,
+        4,
+        6,
+        28,
+        27,
+        25,
+        26
+      ],
+      "hosts": [
+        3,
+        4
+      ],
+      "path_cost": 0.005935050000000002
+    },
+    {
+      "attempt_id": "dc_B_LOSS",
+      "status": "NOT_APPLICABLE",
+      "certified": false,
+      "reason": "FEASIBILITY_NOT_CERTIFIED",
+      "unique_solve_id": 1,
+      "candidate_slot": 1,
+      "path": [
+        1,
+        3,
+        4,
+        6,
+        28,
+        27,
+        25,
+        26
+      ],
+      "hosts": [
+        3,
+        4
+      ],
+      "path_cost": 0.005935050000000002
+    },
+    {
+      "attempt_id": "flat_A_FEAS",
+      "start": "flat",
+      "stage": "A_FEAS",
+      "status": "UNKNOWN",
+      "certified": false,
+      "physical_certificate_pass": false,
+      "optimizer_converged": false,
+      "on_time": true,
+      "metrics": null,
+      "solver_message": "Infeasible_Problem_Detected",
+      "runtime_seconds": 0.18116520000330638,
+      "completed_perf_counter": 33482.9229913,
+      "completed_method_seconds": 7.29243470000074,
+      "started_method_seconds": 7.111269499997434,
+      "optimizer_calls": 1,
+      "pf_calls": 1,
+      "certificate_file": "raw\\ac\\ieee30_L110_CAP20\\demand\\AC_K8\\hostset_002\\flat_A_FEAS\\certificate.json",
+      "max_required_residual": 10.30411033316578,
+      "support_controls": [],
+      "unique_solve_id": 2,
+      "candidate_slot": 2,
+      "path": [
+        1,
+        2,
+        6,
+        28,
+        27,
+        25,
+        26
+      ],
+      "hosts": [],
+      "path_cost": 0.006066940000000002
+    },
+    {
+      "attempt_id": "flat_B_LOSS",
+      "status": "NOT_APPLICABLE",
+      "certified": false,
+      "reason": "FEASIBILITY_NOT_CERTIFIED",
+      "unique_solve_id": 2,
+      "candidate_slot": 2,
+      "path": [
+        1,
+        2,
+        6,
+        28,
+        27,
+        25,
+        26
+      ],
+      "hosts": [],
+      "path_cost": 0.006066940000000002
+    },
+    {
+      "attempt_id": "dc_A_FEAS",
+      "start": "dc",
+      "stage": "A_FEAS",
+      "status": "UNKNOWN",
+      "certified": false,
+      "physical_certificate_pass": false,
+      "optimizer_converged": false,
+      "on_time": true,
+      "metrics": null,
+      "solver_message": "Infeasible_Problem_Detected",
+      "runtime_seconds": 0.21703199999319622,
+      "completed_perf_counter": 33483.1537231,
+      "completed_method_seconds": 7.523166499995568,
+      "started_method_seconds": 7.306134500002372,
+      "optimizer_calls": 1,
+      "pf_calls": 1,
+      "certificate_file": "raw\\ac\\ieee30_L110_CAP20\\demand\\AC_K8\\hostset_002\\dc_A_FEAS\\certificate.json",
+      "max_required_residual": 10.304110333165426,
+      "support_controls": [],
+      "unique_solve_id": 2,
+      "candidate_slot": 2,
+      "path": [
+        1,
+        2,
+        6,
+        28,
+        27,
+        25,
+        26
+      ],
+      "hosts": [],
+      "path_cost": 0.006066940000000002
+    },
+    {
+      "attempt_id": "dc_B_LOSS",
+      "status": "NOT_APPLICABLE",
+      "certified": false,
+      "reason": "FEASIBILITY_NOT_CERTIFIED",
+      "unique_solve_id": 2,
+      "candidate_slot": 2,
+      "path": [
+        1,
+        2,
+        6,
+        28,
+        27,
+        25,
+        26
+      ],
+      "hosts": [],
+      "path_cost": 0.006066940000000002
+    },
+    {
+      "attempt_id": "flat_A_FEAS",
+      "start": "flat",
+      "stage": "A_FEAS",
+      "status": "UNKNOWN",
+      "certified": false,
+      "physical_certificate_pass": false,
+      "optimizer_converged": false,
+      "on_time": true,
+      "metrics": null,
+      "solver_message": "Infeasible_Problem_Detected",
+      "runtime_seconds": 0.24295830000482965,
+      "completed_perf_counter": 33483.6232288,
+      "completed_method_seconds": 7.992672200001834,
+      "started_method_seconds": 7.749713899997005,
+      "optimizer_calls": 1,
+      "pf_calls": 1,
+      "certificate_file": "raw\\ac\\ieee30_L110_CAP20\\demand\\AC_K8\\hostset_003\\flat_A_FEAS\\certificate.json",
+      "max_required_residual": 10.259495364730668,
+      "support_controls": [
+        13.333333330106464
+      ],
+      "unique_solve_id": 3,
+      "candidate_slot": 3,
+      "path": [
+        1,
+        2,
+        4,
+        6,
+        28,
+        27,
+        25,
+        26
+      ],
+      "hosts": [
+        4
+      ],
+      "path_cost": 0.0061988300000000015
+    },
+    {
+      "attempt_id": "flat_B_LOSS",
+      "status": "NOT_APPLICABLE",
+      "certified": false,
+      "reason": "FEASIBILITY_NOT_CERTIFIED",
+      "unique_solve_id": 3,
+      "candidate_slot": 3,
+      "path": [
+        1,
+        2,
+        4,
+        6,
+        28,
+        27,
+        25,
+        26
+      ],
+      "hosts": [
+        4
+      ],
+      "path_cost": 0.0061988300000000015
+    },
+    {
+      "attempt_id": "dc_A_FEAS",
+      "start": "dc",
+      "stage": "A_FEAS",
+      "status": "UNKNOWN",
+      "certified": false,
+      "physical_certificate_pass": false,
+      "optimizer_converged": false,
+      "on_time": true,
+      "metrics": null,
+      "solver_message": "Infeasible_Problem_Detected",
+      "runtime_seconds": 0.28529469999921275,
+      "completed_perf_counter": 33483.922495,
+      "completed_method_seconds": 8.291938399997889,
+      "started_method_seconds": 8.006643699998676,
+      "optimizer_calls": 1,
+      "pf_calls": 1,
+      "certificate_file": "raw\\ac\\ieee30_L110_CAP20\\demand\\AC_K8\\hostset_003\\dc_A_FEAS\\certificate.json",
+      "max_required_residual": 10.259495364723676,
+      "support_controls": [
+        13.333333330106356
+      ],
+      "unique_solve_id": 3,
+      "candidate_slot": 3,
+      "path": [
+        1,
+        2,
+        4,
+        6,
+        28,
+        27,
+        25,
+        26
+      ],
+      "hosts": [
+        4
+      ],
+      "path_cost": 0.0061988300000000015
+    },
+    {
+      "attempt_id": "dc_B_LOSS",
+      "status": "NOT_APPLICABLE",
+      "certified": false,
+      "reason": "FEASIBILITY_NOT_CERTIFIED",
+      "unique_solve_id": 3,
+      "candidate_slot": 3,
+      "path": [
+        1,
+        2,
+        4,
+        6,
+        28,
+        27,
+        25,
+        26
+      ],
+      "hosts": [
+        4
+      ],
+      "path_cost": 0.0061988300000000015
+    },
+    {
+      "attempt_id": "flat_A_FEAS",
+      "start": "flat",
+      "stage": "A_FEAS",
+      "status": "COMPLETED_FEASIBLE",
+      "certified": true,
+      "physical_certificate_pass": true,
+      "optimizer_converged": true,
+      "on_time": true,
+      "metrics": {
+        "P_loss_AC_MW": 2.604806234682499,
+        "P_loss_pct_load": 1.251588619393859,
+        "Vm_min": 0.977122335142922,
+        "Vm_max": 1.0496712777729895,
+        "voltage_RMS_deviation": 0.018705032532470425,
+        "max_voltage_deviation": 0.04967127777298952,
+        "support_Q_Mvar": 35.82811176721024,
+        "redispatch_L1_MW": 23.663048020877568,
+        "redispatch_limit_MW": 41.623999999999995,
+        "branch_active_loss_mw": 2.6048062346825005,
+        "bus_shunt_active_consumption_mw": 0.0,
+        "active_generation_mw": 210.7248062319336,
+        "active_demand_mw": 208.11999999999998,
+        "active_balance_residual_mw": -2.748878014102729e-09,
+        "voltage_violations": 0,
+        "extra_accounting_pass": true
+      },
+      "solver_message": "Solve_Succeeded",
+      "runtime_seconds": 0.167104099993594,
+      "completed_perf_counter": 33484.3355539,
+      "completed_method_seconds": 8.704997299995739,
+      "started_method_seconds": 8.537893200002145,
+      "optimizer_calls": 1,
+      "pf_calls": 1,
+      "certificate_file": "raw\\ac\\ieee30_L110_CAP20\\demand\\AC_K8\\hostset_004\\flat_A_FEAS\\certificate.json",
+      "max_required_residual": 7.500048582187446e-09,
+      "support_controls": [
+        12.115635165038633,
+        11.886499053243792,
+        11.82597754892782
+      ],
+      "unique_solve_id": 4,
+      "candidate_slot": 4,
+      "path": [
+        1,
+        3,
+        4,
+        6,
+        8,
+        28,
+        27,
+        25,
+        26
+      ],
+      "hosts": [
+        3,
+        4,
+        8
+      ],
+      "path_cost": 0.006594500000000001
+    },
+    {
+      "attempt_id": "flat_B_LOSS",
+      "start": "flat",
+      "stage": "B_LOSS",
+      "status": "COMPLETED_FEASIBLE",
+      "certified": true,
+      "physical_certificate_pass": true,
+      "optimizer_converged": true,
+      "on_time": true,
+      "metrics": {
+        "P_loss_AC_MW": 2.0356084724362926,
+        "P_loss_pct_load": 0.9780936346513035,
+        "Vm_min": 1.0183598081316976,
+        "Vm_max": 1.0776200271269176,
+        "voltage_RMS_deviation": 0.04064033449681287,
+        "max_voltage_deviation": 0.07762002712691762,
+        "support_Q_Mvar": 30.577189078479783,
+        "redispatch_L1_MW": 41.62399886769085,
+        "redispatch_limit_MW": 41.623999999999995,
+        "branch_active_loss_mw": 2.035608472436294,
+        "bus_shunt_active_consumption_mw": 0.0,
+        "active_generation_mw": 210.15560847243694,
+        "active_demand_mw": 208.11999999999998,
+        "active_balance_residual_mw": 6.683542608243442e-13,
+        "voltage_violations": 0,
+        "extra_accounting_pass": true
+      },
+      "solver_message": "Solve_Succeeded",
+      "runtime_seconds": 0.17967240000143647,
+      "completed_perf_counter": 33484.519423,
+      "completed_method_seconds": 8.888866399996914,
+      "started_method_seconds": 8.709193999995477,
+      "optimizer_calls": 1,
+      "pf_calls": 1,
+      "certificate_file": "raw\\ac\\ieee30_L110_CAP20\\demand\\AC_K8\\hostset_004\\flat_B_LOSS\\certificate.json",
+      "max_required_residual": 1.4367673717430307e-11,
+      "support_controls": [
+        3.9105242011793924,
+        13.333331685186831,
+        13.33333319211356
+      ],
+      "unique_solve_id": 4,
+      "candidate_slot": 4,
+      "path": [
+        1,
+        3,
+        4,
+        6,
+        8,
+        28,
+        27,
+        25,
+        26
+      ],
+      "hosts": [
+        3,
+        4,
+        8
+      ],
+      "path_cost": 0.006594500000000001
+    },
+    {
+      "attempt_id": "dc_A_FEAS",
+      "start": "dc",
+      "stage": "A_FEAS",
+      "status": "COMPLETED_FEASIBLE",
+      "certified": true,
+      "physical_certificate_pass": true,
+      "optimizer_converged": true,
+      "on_time": true,
+      "metrics": {
+        "P_loss_AC_MW": 2.8535590644096804,
+        "P_loss_pct_load": 1.37111236998351,
+        "Vm_min": 0.9741211218860802,
+        "Vm_max": 1.041909471145566,
+        "voltage_RMS_deviation": 0.016608196106554722,
+        "max_voltage_deviation": 0.04190947114556609,
+        "support_Q_Mvar": 36.79965286572191,
+        "redispatch_L1_MW": 2.461853124510437,
+        "redispatch_limit_MW": 41.623999999999995,
+        "branch_active_loss_mw": 2.8535590644096818,
+        "bus_shunt_active_consumption_mw": 0.0,
+        "active_generation_mw": 210.97355906305006,
+        "active_demand_mw": 208.11999999999998,
+        "active_balance_residual_mw": -1.3595968795243607e-09,
+        "voltage_violations": 0,
+        "extra_accounting_pass": true
+      },
+      "solver_message": "Solve_Succeeded",
+      "runtime_seconds": 0.17168220000166912,
+      "completed_perf_counter": 33484.7050469,
+      "completed_method_seconds": 9.074490300001344,
+      "started_method_seconds": 8.902808099999675,
+      "optimizer_calls": 1,
+      "pf_calls": 1,
+      "certificate_file": "raw\\ac\\ieee30_L110_CAP20\\demand\\AC_K8\\hostset_004\\dc_A_FEAS\\certificate.json",
+      "max_required_residual": 3.789166314049908e-09,
+      "support_controls": [
+        11.710525421267015,
+        12.015498904204353,
+        13.073628540250546
+      ],
+      "unique_solve_id": 4,
+      "candidate_slot": 4,
+      "path": [
+        1,
+        3,
+        4,
+        6,
+        8,
+        28,
+        27,
+        25,
+        26
+      ],
+      "hosts": [
+        3,
+        4,
+        8
+      ],
+      "path_cost": 0.006594500000000001
+    },
+    {
+      "attempt_id": "dc_B_LOSS",
+      "start": "dc",
+      "stage": "B_LOSS",
+      "status": "COMPLETED_FEASIBLE",
+      "certified": true,
+      "physical_certificate_pass": true,
+      "optimizer_converged": true,
+      "on_time": true,
+      "metrics": {
+        "P_loss_AC_MW": 2.0356084724392614,
+        "P_loss_pct_load": 0.9780936346527299,
+        "Vm_min": 1.018359808118162,
+        "Vm_max": 1.0776200271541028,
+        "voltage_RMS_deviation": 0.04064033449682714,
+        "max_voltage_deviation": 0.07762002715410277,
+        "support_Q_Mvar": 30.577189099705727,
+        "redispatch_L1_MW": 41.62399886768962,
+        "redispatch_limit_MW": 41.623999999999995,
+        "branch_active_loss_mw": 2.0356084724392627,
+        "bus_shunt_active_consumption_mw": 0.0,
+        "active_generation_mw": 210.15560847243916,
+        "active_demand_mw": 208.11999999999998,
+        "active_balance_residual_mw": -8.348877145181177e-14,
+        "voltage_violations": 0,
+        "extra_accounting_pass": true
+      },
+      "solver_message": "Solve_Succeeded",
+      "runtime_seconds": 0.1860095000010915,
+      "completed_perf_counter": 33484.8954046,
+      "completed_method_seconds": 9.264847999998892,
+      "started_method_seconds": 9.0788384999978,
+      "optimizer_calls": 1,
+      "pf_calls": 1,
+      "certificate_file": "raw\\ac\\ieee30_L110_CAP20\\demand\\AC_K8\\hostset_004\\dc_B_LOSS\\certificate.json",
+      "max_required_residual": 1.6368850719317152e-11,
+      "support_controls": [
+        3.910524222405324,
+        13.333331685186838,
+        13.33333319211356
+      ],
+      "unique_solve_id": 4,
+      "candidate_slot": 4,
+      "path": [
+        1,
+        3,
+        4,
+        6,
+        8,
+        28,
+        27,
+        25,
+        26
+      ],
+      "hosts": [
+        3,
+        4,
+        8
+      ],
+      "path_cost": 0.006594500000000001
+    },
+    {
+      "attempt_id": "flat_A_FEAS",
+      "start": "flat",
+      "stage": "A_FEAS",
+      "status": "COMPLETED_FEASIBLE",
+      "certified": true,
+      "physical_certificate_pass": true,
+      "optimizer_converged": true,
+      "on_time": true,
+      "metrics": {
+        "P_loss_AC_MW": 2.653830439998743,
+        "P_loss_pct_load": 1.2751443590230365,
+        "Vm_min": 0.9805254132188378,
+        "Vm_max": 1.044132735968316,
+        "voltage_RMS_deviation": 0.01708584912144123,
+        "max_voltage_deviation": 0.044132735968315906,
+        "support_Q_Mvar": 13.333025084077704,
+        "redispatch_L1_MW": 24.045209273481333,
+        "redispatch_limit_MW": 41.623999999999995,
+        "branch_active_loss_mw": 2.6538304399987442,
+        "bus_shunt_active_consumption_mw": 0.0,
+        "active_generation_mw": 210.7738304396454,
+        "active_demand_mw": 208.11999999999998,
+        "active_balance_residual_mw": -3.533262571409068e-10,
+        "voltage_violations": 0,
+        "extra_accounting_pass": true
+      },
+      "solver_message": "Solve_Succeeded",
+      "runtime_seconds": 0.1637994999982766,
+      "completed_perf_counter": 33485.2922007,
+      "completed_method_seconds": 9.661644100000558,
+      "started_method_seconds": 9.497844600002281,
+      "optimizer_calls": 1,
+      "pf_calls": 1,
+      "certificate_file": "raw\\ac\\ieee30_L110_CAP20\\demand\\AC_K8\\hostset_005\\flat_A_FEAS\\certificate.json",
+      "max_required_residual": 1.0230413738376853e-09,
+      "support_controls": [
+        13.333025084077704
+      ],
+      "unique_solve_id": 5,
+      "candidate_slot": 5,
+      "path": [
+        1,
+        2,
+        6,
+        8,
+        28,
+        27,
+        25,
+        26
+      ],
+      "hosts": [
+        8
+      ],
+      "path_cost": 0.006726390000000001
+    },
+    {
+      "attempt_id": "flat_B_LOSS",
+      "start": "flat",
+      "stage": "B_LOSS",
+      "status": "COMPLETED_FEASIBLE",
+      "certified": true,
+      "physical_certificate_pass": true,
+      "optimizer_converged": true,
+      "on_time": true,
+      "metrics": {
+        "P_loss_AC_MW": 2.071437691381529,
+        "P_loss_pct_load": 0.9953092885746344,
+        "Vm_min": 1.017074162965405,
+        "Vm_max": 1.0823578947584267,
+        "voltage_RMS_deviation": 0.039677168671214076,
+        "max_voltage_deviation": 0.0823578947584267,
+        "support_Q_Mvar": 13.33333322496954,
+        "redispatch_L1_MW": 41.623998667945486,
+        "redispatch_limit_MW": 41.623999999999995,
+        "branch_active_loss_mw": 2.07143769138153,
+        "bus_shunt_active_consumption_mw": 0.0,
+        "active_generation_mw": 210.19143769138162,
+        "active_demand_mw": 208.11999999999998,
+        "active_balance_residual_mw": 1.163513729807164e-13,
+        "voltage_violations": 0,
+        "extra_accounting_pass": true
+      },
+      "solver_message": "Solve_Succeeded",
+      "runtime_seconds": 0.18724880000081612,
+      "completed_perf_counter": 33485.4835472,
+      "completed_method_seconds": 9.852990599996701,
+      "started_method_seconds": 9.665741799995885,
+      "optimizer_calls": 1,
+      "pf_calls": 1,
+      "certificate_file": "raw\\ac\\ieee30_L110_CAP20\\demand\\AC_K8\\hostset_005\\flat_B_LOSS\\certificate.json",
+      "max_required_residual": 2.2021447324005976e-12,
+      "support_controls": [
+        13.33333322496954
+      ],
+      "unique_solve_id": 5,
+      "candidate_slot": 5,
+      "path": [
+        1,
+        2,
+        6,
+        8,
+        28,
+        27,
+        25,
+        26
+      ],
+      "hosts": [
+        8
+      ],
+      "path_cost": 0.006726390000000001
+    },
+    {
+      "attempt_id": "dc_A_FEAS",
+      "start": "dc",
+      "stage": "A_FEAS",
+      "status": "COMPLETED_FEASIBLE",
+      "certified": true,
+      "physical_certificate_pass": true,
+      "optimizer_converged": true,
+      "on_time": true,
+      "metrics": {
+        "P_loss_AC_MW": 2.9258195782824097,
+        "P_loss_pct_load": 1.4058329705373869,
+        "Vm_min": 0.9776049487161892,
+        "Vm_max": 1.0363321934009913,
+        "voltage_RMS_deviation": 0.015343555694145142,
+        "max_voltage_deviation": 0.03633219340099125,
+        "support_Q_Mvar": 13.333102067820057,
+        "redispatch_L1_MW": 2.6433414969795592,
+        "redispatch_limit_MW": 41.623999999999995,
+        "branch_active_loss_mw": 2.925819578282412,
+        "bus_shunt_active_consumption_mw": 0.0,
+        "active_generation_mw": 211.04581957804328,
+        "active_demand_mw": 208.11999999999998,
+        "active_balance_residual_mw": -2.391091769027298e-10,
+        "voltage_violations": 0,
+        "extra_accounting_pass": true
+      },
+      "solver_message": "Solve_Succeeded",
+      "runtime_seconds": 0.1794092999989516,
+      "completed_perf_counter": 33485.6754708,
+      "completed_method_seconds": 10.044914199999766,
+      "started_method_seconds": 9.865504900000815,
+      "optimizer_calls": 1,
+      "pf_calls": 1,
+      "certificate_file": "raw\\ac\\ieee30_L110_CAP20\\demand\\AC_K8\\hostset_005\\dc_A_FEAS\\certificate.json",
+      "max_required_residual": 7.261247159107143e-10,
+      "support_controls": [
+        13.333102067820057
+      ],
+      "unique_solve_id": 5,
+      "candidate_slot": 5,
+      "path": [
+        1,
+        2,
+        6,
+        8,
+        28,
+        27,
+        25,
+        26
+      ],
+      "hosts": [
+        8
+      ],
+      "path_cost": 0.006726390000000001
+    },
+    {
+      "attempt_id": "dc_B_LOSS",
+      "start": "dc",
+      "stage": "B_LOSS",
+      "status": "COMPLETED_FEASIBLE",
+      "certified": true,
+      "physical_certificate_pass": true,
+      "optimizer_converged": true,
+      "on_time": true,
+      "metrics": {
+        "P_loss_AC_MW": 2.071437691359198,
+        "P_loss_pct_load": 0.9953092885639045,
+        "Vm_min": 1.0170741629668725,
+        "Vm_max": 1.082357894757301,
+        "voltage_RMS_deviation": 0.03967716867309138,
+        "max_voltage_deviation": 0.08235789475730093,
+        "support_Q_Mvar": 13.33333322513099,
+        "redispatch_L1_MW": 41.62399866993032,
+        "redispatch_limit_MW": 41.623999999999995,
+        "branch_active_loss_mw": 2.0714376913591996,
+        "bus_shunt_active_consumption_mw": 0.0,
+        "active_generation_mw": 210.19143769135945,
+        "active_demand_mw": 208.11999999999998,
+        "active_balance_residual_mw": 2.779998453661392e-13,
+        "voltage_violations": 0,
+        "extra_accounting_pass": true
+      },
+      "solver_message": "Solve_Succeeded",
+      "runtime_seconds": 0.1621854000040912,
+      "completed_perf_counter": 33485.8419386,
+      "completed_method_seconds": 10.211382000001322,
+      "started_method_seconds": 10.04919659999723,
+      "optimizer_calls": 1,
+      "pf_calls": 1,
+      "certificate_file": "raw\\ac\\ieee30_L110_CAP20\\demand\\AC_K8\\hostset_005\\dc_B_LOSS\\certificate.json",
+      "max_required_residual": 1.9042545318370685e-12,
+      "support_controls": [
+        13.33333322513099
+      ],
+      "unique_solve_id": 5,
+      "candidate_slot": 5,
+      "path": [
+        1,
+        2,
+        6,
+        8,
+        28,
+        27,
+        25,
+        26
+      ],
+      "hosts": [
+        8
+      ],
+      "path_cost": 0.006726390000000001
+    },
+    {
+      "attempt_id": "flat_A_FEAS",
+      "start": "flat",
+      "stage": "A_FEAS",
+      "status": "COMPLETED_FEASIBLE",
+      "certified": true,
+      "physical_certificate_pass": true,
+      "optimizer_converged": true,
+      "on_time": true,
+      "metrics": {
+        "P_loss_AC_MW": 2.591967585460746,
+        "P_loss_pct_load": 1.2454197508460245,
+        "Vm_min": 0.9786258226619964,
+        "Vm_max": 1.046609550899098,
+        "voltage_RMS_deviation": 0.017618423967497722,
+        "max_voltage_deviation": 0.04660955089909802,
+        "support_Q_Mvar": 26.66181969698721,
+        "redispatch_L1_MW": 23.93005708252489,
+        "redispatch_limit_MW": 41.623999999999995,
+        "branch_active_loss_mw": 2.5919675854607473,
+        "bus_shunt_active_consumption_mw": 0.0,
+        "active_generation_mw": 210.71196758463526,
+        "active_demand_mw": 208.11999999999998,
+        "active_balance_residual_mw": -8.254628092174698e-10,
+        "voltage_violations": 0,
+        "extra_accounting_pass": true
+      },
+      "solver_message": "Solve_Succeeded",
+      "runtime_seconds": 0.1820268000010401,
+      "completed_perf_counter": 33486.2524406,
+      "completed_method_seconds": 10.621884000000136,
+      "started_method_seconds": 10.439857199999096,
+      "optimizer_calls": 1,
+      "pf_calls": 1,
+      "certificate_file": "raw\\ac\\ieee30_L110_CAP20\\demand\\AC_K8\\hostset_006\\flat_A_FEAS\\certificate.json",
+      "max_required_residual": 2.2176518399419365e-09,
+      "support_controls": [
+        13.331191530186837,
+        13.330628166800377
+      ],
+      "unique_solve_id": 6,
+      "candidate_slot": 6,
+      "path": [
+        1,
+        2,
+        4,
+        6,
+        8,
+        28,
+        27,
+        25,
+        26
+      ],
+      "hosts": [
+        4,
+        8
+      ],
+      "path_cost": 0.006858280000000001
+    },
+    {
+      "attempt_id": "flat_B_LOSS",
+      "start": "flat",
+      "stage": "B_LOSS",
+      "status": "COMPLETED_FEASIBLE",
+      "certified": true,
+      "physical_certificate_pass": true,
+      "optimizer_converged": true,
+      "on_time": true,
+      "metrics": {
+        "P_loss_AC_MW": 2.037791851454124,
+        "P_loss_pct_load": 0.9791427308543745,
+        "Vm_min": 1.0181181567669313,
+        "Vm_max": 1.0785311105420126,
+        "voltage_RMS_deviation": 0.04040516724506134,
+        "max_voltage_deviation": 0.07853111054201256,
+        "support_Q_Mvar": 26.666665718208293,
+        "redispatch_L1_MW": 41.62399883496796,
+        "redispatch_limit_MW": 41.623999999999995,
+        "branch_active_loss_mw": 2.037791851454126,
+        "bus_shunt_active_consumption_mw": 0.0,
+        "active_generation_mw": 210.15779185145436,
+        "active_demand_mw": 208.11999999999998,
+        "active_balance_residual_mw": 2.6068036618198676e-13,
+        "voltage_violations": 0,
+        "extra_accounting_pass": true
+      },
+      "solver_message": "Solve_Succeeded",
+      "runtime_seconds": 0.19457730000431184,
+      "completed_perf_counter": 33486.4515179,
+      "completed_method_seconds": 10.820961299999908,
+      "started_method_seconds": 10.626383999995596,
+      "optimizer_calls": 1,
+      "pf_calls": 1,
+      "certificate_file": "raw\\ac\\ieee30_L110_CAP20\\demand\\AC_K8\\hostset_006\\flat_B_LOSS\\certificate.json",
+      "max_required_residual": 2.0573820425084932e-12,
+      "support_controls": [
+        13.333332518301427,
+        13.333333199906864
+      ],
+      "unique_solve_id": 6,
+      "candidate_slot": 6,
+      "path": [
+        1,
+        2,
+        4,
+        6,
+        8,
+        28,
+        27,
+        25,
+        26
+      ],
+      "hosts": [
+        4,
+        8
+      ],
+      "path_cost": 0.006858280000000001
+    },
+    {
+      "attempt_id": "dc_A_FEAS",
+      "start": "dc",
+      "stage": "A_FEAS",
+      "status": "COMPLETED_FEASIBLE",
+      "certified": true,
+      "physical_certificate_pass": true,
+      "optimizer_converged": true,
+      "on_time": true,
+      "metrics": {
+        "P_loss_AC_MW": 2.859788206011832,
+        "P_loss_pct_load": 1.3741054228386662,
+        "Vm_min": 0.9756746184763068,
+        "Vm_max": 1.0387099148716672,
+        "voltage_RMS_deviation": 0.015581064612090734,
+        "max_voltage_deviation": 0.038709914871667195,
+        "support_Q_Mvar": 26.664753723887337,
+        "redispatch_L1_MW": 2.507645288919825,
+        "redispatch_limit_MW": 41.623999999999995,
+        "branch_active_loss_mw": 2.8597882060118343,
+        "bus_shunt_active_consumption_mw": 0.0,
+        "active_generation_mw": 210.97978820555664,
+        "active_demand_mw": 208.11999999999998,
+        "active_balance_residual_mw": -4.551656829221429e-10,
+        "voltage_violations": 0,
+        "extra_accounting_pass": true
+      },
+      "solver_message": "Solve_Succeeded",
+      "runtime_seconds": 0.18515530000149738,
+      "completed_perf_counter": 33486.6574396,
+      "completed_method_seconds": 11.026882999998634,
+      "started_method_seconds": 10.841727699997136,
+      "optimizer_calls": 1,
+      "pf_calls": 1,
+      "certificate_file": "raw\\ac\\ieee30_L110_CAP20\\demand\\AC_K8\\hostset_006\\dc_A_FEAS\\certificate.json",
+      "max_required_residual": 1.3336434179223033e-09,
+      "support_controls": [
+        13.33213631425603,
+        13.332617409631304
+      ],
+      "unique_solve_id": 6,
+      "candidate_slot": 6,
+      "path": [
+        1,
+        2,
+        4,
+        6,
+        8,
+        28,
+        27,
+        25,
+        26
+      ],
+      "hosts": [
+        4,
+        8
+      ],
+      "path_cost": 0.006858280000000001
+    },
+    {
+      "attempt_id": "dc_B_LOSS",
+      "start": "dc",
+      "stage": "B_LOSS",
+      "status": "COMPLETED_FEASIBLE",
+      "certified": true,
+      "physical_certificate_pass": true,
+      "optimizer_converged": true,
+      "on_time": true,
+      "metrics": {
+        "P_loss_AC_MW": 2.0377918515836138,
+        "P_loss_pct_load": 0.9791427309165933,
+        "Vm_min": 1.0181181566962008,
+        "Vm_max": 1.0785311106959632,
+        "voltage_RMS_deviation": 0.040405167239745805,
+        "max_voltage_deviation": 0.07853111069596319,
+        "support_Q_Mvar": 26.666665718208215,
+        "redispatch_L1_MW": 41.62399883490306,
+        "redispatch_limit_MW": 41.623999999999995,
+        "branch_active_loss_mw": 2.0377918515836155,
+        "bus_shunt_active_consumption_mw": 0.0,
+        "active_generation_mw": 210.1577918515839,
+        "active_demand_mw": 208.11999999999998,
+        "active_balance_residual_mw": 3.170796958329447e-13,
+        "voltage_violations": 0,
+        "extra_accounting_pass": true
+      },
+      "solver_message": "Solve_Succeeded",
+      "runtime_seconds": 0.19237879999855068,
+      "completed_perf_counter": 33486.8540974,
+      "completed_method_seconds": 11.223540799997863,
+      "started_method_seconds": 11.031161999999313,
+      "optimizer_calls": 1,
+      "pf_calls": 1,
+      "certificate_file": "raw\\ac\\ieee30_L110_CAP20\\demand\\AC_K8\\hostset_006\\dc_B_LOSS\\certificate.json",
+      "max_required_residual": 6.834671717470542e-11,
+      "support_controls": [
+        13.333332518301354,
+        13.333333199906864
+      ],
+      "unique_solve_id": 6,
+      "candidate_slot": 6,
+      "path": [
+        1,
+        2,
+        4,
+        6,
+        8,
+        28,
+        27,
+        25,
+        26
+      ],
+      "hosts": [
+        4,
+        8
+      ],
+      "path_cost": 0.006858280000000001
+    },
+    {
+      "attempt_id": "flat_A_FEAS",
+      "start": "flat",
+      "stage": "A_FEAS",
+      "status": "UNKNOWN",
+      "certified": false,
+      "physical_certificate_pass": false,
+      "optimizer_converged": false,
+      "on_time": true,
+      "metrics": null,
+      "solver_message": "Infeasible_Problem_Detected",
+      "runtime_seconds": 0.4471613999994588,
+      "completed_perf_counter": 33487.5907743,
+      "completed_method_seconds": 11.960217699997884,
+      "started_method_seconds": 11.513056299998425,
+      "optimizer_calls": 1,
+      "pf_calls": 1,
+      "certificate_file": "raw\\ac\\ieee30_L110_CAP20\\demand\\AC_K8\\hostset_007\\flat_A_FEAS\\certificate.json",
+      "max_required_residual": 10.230276308505125,
+      "support_controls": [
+        13.33333333141639
+      ],
+      "unique_solve_id": 7,
+      "candidate_slot": 7,
+      "path": [
+        1,
+        2,
+        5,
+        7,
+        6,
+        28,
+        27,
+        25,
+        26
+      ],
+      "hosts": [
+        7
+      ],
+      "path_cost": 0.006990170000000002
+    },
+    {
+      "attempt_id": "flat_B_LOSS",
+      "status": "NOT_APPLICABLE",
+      "certified": false,
+      "reason": "FEASIBILITY_NOT_CERTIFIED",
+      "unique_solve_id": 7,
+      "candidate_slot": 7,
+      "path": [
+        1,
+        2,
+        5,
+        7,
+        6,
+        28,
+        27,
+        25,
+        26
+      ],
+      "hosts": [
+        7
+      ],
+      "path_cost": 0.006990170000000002
+    },
+    {
+      "attempt_id": "dc_A_FEAS",
+      "start": "dc",
+      "stage": "A_FEAS",
+      "status": "UNKNOWN",
+      "certified": false,
+      "physical_certificate_pass": false,
+      "optimizer_converged": false,
+      "on_time": true,
+      "metrics": null,
+      "solver_message": "Infeasible_Problem_Detected",
+      "runtime_seconds": 0.25961150000512134,
+      "completed_perf_counter": 33487.8645564,
+      "completed_method_seconds": 12.233999800002493,
+      "started_method_seconds": 11.974388299997372,
+      "optimizer_calls": 1,
+      "pf_calls": 1,
+      "certificate_file": "raw\\ac\\ieee30_L110_CAP20\\demand\\AC_K8\\hostset_007\\dc_A_FEAS\\certificate.json",
+      "max_required_residual": 10.230276308503747,
+      "support_controls": [
+        13.33333333141639
+      ],
+      "unique_solve_id": 7,
+      "candidate_slot": 7,
+      "path": [
+        1,
+        2,
+        5,
+        7,
+        6,
+        28,
+        27,
+        25,
+        26
+      ],
+      "hosts": [
+        7
+      ],
+      "path_cost": 0.006990170000000002
+    },
+    {
+      "attempt_id": "dc_B_LOSS",
+      "status": "NOT_APPLICABLE",
+      "certified": false,
+      "reason": "FEASIBILITY_NOT_CERTIFIED",
+      "unique_solve_id": 7,
+      "candidate_slot": 7,
+      "path": [
+        1,
+        2,
+        5,
+        7,
+        6,
+        28,
+        27,
+        25,
+        26
+      ],
+      "hosts": [
+        7
+      ],
+      "path_cost": 0.006990170000000002
+    }
+  ],
+  "unique_solves": [
+    {
+      "unique_solve_id": 1,
+      "hosts": [
+        3,
+        4
+      ],
+      "status": "UNKNOWN",
+      "certified": false,
+      "seconds": 6.734978699998464,
+      "result_folder": "raw\\ac\\ieee30_L110_CAP20\\demand\\AC_K8\\hostset_001",
+      "partial_optimizer_calls": 0,
+      "error": ""
+    },
+    {
+      "unique_solve_id": 2,
+      "hosts": [],
+      "status": "UNKNOWN",
+      "certified": false,
+      "seconds": 0.6387491999994381,
+      "result_folder": "raw\\ac\\ieee30_L110_CAP20\\demand\\AC_K8\\hostset_002",
+      "partial_optimizer_calls": 0,
+      "error": ""
+    },
+    {
+      "unique_solve_id": 3,
+      "hosts": [
+        4
+      ],
+      "status": "UNKNOWN",
+      "certified": false,
+      "seconds": 0.7795448999968357,
+      "result_folder": "raw\\ac\\ieee30_L110_CAP20\\demand\\AC_K8\\hostset_003",
+      "partial_optimizer_calls": 0,
+      "error": ""
+    },
+    {
+      "unique_solve_id": 4,
+      "hosts": [
+        3,
+        4,
+        8
+      ],
+      "status": "COMPLETED_FEASIBLE",
+      "certified": true,
+      "seconds": 0.9602778999978909,
+      "result_folder": "raw\\ac\\ieee30_L110_CAP20\\demand\\AC_K8\\hostset_004",
+      "partial_optimizer_calls": 0,
+      "error": ""
+    },
+    {
+      "unique_solve_id": 5,
+      "hosts": [
+        8
+      ],
+      "status": "COMPLETED_FEASIBLE",
+      "certified": true,
+      "seconds": 0.9342107999982545,
+      "result_folder": "raw\\ac\\ieee30_L110_CAP20\\demand\\AC_K8\\hostset_005",
+      "partial_optimizer_calls": 0,
+      "error": ""
+    },
+    {
+      "unique_solve_id": 6,
+      "hosts": [
+        4,
+        8
+      ],
+      "status": "COMPLETED_FEASIBLE",
+      "certified": true,
+      "seconds": 1.026312499998312,
+      "result_folder": "raw\\ac\\ieee30_L110_CAP20\\demand\\AC_K8\\hostset_006",
+      "partial_optimizer_calls": 0,
+      "error": ""
+    },
+    {
+      "unique_solve_id": 7,
+      "hosts": [
+        7
+      ],
+      "status": "UNKNOWN",
+      "certified": false,
+      "seconds": 0.9825275000039255,
+      "result_folder": "raw\\ac\\ieee30_L110_CAP20\\demand\\AC_K8\\hostset_007",
+      "partial_optimizer_calls": 0,
+      "error": ""
+    }
+  ],
+  "time_to_first_certificate": 8.704997299995739,
+  "total_runtime": 12.28032720000192,
+  "memory_peak_combined_rss_bytes": 507617280,
+  "memory_measurement_scope": "Parent phase boundaries plus parent+child samples every 25ms during AC worker; not continuous whole-method peak",
+  "method_deadline_scope": "Nominal acceptance cutoff; synchronous preprocessing can overrun; actual total_runtime always reported",
+  "optimizer_solve_count": 20,
+  "certificate_pf_count": 20,
+  "reference_pf_count": 8,
+  "sensitivity_pf_count": 0,
+  "AC_solve_count": 48,
+  "pf_call_ledger": [
+    {
+      "call_id": 1,
+      "category": "reference",
+      "status": "RETURNED",
+      "started_method_seconds": 0.13942629999655765,
+      "completed_method_seconds": 0.15413380000245525,
+      "ledger_source": "parent"
+    },
+    {
+      "call_id": 1,
+      "category": "reference",
+      "status": "RETURNED",
+      "started_method_seconds": 5.981352800001332,
+      "completed_method_seconds": 5.99933179999789,
+      "ledger_source": "hostset_001"
+    },
+    {
+      "call_id": 2,
+      "category": "certificate",
+      "status": "RETURNED",
+      "started_method_seconds": 6.519293299999845,
+      "completed_method_seconds": 6.543392899999162,
+      "ledger_source": "hostset_001"
+    },
+    {
+      "call_id": 3,
+      "category": "certificate",
+      "status": "RETURNED",
+      "started_method_seconds": 6.817670600001293,
+      "completed_method_seconds": 6.832968900002015,
+      "ledger_source": "hostset_001"
+    },
+    {
+      "call_id": 1,
+      "category": "reference",
+      "status": "RETURNED",
+      "started_method_seconds": 7.048706100002164,
+      "completed_method_seconds": 7.0636994000014965,
+      "ledger_source": "hostset_002"
+    },
+    {
+      "call_id": 2,
+      "category": "certificate",
+      "status": "RETURNED",
+      "started_method_seconds": 7.246879099999205,
+      "completed_method_seconds": 7.261350599997968,
+      "ledger_source": "hostset_002"
+    },
+    {
+      "call_id": 3,
+      "category": "certificate",
+      "status": "RETURNED",
+      "started_method_seconds": 7.47343230000115,
+      "completed_method_seconds": 7.489323000001605,
+      "ledger_source": "hostset_002"
+    },
+    {
+      "call_id": 1,
+      "category": "reference",
+      "status": "RETURNED",
+      "started_method_seconds": 7.683248000001186,
+      "completed_method_seconds": 7.6993556000015815,
+      "ledger_source": "hostset_003"
+    },
+    {
+      "call_id": 2,
+      "category": "certificate",
+      "status": "RETURNED",
+      "started_method_seconds": 7.938493499998003,
+      "completed_method_seconds": 7.953917200000433,
+      "ledger_source": "hostset_003"
+    },
+    {
+      "call_id": 3,
+      "category": "certificate",
+      "status": "RETURNED",
+      "started_method_seconds": 8.231615600001533,
+      "completed_method_seconds": 8.250801900001534,
+      "ledger_source": "hostset_003"
+    },
+    {
+      "call_id": 1,
+      "category": "reference",
+      "status": "RETURNED",
+      "started_method_seconds": 8.465689700002258,
+      "completed_method_seconds": 8.481786399999692,
+      "ledger_source": "hostset_004"
+    },
+    {
+      "call_id": 2,
+      "category": "certificate",
+      "status": "RETURNED",
+      "started_method_seconds": 8.647485000001325,
+      "completed_method_seconds": 8.66203040000255,
+      "ledger_source": "hostset_004"
+    },
+    {
+      "call_id": 3,
+      "category": "certificate",
+      "status": "RETURNED",
+      "started_method_seconds": 8.831987099998514,
+      "completed_method_seconds": 8.847392999996373,
+      "ledger_source": "hostset_004"
+    },
+    {
+      "call_id": 4,
+      "category": "certificate",
+      "status": "RETURNED",
+      "started_method_seconds": 9.020151199998509,
+      "completed_method_seconds": 9.033166900000651,
+      "ledger_source": "hostset_004"
+    },
+    {
+      "call_id": 5,
+      "category": "certificate",
+      "status": "RETURNED",
+      "started_method_seconds": 9.20813040000212,
+      "completed_method_seconds": 9.222945900000923,
+      "ledger_source": "hostset_004"
+    },
+    {
+      "call_id": 1,
+      "category": "reference",
+      "status": "RETURNED",
+      "started_method_seconds": 9.427335899999889,
+      "completed_method_seconds": 9.44715290000022,
+      "ledger_source": "hostset_005"
+    },
+    {
+      "call_id": 2,
+      "category": "certificate",
+      "status": "RETURNED",
+      "started_method_seconds": 9.601807699997153,
+      "completed_method_seconds": 9.619702399999369,
+      "ledger_source": "hostset_005"
+    },
+    {
+      "call_id": 3,
+      "category": "certificate",
+      "status": "RETURNED",
+      "started_method_seconds": 9.787347699995735,
+      "completed_method_seconds": 9.80511370000022,
+      "ledger_source": "hostset_005"
+    },
+    {
+      "call_id": 4,
+      "category": "certificate",
+      "status": "RETURNED",
+      "started_method_seconds": 9.984857399998873,
+      "completed_method_seconds": 10.003376399996341,
+      "ledger_source": "hostset_005"
+    },
+    {
+      "call_id": 5,
+      "category": "certificate",
+      "status": "RETURNED",
+      "started_method_seconds": 10.155219100000977,
+      "completed_method_seconds": 10.170716699998593,
+      "ledger_source": "hostset_005"
+    },
+    {
+      "call_id": 1,
+      "category": "reference",
+      "status": "RETURNED",
+      "started_method_seconds": 10.36864809999679,
+      "completed_method_seconds": 10.386715100001311,
+      "ledger_source": "hostset_006"
+    },
+    {
+      "call_id": 2,
+      "category": "certificate",
+      "status": "RETURNED",
+      "started_method_seconds": 10.559602399996947,
+      "completed_method_seconds": 10.578236299996206,
+      "ledger_source": "hostset_006"
+    },
+    {
+      "call_id": 3,
+      "category": "certificate",
+      "status": "RETURNED",
+      "started_method_seconds": 10.7528347999978,
+      "completed_method_seconds": 10.771312600001693,
+      "ledger_source": "hostset_006"
+    },
+    {
+      "call_id": 4,
+      "category": "certificate",
+      "status": "RETURNED",
+      "started_method_seconds": 10.967766699999629,
+      "completed_method_seconds": 10.981656700001622,
+      "ledger_source": "hostset_006"
+    },
+    {
+      "call_id": 5,
+      "category": "certificate",
+      "status": "RETURNED",
+      "started_method_seconds": 11.166256799995608,
+      "completed_method_seconds": 11.181394499995804,
+      "ledger_source": "hostset_006"
+    },
+    {
+      "call_id": 1,
+      "category": "reference",
+      "status": "RETURNED",
+      "started_method_seconds": 11.442468900000677,
+      "completed_method_seconds": 11.462039599995478,
+      "ledger_source": "hostset_007"
+    },
+    {
+      "call_id": 2,
+      "category": "certificate",
+      "status": "RETURNED",
+      "started_method_seconds": 11.909569800001918,
+      "completed_method_seconds": 11.925660299995798,
+      "ledger_source": "hostset_007"
+    },
+    {
+      "call_id": 3,
+      "category": "certificate",
+      "status": "RETURNED",
+      "started_method_seconds": 12.183421599998837,
+      "completed_method_seconds": 12.200547899999947,
+      "ledger_source": "hostset_007"
+    }
+  ],
+  "generation_seconds": 0.0021132999972905964,
+  "generation_status": "COMPLETED",
+  "index_build_seconds": 0.0,
+  "ranking_seconds": 5.00003807246685e-07,
+  "model_hash": "5dcb0da655bf2645784871b0916326a2c8f3da043228c20dc2ee8a0e92cbc312",
+  "native_identity": {
+    "bus": "47e91fccb2feb687123026b9c4e04ba454501359612fbe7029411ab51e73fce1",
+    "load": "68838502a4c399bf769b041599936f8d0798d84bdad831a9c15a25d2237c9e7d",
+    "gen": "e69abadb5b13d72efc08545ec4daa18a9b38342c3d37f81411e24f05173f0bae",
+    "ext_grid": "3c558b873330358c7ca1ca0d9ea3cce7ec07579bd8f1502e6278c692f2e184c2",
+    "line": "704c6f5c7c0bbfa8b54614977a05ff6e48e5fe12d13ea5e8680e4708e4a3c99f",
+    "trafo": "0491af95f70bcf01fdd1f35321c77e35090b237665cbc9e2298856c688de4434",
+    "shunt": "406c28844f659a880c875a3a3c4e92a9f02dc62e096a315c031168bf1cf05ade",
+    "sgen": "768733e15b88e6b1294075d0127c3f09ec8f63ca664ff6906533ea9a78e22c6e",
+    "impedance": "7b319ef88c5e3ab50b29d9d9c6e6f43af56f25ec0b3cfe0c763acc2b20f11c0b",
+    "dcline": "886ad413d499eaf60bbf531cc537991d62359f799b3f7461560cf0013852e512",
+    "switch": "c8ddf672a1a315302e42249d1a942731e4efe858e0f8f848d6bde76e54ee7d34"
+  },
+  "failure_reason": "",
+  "graph_support_actions_are_not_AC_controls": true,
+  "cross_method_cache": false,
+  "local_optimum_only": true,
+  "actual_call_budget_records": [
+    {
+      "total_limit": 255,
+      "optimizer_limit": 32,
+      "optimizer_used": 2,
+      "pf_used": 3,
+      "total_used": 5,
+      "blocked": []
+    },
+    {
+      "total_limit": 250,
+      "optimizer_limit": 30,
+      "optimizer_used": 2,
+      "pf_used": 3,
+      "total_used": 5,
+      "blocked": []
+    },
+    {
+      "total_limit": 245,
+      "optimizer_limit": 28,
+      "optimizer_used": 2,
+      "pf_used": 3,
+      "total_used": 5,
+      "blocked": []
+    },
+    {
+      "total_limit": 240,
+      "optimizer_limit": 26,
+      "optimizer_used": 4,
+      "pf_used": 5,
+      "total_used": 9,
+      "blocked": []
+    },
+    {
+      "total_limit": 231,
+      "optimizer_limit": 22,
+      "optimizer_used": 4,
+      "pf_used": 5,
+      "total_used": 9,
+      "blocked": []
+    },
+    {
+      "total_limit": 222,
+      "optimizer_limit": 18,
+      "optimizer_used": 4,
+      "pf_used": 5,
+      "total_used": 9,
+      "blocked": []
+    },
+    {
+      "total_limit": 213,
+      "optimizer_limit": 14,
+      "optimizer_used": 2,
+      "pf_used": 3,
+      "total_used": 5,
+      "blocked": []
+    }
+  ],
+  "parent_call_budget_record": {
+    "total_limit": 256,
+    "optimizer_limit": 32,
+    "optimizer_used": 0,
+    "pf_used": 1,
+    "total_used": 1,
+    "blocked": []
+  },
+  "call_budget_reconciliation": {
+    "optimizer_admissions": 20,
+    "pf_admissions": 28,
+    "total_admissions": 48,
+    "optimizer_recorded_calls": 20,
+    "pf_recorded_calls": 28,
+    "optimizer_unreconciled_admissions": 0,
+    "pf_unreconciled_admissions": 0,
+    "ledger_reconciled": true,
+    "scope": "Admissions reserve allowance before invocation; unmatched admissions are uncertain work, not zero calls"
+  },
+  "call_budget_verified": true
+}

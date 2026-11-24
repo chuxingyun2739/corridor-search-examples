@@ -1,0 +1,2068 @@
+{
+  "schema_version": 1,
+  "scope": "Frozen authored synthetic/random graph inputs; representative modes only; not a formal campaign rerun",
+  "rights_status": "AUTHOR_AUTHORIZED_PUBLIC_DISTRIBUTION",
+  "inputs": [
+    {
+      "case": "path_history_dominance_counterexample",
+      "path": "benchmarks/graph/exact_cases/path_history_dominance_counterexample.json",
+      "sha256": "fc14b6da6a085ff6fd25cd792dbc10ebedf4ec0d8d41cb952faa330012ddea90",
+      "nodes": 5,
+      "group": "original_exact_set",
+      "declared_seed": null,
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "synthetic_6_node",
+      "path": "benchmarks/graph/exact_cases/synthetic_6_node.json",
+      "sha256": "e62ead602f6ffe9c5c60a030063c5936cd79c708fd31891e0a6a0f07d0b44b1b",
+      "nodes": 6,
+      "group": "original_exact_set",
+      "declared_seed": null,
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "synthetic_8_node",
+      "path": "benchmarks/graph/exact_cases/synthetic_8_node.json",
+      "sha256": "b3844901b93c84f8545a362ce5f746537e77690b690d2739623ff3f88e5850a0",
+      "nodes": 8,
+      "group": "original_exact_set",
+      "declared_seed": null,
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "synthetic_10_node",
+      "path": "benchmarks/graph/exact_cases/synthetic_10_node.json",
+      "sha256": "caf772f7da249be1bbbe052939b31449a470da5065553563f55f4be7d4e77071",
+      "nodes": 10,
+      "group": "original_exact_set",
+      "declared_seed": null,
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "synthetic_12_node",
+      "path": "benchmarks/graph/exact_cases/synthetic_12_node.json",
+      "sha256": "76edaba7d2ed9b27b81e4c653cef88cae5221c5844403c22a34dd9d62e957302",
+      "nodes": 12,
+      "group": "original_exact_set",
+      "declared_seed": null,
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_00",
+      "path": "benchmarks/graph/exact_cases/random_00.json",
+      "sha256": "f25da5a0c669d7427e3770d7c1d0480ef4edb5b4099f58407c2c1306a5d60623",
+      "nodes": 8,
+      "group": "original_exact_set",
+      "declared_seed": null,
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_01",
+      "path": "benchmarks/graph/exact_cases/random_01.json",
+      "sha256": "520c95905922eac32b2b7058c980dd340f32e07e8e8a8c0e82d962c620fc0d59",
+      "nodes": 10,
+      "group": "original_exact_set",
+      "declared_seed": null,
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_02",
+      "path": "benchmarks/graph/exact_cases/random_02.json",
+      "sha256": "eac2896e50b58747f0f1c50e8c85fc13aa7401b5883c0660fb720203ee7112c7",
+      "nodes": 12,
+      "group": "original_exact_set",
+      "declared_seed": null,
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_03",
+      "path": "benchmarks/graph/exact_cases/random_03.json",
+      "sha256": "9eb7d8780e0881b66a6e5283a5b3bb7d4537d52843af3ec9c7f63529fda4224d",
+      "nodes": 8,
+      "group": "original_exact_set",
+      "declared_seed": null,
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_04",
+      "path": "benchmarks/graph/exact_cases/random_04.json",
+      "sha256": "cdd78048169f4076b06bbb3db511912539a082d5cf7a462606b04cd99b6ef76d",
+      "nodes": 10,
+      "group": "original_exact_set",
+      "declared_seed": null,
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_05",
+      "path": "benchmarks/graph/exact_cases/random_05.json",
+      "sha256": "eb94c7a236916a184e1957c93a074a460e93cbe36b3b20c4ad27dd41871aa813",
+      "nodes": 12,
+      "group": "original_exact_set",
+      "declared_seed": null,
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_06",
+      "path": "benchmarks/graph/exact_cases/random_06.json",
+      "sha256": "d934ba39c82058b86555564e976a6e8d2f117400e927ba304e446d97fadbc30b",
+      "nodes": 8,
+      "group": "original_exact_set",
+      "declared_seed": null,
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_07",
+      "path": "benchmarks/graph/exact_cases/random_07.json",
+      "sha256": "510119c3b82cdcf860561f9d610e47980f3f1cd14b403714a91c7e0a0649b074",
+      "nodes": 10,
+      "group": "original_exact_set",
+      "declared_seed": null,
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_08",
+      "path": "benchmarks/graph/exact_cases/random_08.json",
+      "sha256": "a9edff61cdd8786e5ca7930cb0805c38c56727866daa3506a2b2ad873211e487",
+      "nodes": 12,
+      "group": "original_exact_set",
+      "declared_seed": null,
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_09",
+      "path": "benchmarks/graph/exact_cases/random_09.json",
+      "sha256": "c69707a00b44abd9dee4a59703b1282156f87b618bc61129935baefed607597e",
+      "nodes": 8,
+      "group": "original_exact_set",
+      "declared_seed": null,
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_10",
+      "path": "benchmarks/graph/exact_cases/random_10.json",
+      "sha256": "9824d88bc9eb7d06b467b822c06a4ba34962558cfadd183382eee708eae236c2",
+      "nodes": 10,
+      "group": "original_exact_set",
+      "declared_seed": null,
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_11",
+      "path": "benchmarks/graph/exact_cases/random_11.json",
+      "sha256": "1e80e1299ecb72c9e4814aa1ff50acacee9fb3c0999b56a37c543b5602ce76e3",
+      "nodes": 12,
+      "group": "original_exact_set",
+      "declared_seed": null,
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_12",
+      "path": "benchmarks/graph/exact_cases/random_12.json",
+      "sha256": "00a2c33ba81ee69dd137d02c8872aeb28390aa3ab314da70bbc8c8746090aae7",
+      "nodes": 8,
+      "group": "original_exact_set",
+      "declared_seed": null,
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_13",
+      "path": "benchmarks/graph/exact_cases/random_13.json",
+      "sha256": "bd9ff22609e320176171c00eed347353aa8a81d0bad37b8fdcdecf01f0d3ae0a",
+      "nodes": 10,
+      "group": "original_exact_set",
+      "declared_seed": null,
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_14",
+      "path": "benchmarks/graph/exact_cases/random_14.json",
+      "sha256": "6d6142765699c85166a4facc8905042d5ae0652fdc58c6c8dda45e138984743c",
+      "nodes": 12,
+      "group": "original_exact_set",
+      "declared_seed": null,
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_15",
+      "path": "benchmarks/graph/exact_cases/random_15.json",
+      "sha256": "947f33f9ddc88aa11b068088403ed2c9a4cf740c6b7af93e90417b3320f074df",
+      "nodes": 8,
+      "group": "original_exact_set",
+      "declared_seed": null,
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_16",
+      "path": "benchmarks/graph/exact_cases/random_16.json",
+      "sha256": "e490f0c62a114bd1efab59f97e8e75afae84f02244c840971e4466b2c39c1729",
+      "nodes": 10,
+      "group": "original_exact_set",
+      "declared_seed": null,
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_17",
+      "path": "benchmarks/graph/exact_cases/random_17.json",
+      "sha256": "91bea9279efa35876e827efc52ff1d452fa5a2c0588acaa70b46705912c87a87",
+      "nodes": 12,
+      "group": "original_exact_set",
+      "declared_seed": null,
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_18",
+      "path": "benchmarks/graph/exact_cases/random_18.json",
+      "sha256": "a2eb43abdfbaae56041c9c74c367c176027898f8c14bbc8a94f95ae8d958186f",
+      "nodes": 8,
+      "group": "original_exact_set",
+      "declared_seed": null,
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_19",
+      "path": "benchmarks/graph/exact_cases/random_19.json",
+      "sha256": "c8f6264bf926c2114e395066e63c97b163d844212b64184b9dac25ff229d12fb",
+      "nodes": 10,
+      "group": "original_exact_set",
+      "declared_seed": null,
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_20",
+      "path": "benchmarks/graph/exact_cases/random_20.json",
+      "sha256": "23864d1671e1d14b3892ff2df53308167241be104c56673e1d46ebe04b610299",
+      "nodes": 12,
+      "group": "original_exact_set",
+      "declared_seed": null,
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_21",
+      "path": "benchmarks/graph/exact_cases/random_21.json",
+      "sha256": "83e96d3b3be8778fecdf1ff823668be99d3410ef186a220cc9e30a21c4abdfe9",
+      "nodes": 8,
+      "group": "original_exact_set",
+      "declared_seed": null,
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_22",
+      "path": "benchmarks/graph/exact_cases/random_22.json",
+      "sha256": "9ed919df3e62591aa63583bc2941e2d551484c8ef21795f0135a0e627c12c2b3",
+      "nodes": 10,
+      "group": "original_exact_set",
+      "declared_seed": null,
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_23",
+      "path": "benchmarks/graph/exact_cases/random_23.json",
+      "sha256": "12226b9f9a5e3ac22b9aff52d61f50410a5895b702fbd2aee117c7af64900b39",
+      "nodes": 12,
+      "group": "original_exact_set",
+      "declared_seed": null,
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_24",
+      "path": "benchmarks/graph/exact_cases/random_24.json",
+      "sha256": "aa55a7e19c5bc7c5ac6634b62050bdf3dea76229a57fdeaa1b7e6f6796aa27dc",
+      "nodes": 8,
+      "group": "original_exact_set",
+      "declared_seed": null,
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_25",
+      "path": "benchmarks/graph/exact_cases/random_25.json",
+      "sha256": "6e43599e7eff339bb9ef192a78c7c1a9826a5d323273625f646ae1c21ffad28b",
+      "nodes": 10,
+      "group": "original_exact_set",
+      "declared_seed": null,
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_26",
+      "path": "benchmarks/graph/exact_cases/random_26.json",
+      "sha256": "fe0386ae414eba4993e0feff72ef46e23cc54e27ebf3fc433d831e64c89df887",
+      "nodes": 12,
+      "group": "original_exact_set",
+      "declared_seed": null,
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_27",
+      "path": "benchmarks/graph/exact_cases/random_27.json",
+      "sha256": "cbc691d78d71f089a0d6b1e729e9a9b8ffe5813c60c01d9a5292e057a0ef019b",
+      "nodes": 8,
+      "group": "original_exact_set",
+      "declared_seed": null,
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_28",
+      "path": "benchmarks/graph/exact_cases/random_28.json",
+      "sha256": "0240752c88163948f535c390ea71a632acafeeb444ad1fe4d99d3bf0cc3cfd47",
+      "nodes": 10,
+      "group": "original_exact_set",
+      "declared_seed": null,
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_29",
+      "path": "benchmarks/graph/exact_cases/random_29.json",
+      "sha256": "514853012c5972363a9a537a4a838123fec32ead5e467884581d6d78b23ab585",
+      "nodes": 12,
+      "group": "original_exact_set",
+      "declared_seed": null,
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_30",
+      "path": "benchmarks/graph/exact_cases/random_30.json",
+      "sha256": "be8700675f5334eeb255cbed1d4a717899be08bc024fd8ce501c5ba542509855",
+      "nodes": 8,
+      "group": "original_exact_set",
+      "declared_seed": null,
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_31",
+      "path": "benchmarks/graph/exact_cases/random_31.json",
+      "sha256": "2a3fe000dc5235eae3af38478d4517d7e6c58a34147dc14e6389ef0fdcc7db0b",
+      "nodes": 10,
+      "group": "original_exact_set",
+      "declared_seed": null,
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_32",
+      "path": "benchmarks/graph/exact_cases/random_32.json",
+      "sha256": "40b14c3f5984f8c221897c4857dec87f027a5506d317042453fa9fdd6da830d6",
+      "nodes": 12,
+      "group": "original_exact_set",
+      "declared_seed": null,
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_33",
+      "path": "benchmarks/graph/exact_cases/random_33.json",
+      "sha256": "926bb82366f3593e916a8d1a7e342623197c4bb1e8d031061b5afb4ef63c1b2b",
+      "nodes": 8,
+      "group": "original_exact_set",
+      "declared_seed": null,
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_34",
+      "path": "benchmarks/graph/exact_cases/random_34.json",
+      "sha256": "b6c5b0961eebfbe031c20d5c54af4fa3c891ea2de082aa0db24d3db4ad9162be",
+      "nodes": 10,
+      "group": "original_exact_set",
+      "declared_seed": null,
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_35",
+      "path": "benchmarks/graph/exact_cases/random_35.json",
+      "sha256": "d5b2641b3ebb1bbe8cb8ba7e2ff3737248a14d91c03b27f4c3508bfa216c9208",
+      "nodes": 12,
+      "group": "original_exact_set",
+      "declared_seed": null,
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_36",
+      "path": "benchmarks/graph/exact_cases/random_36.json",
+      "sha256": "a9ab07f653cf295281baad819f345dec2d32c865c936c8a298e9e7a4fc315f1d",
+      "nodes": 8,
+      "group": "original_exact_set",
+      "declared_seed": null,
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_37",
+      "path": "benchmarks/graph/exact_cases/random_37.json",
+      "sha256": "3eada406cc4bcef4f89fd02f6ab1dc9ecacbf53bbba7ad4edcbf5294ce2f548c",
+      "nodes": 10,
+      "group": "original_exact_set",
+      "declared_seed": null,
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_38",
+      "path": "benchmarks/graph/exact_cases/random_38.json",
+      "sha256": "5fcec2c5546fed21d04adf7659da61358993b765e45976ba69776d298f8ebd11",
+      "nodes": 12,
+      "group": "original_exact_set",
+      "declared_seed": null,
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_39",
+      "path": "benchmarks/graph/exact_cases/random_39.json",
+      "sha256": "e8d85935db1db93dd3b15a9664354c06a0cce43bb7774c4b44bbeca2d692bb26",
+      "nodes": 8,
+      "group": "original_exact_set",
+      "declared_seed": null,
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_40",
+      "path": "benchmarks/graph/exact_cases/random_40.json",
+      "sha256": "7a47bf6f101add5ad7e1178cb69adb67272af2002197106b421d700cdb05b685",
+      "nodes": 10,
+      "group": "original_exact_set",
+      "declared_seed": null,
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_41",
+      "path": "benchmarks/graph/exact_cases/random_41.json",
+      "sha256": "87ebe7078b12b2c2bf60972fdbb0b055f5fdd24a71353c62072986098e7029ce",
+      "nodes": 12,
+      "group": "original_exact_set",
+      "declared_seed": null,
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_42",
+      "path": "benchmarks/graph/exact_cases/random_42.json",
+      "sha256": "6b8296c15dc7147dd41d22b327cfd2c31b377d7c573c4d6d7a6987a0bef8be15",
+      "nodes": 8,
+      "group": "original_exact_set",
+      "declared_seed": null,
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_43",
+      "path": "benchmarks/graph/exact_cases/random_43.json",
+      "sha256": "356d6477762ff25e76975f64032a12fd005e2b6db0758b0d5eeb7c52c3355d71",
+      "nodes": 10,
+      "group": "original_exact_set",
+      "declared_seed": null,
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_44",
+      "path": "benchmarks/graph/exact_cases/random_44.json",
+      "sha256": "6c4adad969d9da96eb258b447f779723d6663b2eaf40fec915564c0c329d55e8",
+      "nodes": 12,
+      "group": "original_exact_set",
+      "declared_seed": null,
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_45",
+      "path": "benchmarks/graph/exact_cases/random_45.json",
+      "sha256": "e1b89232dbd594dcf5bc04c8322040d810e35926e71b86334d463ff5314a7a90",
+      "nodes": 8,
+      "group": "original_exact_set",
+      "declared_seed": null,
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_46",
+      "path": "benchmarks/graph/exact_cases/random_46.json",
+      "sha256": "2501ecdc903dbb56f822a761040b9a9bf56ef90a7694cab054f895752b3ff3e6",
+      "nodes": 10,
+      "group": "original_exact_set",
+      "declared_seed": null,
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_47",
+      "path": "benchmarks/graph/exact_cases/random_47.json",
+      "sha256": "f7dcbe553b9f8f5198862431d3ef78a308a93cd3b3a71442479406a94ea5d5ca",
+      "nodes": 12,
+      "group": "original_exact_set",
+      "declared_seed": null,
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_48",
+      "path": "benchmarks/graph/exact_cases/random_48.json",
+      "sha256": "e890301af26b69db4a8e525564ae78edf379730494b7c72a100afc7c823ccdd6",
+      "nodes": 8,
+      "group": "original_exact_set",
+      "declared_seed": null,
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_49",
+      "path": "benchmarks/graph/exact_cases/random_49.json",
+      "sha256": "af30e68c6647cf0175237047b9228fb7a6c5aa4037cbeb8b9fd98d3475498474",
+      "nodes": 10,
+      "group": "original_exact_set",
+      "declared_seed": null,
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "path_history_dominance_counterexample_lb0.88",
+      "path": "benchmarks/graph/exact_cases/path_history_dominance_counterexample_lb0.88.json",
+      "sha256": "d529e8a284b7c9c7179a1683eba29503bae7fc4ba914caf03f98b1257811f73d",
+      "nodes": 5,
+      "group": "original_exact_set",
+      "declared_seed": null,
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "path_history_dominance_counterexample_lb0.90",
+      "path": "benchmarks/graph/exact_cases/path_history_dominance_counterexample_lb0.90.json",
+      "sha256": "50acd9eee82e57b1d76a9383732f80bb6b8015e744d8d45cc6d4e687d7e0f500",
+      "nodes": 5,
+      "group": "original_exact_set",
+      "declared_seed": null,
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "path_history_dominance_counterexample_lb0.92",
+      "path": "benchmarks/graph/exact_cases/path_history_dominance_counterexample_lb0.92.json",
+      "sha256": "d92e5457dcef7c6d02555292976801b6a9e9cc22f66488b89cde65839534edd4",
+      "nodes": 5,
+      "group": "original_exact_set",
+      "declared_seed": null,
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "path_history_dominance_counterexample_support_cap0.75_cost0.00",
+      "path": "benchmarks/graph/exact_cases/path_history_dominance_counterexample_support_cap0.75_cost0.00.json",
+      "sha256": "9ebacffb16a5b5a6bcf10a2f9e164a3d1d8fcec995177768563c810e94abd1a8",
+      "nodes": 5,
+      "group": "original_exact_set",
+      "declared_seed": null,
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "path_history_dominance_counterexample_support_cap1.25_cost0.00",
+      "path": "benchmarks/graph/exact_cases/path_history_dominance_counterexample_support_cap1.25_cost0.00.json",
+      "sha256": "9cef9de2fbf4b7a191cacf2237387b4a6f97b5cc5c56100e63231363224cfa4b",
+      "nodes": 5,
+      "group": "original_exact_set",
+      "declared_seed": null,
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "path_history_dominance_counterexample_support_cap1.00_cost0.02",
+      "path": "benchmarks/graph/exact_cases/path_history_dominance_counterexample_support_cap1.00_cost0.02.json",
+      "sha256": "705dcad88aef070f19e96056d98609517fd76776c7679247436d89694dc14fb2",
+      "nodes": 5,
+      "group": "original_exact_set",
+      "declared_seed": null,
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "synthetic_6_node_lb0.88",
+      "path": "benchmarks/graph/exact_cases/synthetic_6_node_lb0.88.json",
+      "sha256": "1456f2628db276d6365eacb32c3f1882947df3f310972e91d5b8bcfb459fc41b",
+      "nodes": 6,
+      "group": "original_exact_set",
+      "declared_seed": null,
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "synthetic_6_node_lb0.90",
+      "path": "benchmarks/graph/exact_cases/synthetic_6_node_lb0.90.json",
+      "sha256": "2ea8e3784b4a6ca68fa5d233bb7440739277d07bf88cbb4f06526e5d1a510d1c",
+      "nodes": 6,
+      "group": "original_exact_set",
+      "declared_seed": null,
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "synthetic_6_node_lb0.92",
+      "path": "benchmarks/graph/exact_cases/synthetic_6_node_lb0.92.json",
+      "sha256": "66a3592ae225f7a077bf1c2588fdf37a1326d9e82df59c60966af9d4e8658d63",
+      "nodes": 6,
+      "group": "original_exact_set",
+      "declared_seed": null,
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "synthetic_6_node_support_cap0.75_cost0.00",
+      "path": "benchmarks/graph/exact_cases/synthetic_6_node_support_cap0.75_cost0.00.json",
+      "sha256": "fae70d28042933701ad4f010b73d03496da282ebe73eeec0816ab81b89ae55fb",
+      "nodes": 6,
+      "group": "original_exact_set",
+      "declared_seed": null,
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "synthetic_6_node_support_cap1.25_cost0.00",
+      "path": "benchmarks/graph/exact_cases/synthetic_6_node_support_cap1.25_cost0.00.json",
+      "sha256": "f87ca4ee7c593b5394efb05e10b3d049a57c26942516af603e7896f30027680e",
+      "nodes": 6,
+      "group": "original_exact_set",
+      "declared_seed": null,
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "synthetic_6_node_support_cap1.00_cost0.02",
+      "path": "benchmarks/graph/exact_cases/synthetic_6_node_support_cap1.00_cost0.02.json",
+      "sha256": "64a617289aa049773ff060254208fde4cf7ef27082645fe82f91122f9a5daab3",
+      "nodes": 6,
+      "group": "original_exact_set",
+      "declared_seed": null,
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "synthetic_8_node_lb0.88",
+      "path": "benchmarks/graph/exact_cases/synthetic_8_node_lb0.88.json",
+      "sha256": "a4719d12afc995a10ddb07469f80b075bb30e8b165f7cf21e28ea95aa30d91ca",
+      "nodes": 8,
+      "group": "original_exact_set",
+      "declared_seed": null,
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "synthetic_8_node_lb0.90",
+      "path": "benchmarks/graph/exact_cases/synthetic_8_node_lb0.90.json",
+      "sha256": "4e64190c5e629557938105a9c0117f6c86212dbcf9d129f42ae2f98d63036f22",
+      "nodes": 8,
+      "group": "original_exact_set",
+      "declared_seed": null,
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "synthetic_8_node_lb0.92",
+      "path": "benchmarks/graph/exact_cases/synthetic_8_node_lb0.92.json",
+      "sha256": "0d1edb67068c684f9c8834b00fecbbb6804fecac4de53aa980d33971125ac9fc",
+      "nodes": 8,
+      "group": "original_exact_set",
+      "declared_seed": null,
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "synthetic_8_node_support_cap0.75_cost0.00",
+      "path": "benchmarks/graph/exact_cases/synthetic_8_node_support_cap0.75_cost0.00.json",
+      "sha256": "4487f3cb4cce131c4152906580f00abaccbcc73574748dae90d08db0c16ad7d4",
+      "nodes": 8,
+      "group": "original_exact_set",
+      "declared_seed": null,
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "synthetic_8_node_support_cap1.25_cost0.00",
+      "path": "benchmarks/graph/exact_cases/synthetic_8_node_support_cap1.25_cost0.00.json",
+      "sha256": "b911e3ee5bc6bb07b6a537c041aeeb779392e81f77e24a19aa9244867eadd4ba",
+      "nodes": 8,
+      "group": "original_exact_set",
+      "declared_seed": null,
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "synthetic_8_node_support_cap1.00_cost0.02",
+      "path": "benchmarks/graph/exact_cases/synthetic_8_node_support_cap1.00_cost0.02.json",
+      "sha256": "5ef66ac47f28e71ce94d2aac1026f2cb82d8e9cd4bda8312c0c8b6c270c6f70f",
+      "nodes": 8,
+      "group": "original_exact_set",
+      "declared_seed": null,
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "synthetic_10_node_lb0.88",
+      "path": "benchmarks/graph/exact_cases/synthetic_10_node_lb0.88.json",
+      "sha256": "2a7af910dd48935c057e039e3a8dd6136f8f41d3b736e1d5a8ade32a2486cffb",
+      "nodes": 10,
+      "group": "original_exact_set",
+      "declared_seed": null,
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "synthetic_10_node_lb0.90",
+      "path": "benchmarks/graph/exact_cases/synthetic_10_node_lb0.90.json",
+      "sha256": "2893f45791d6cf252618b70372797eabfdcdbf04f71e3443709b84b971fe22d5",
+      "nodes": 10,
+      "group": "original_exact_set",
+      "declared_seed": null,
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "synthetic_10_node_lb0.92",
+      "path": "benchmarks/graph/exact_cases/synthetic_10_node_lb0.92.json",
+      "sha256": "8a1544fe52488db74bca9b41b08c3f2922f23aece61ff0986eec22560889e28a",
+      "nodes": 10,
+      "group": "original_exact_set",
+      "declared_seed": null,
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "synthetic_10_node_support_cap0.75_cost0.00",
+      "path": "benchmarks/graph/exact_cases/synthetic_10_node_support_cap0.75_cost0.00.json",
+      "sha256": "6a123699d622f4dcfd135304fa7bbeb5fa2cbf416aef0f17d12e3410373fab58",
+      "nodes": 10,
+      "group": "original_exact_set",
+      "declared_seed": null,
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "synthetic_10_node_support_cap1.25_cost0.00",
+      "path": "benchmarks/graph/exact_cases/synthetic_10_node_support_cap1.25_cost0.00.json",
+      "sha256": "b922bbb90d17b75d893349d1c5f48329b0b1c9c8f4bddc2fa878ecd88bed84d4",
+      "nodes": 10,
+      "group": "original_exact_set",
+      "declared_seed": null,
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "synthetic_10_node_support_cap1.00_cost0.02",
+      "path": "benchmarks/graph/exact_cases/synthetic_10_node_support_cap1.00_cost0.02.json",
+      "sha256": "44f368aa01005f559409ac1c1abed1c8c66432dc9974d6203f6ad2f5595348fe",
+      "nodes": 10,
+      "group": "original_exact_set",
+      "declared_seed": null,
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "synthetic_12_node_lb0.88",
+      "path": "benchmarks/graph/exact_cases/synthetic_12_node_lb0.88.json",
+      "sha256": "22482071ac362dd0c4134e827299bd31d0e37b1e770e43277cd2f789daed14d3",
+      "nodes": 12,
+      "group": "original_exact_set",
+      "declared_seed": null,
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "synthetic_12_node_lb0.90",
+      "path": "benchmarks/graph/exact_cases/synthetic_12_node_lb0.90.json",
+      "sha256": "e81ebdd2a4201445841e7ceebb73f5f19e779ccb4e71083432b86f63149f9282",
+      "nodes": 12,
+      "group": "original_exact_set",
+      "declared_seed": null,
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "synthetic_12_node_lb0.92",
+      "path": "benchmarks/graph/exact_cases/synthetic_12_node_lb0.92.json",
+      "sha256": "2fb38b6a39272bf79a386020f232cc05bd672780261a3773e5c53a82cb8f58ca",
+      "nodes": 12,
+      "group": "original_exact_set",
+      "declared_seed": null,
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "synthetic_12_node_support_cap0.75_cost0.00",
+      "path": "benchmarks/graph/exact_cases/synthetic_12_node_support_cap0.75_cost0.00.json",
+      "sha256": "c03ef5834b25e046f87f558b837944da3237085acb8159305777f42f10439422",
+      "nodes": 12,
+      "group": "original_exact_set",
+      "declared_seed": null,
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "synthetic_12_node_support_cap1.25_cost0.00",
+      "path": "benchmarks/graph/exact_cases/synthetic_12_node_support_cap1.25_cost0.00.json",
+      "sha256": "649a3096deb76ebaf2e61f942518cdf072a1c371ac1a1fad8af83c60c27a5db9",
+      "nodes": 12,
+      "group": "original_exact_set",
+      "declared_seed": null,
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "synthetic_12_node_support_cap1.00_cost0.02",
+      "path": "benchmarks/graph/exact_cases/synthetic_12_node_support_cap1.00_cost0.02.json",
+      "sha256": "b8f6750286ddb79ed6774fc8b21db8187e71c9a05bdb8286681b80942fe1530f",
+      "nodes": 12,
+      "group": "original_exact_set",
+      "declared_seed": null,
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_00_lb0.88",
+      "path": "benchmarks/graph/exact_cases/random_00_lb0.88.json",
+      "sha256": "870a5dde48845a70cdf3886fa6d5eda4545e8da15b89f0fe11a24e83c3ea4b35",
+      "nodes": 8,
+      "group": "original_exact_set",
+      "declared_seed": null,
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_00_lb0.90",
+      "path": "benchmarks/graph/exact_cases/random_00_lb0.90.json",
+      "sha256": "9d843d283d84d04c35c2ba31c7743c04e0ecece0abe771cb2439fe8d74a4e788",
+      "nodes": 8,
+      "group": "original_exact_set",
+      "declared_seed": null,
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_00_lb0.92",
+      "path": "benchmarks/graph/exact_cases/random_00_lb0.92.json",
+      "sha256": "d812cc829c23b77890fe7368977440a120fe5871dc0d7035db80f4f4c927836b",
+      "nodes": 8,
+      "group": "original_exact_set",
+      "declared_seed": null,
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_00_support_cap0.75_cost0.00",
+      "path": "benchmarks/graph/exact_cases/random_00_support_cap0.75_cost0.00.json",
+      "sha256": "e7c5fd8cc63d09812a43b544c6b6e80d9e59a4ae7b228a65e9a3e6331b2a74dc",
+      "nodes": 8,
+      "group": "original_exact_set",
+      "declared_seed": null,
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_00_support_cap1.25_cost0.00",
+      "path": "benchmarks/graph/exact_cases/random_00_support_cap1.25_cost0.00.json",
+      "sha256": "91cbcfc64046965fca1700e830c8e26b5afb95900bcffcbb47d86d23943e5168",
+      "nodes": 8,
+      "group": "original_exact_set",
+      "declared_seed": null,
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_00_support_cap1.00_cost0.02",
+      "path": "benchmarks/graph/exact_cases/random_00_support_cap1.00_cost0.02.json",
+      "sha256": "c1af2fe0b0829b03e39e60531b46a21a148b0b9b522a0db802f3a5228abbdae9",
+      "nodes": 8,
+      "group": "original_exact_set",
+      "declared_seed": null,
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_01_lb0.88",
+      "path": "benchmarks/graph/exact_cases/random_01_lb0.88.json",
+      "sha256": "23765f9fcba9c012ec428f7141314b7e0d9a960fe082bfd0aa6f2bdf98675d3e",
+      "nodes": 10,
+      "group": "original_exact_set",
+      "declared_seed": null,
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_01_lb0.90",
+      "path": "benchmarks/graph/exact_cases/random_01_lb0.90.json",
+      "sha256": "10f94dac671ec2e1c9508575d905807f6a7052f957920084670cbfcd148e0c10",
+      "nodes": 10,
+      "group": "original_exact_set",
+      "declared_seed": null,
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_01_lb0.92",
+      "path": "benchmarks/graph/exact_cases/random_01_lb0.92.json",
+      "sha256": "27fc20d015574ff5e31edd8d020f8653a4427a40bea22e279c670ad3ea131461",
+      "nodes": 10,
+      "group": "original_exact_set",
+      "declared_seed": null,
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_01_support_cap0.75_cost0.00",
+      "path": "benchmarks/graph/exact_cases/random_01_support_cap0.75_cost0.00.json",
+      "sha256": "f3afe0f9ae72052b2283fd8a0ae430161fcc00a8951dc00d3611e52bd221d4b3",
+      "nodes": 10,
+      "group": "original_exact_set",
+      "declared_seed": null,
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_01_support_cap1.25_cost0.00",
+      "path": "benchmarks/graph/exact_cases/random_01_support_cap1.25_cost0.00.json",
+      "sha256": "76dda0e4d17d724088e2fc8b195d10a5854473745b4a37b3741825c2a99f692d",
+      "nodes": 10,
+      "group": "original_exact_set",
+      "declared_seed": null,
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_01_support_cap1.00_cost0.02",
+      "path": "benchmarks/graph/exact_cases/random_01_support_cap1.00_cost0.02.json",
+      "sha256": "4bbf4c485377e0b5b77a35cc7632b38b8ac21df2ba5e61ce624c2341f67637d5",
+      "nodes": 10,
+      "group": "original_exact_set",
+      "declared_seed": null,
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_02_lb0.88",
+      "path": "benchmarks/graph/exact_cases/random_02_lb0.88.json",
+      "sha256": "b811e345b2f8e421defc2901a9a33142063bd0aee3bd54a9b9acf69898fc5d5b",
+      "nodes": 12,
+      "group": "original_exact_set",
+      "declared_seed": null,
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_02_lb0.90",
+      "path": "benchmarks/graph/exact_cases/random_02_lb0.90.json",
+      "sha256": "4e11d0057f61ba34085bd4fbbe12587f6bbdec90f3f6d7a766a017f1448163c6",
+      "nodes": 12,
+      "group": "original_exact_set",
+      "declared_seed": null,
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_02_lb0.92",
+      "path": "benchmarks/graph/exact_cases/random_02_lb0.92.json",
+      "sha256": "623d1e554004778f7f0e3841a87cf45a0b43e7ace4e95077984f63c22be1f475",
+      "nodes": 12,
+      "group": "original_exact_set",
+      "declared_seed": null,
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_02_support_cap0.75_cost0.00",
+      "path": "benchmarks/graph/exact_cases/random_02_support_cap0.75_cost0.00.json",
+      "sha256": "82bac12776dc21e59e16fed65c8176b44bbbe04871afcff32f1aa585b657f690",
+      "nodes": 12,
+      "group": "original_exact_set",
+      "declared_seed": null,
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_02_support_cap1.25_cost0.00",
+      "path": "benchmarks/graph/exact_cases/random_02_support_cap1.25_cost0.00.json",
+      "sha256": "a397db9f7f0173bcc8e1821ef3c19957abdee7986db2c31ffeebca20b0d1332a",
+      "nodes": 12,
+      "group": "original_exact_set",
+      "declared_seed": null,
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_02_support_cap1.00_cost0.02",
+      "path": "benchmarks/graph/exact_cases/random_02_support_cap1.00_cost0.02.json",
+      "sha256": "8e8885a9b83a09355ec22fbe7321b5134cee9819e0cd836b5716cc2bebfa1bf5",
+      "nodes": 12,
+      "group": "original_exact_set",
+      "declared_seed": null,
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_03_lb0.88",
+      "path": "benchmarks/graph/exact_cases/random_03_lb0.88.json",
+      "sha256": "e021fa026294a5fad9dbb0801745bbebdb85ca73c9c2ceac4cf0cf63710df6e5",
+      "nodes": 8,
+      "group": "original_exact_set",
+      "declared_seed": null,
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_03_lb0.90",
+      "path": "benchmarks/graph/exact_cases/random_03_lb0.90.json",
+      "sha256": "d57a3d434e05fb8a16503a0305dc98f7fa5fac9eca3d367076eec6479ea671fd",
+      "nodes": 8,
+      "group": "original_exact_set",
+      "declared_seed": null,
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_03_lb0.92",
+      "path": "benchmarks/graph/exact_cases/random_03_lb0.92.json",
+      "sha256": "70a0feb94069e469116a6f4c22be42f8bf650b7d59326031968af999a8436f6c",
+      "nodes": 8,
+      "group": "original_exact_set",
+      "declared_seed": null,
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_03_support_cap0.75_cost0.00",
+      "path": "benchmarks/graph/exact_cases/random_03_support_cap0.75_cost0.00.json",
+      "sha256": "9fe768cb66d905aa056d44df889ab22d1fb6ca19baf56366d8c6cad2cdd06545",
+      "nodes": 8,
+      "group": "original_exact_set",
+      "declared_seed": null,
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_03_support_cap1.25_cost0.00",
+      "path": "benchmarks/graph/exact_cases/random_03_support_cap1.25_cost0.00.json",
+      "sha256": "19203f79552202f3c5ee114c08402868ee5bdf147ea2b9ba40aec92cde615eaa",
+      "nodes": 8,
+      "group": "original_exact_set",
+      "declared_seed": null,
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_03_support_cap1.00_cost0.02",
+      "path": "benchmarks/graph/exact_cases/random_03_support_cap1.00_cost0.02.json",
+      "sha256": "3a2e2eba2fb8a1c718b08b1eb24436272b38932ee4126e9457fdc6dfd8233dee",
+      "nodes": 8,
+      "group": "original_exact_set",
+      "declared_seed": null,
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_04_lb0.88",
+      "path": "benchmarks/graph/exact_cases/random_04_lb0.88.json",
+      "sha256": "9414a1e654088b1625352d3e6cbe6c7f69a98a14a614d3e4fdae872cfb962593",
+      "nodes": 10,
+      "group": "original_exact_set",
+      "declared_seed": null,
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_04_lb0.90",
+      "path": "benchmarks/graph/exact_cases/random_04_lb0.90.json",
+      "sha256": "2c4bbd844be95382ba18a1daddc3965ac6aafea4d3f349a698819beb566cf08d",
+      "nodes": 10,
+      "group": "original_exact_set",
+      "declared_seed": null,
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_04_lb0.92",
+      "path": "benchmarks/graph/exact_cases/random_04_lb0.92.json",
+      "sha256": "202ef233d403a014fd48356ac7d7574dd3a38488cbb21533db78e3a3f95d5c92",
+      "nodes": 10,
+      "group": "original_exact_set",
+      "declared_seed": null,
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_04_support_cap0.75_cost0.00",
+      "path": "benchmarks/graph/exact_cases/random_04_support_cap0.75_cost0.00.json",
+      "sha256": "799514aafb6ffc3b834f8be6706ad50c88e7dfc181198a4c4e17bf97dddd4d72",
+      "nodes": 10,
+      "group": "original_exact_set",
+      "declared_seed": null,
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_04_support_cap1.25_cost0.00",
+      "path": "benchmarks/graph/exact_cases/random_04_support_cap1.25_cost0.00.json",
+      "sha256": "59525defdfdba9c0da3988e49d0dc89ab81451fefd8785d9917cc0be5a68f35d",
+      "nodes": 10,
+      "group": "original_exact_set",
+      "declared_seed": null,
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_04_support_cap1.00_cost0.02",
+      "path": "benchmarks/graph/exact_cases/random_04_support_cap1.00_cost0.02.json",
+      "sha256": "651d405dd67fddb01a30edb6067888a575cc7a4fce31090f9bd7d9693a542707",
+      "nodes": 10,
+      "group": "original_exact_set",
+      "declared_seed": null,
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_05_lb0.88",
+      "path": "benchmarks/graph/exact_cases/random_05_lb0.88.json",
+      "sha256": "4a427dafc22f1e2c90725e9a564c7afaaa9fabc2c82d664f21fd726612e42065",
+      "nodes": 12,
+      "group": "original_exact_set",
+      "declared_seed": null,
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_05_lb0.90",
+      "path": "benchmarks/graph/exact_cases/random_05_lb0.90.json",
+      "sha256": "b4fdcc3e769bd644e0f407abfbcfdfd5dde4c07766eeb59d16fa594fea99e79c",
+      "nodes": 12,
+      "group": "original_exact_set",
+      "declared_seed": null,
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_05_lb0.92",
+      "path": "benchmarks/graph/exact_cases/random_05_lb0.92.json",
+      "sha256": "38ca7eb0a7468b2b0b5fc692f4863967792405af3dbac2327c28f6cffe1c141f",
+      "nodes": 12,
+      "group": "original_exact_set",
+      "declared_seed": null,
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_05_support_cap0.75_cost0.00",
+      "path": "benchmarks/graph/exact_cases/random_05_support_cap0.75_cost0.00.json",
+      "sha256": "ed9d55e8f0c85d92ae02155df7ab39005d72299d4d405bef3184d8a7563a59af",
+      "nodes": 12,
+      "group": "original_exact_set",
+      "declared_seed": null,
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_05_support_cap1.25_cost0.00",
+      "path": "benchmarks/graph/exact_cases/random_05_support_cap1.25_cost0.00.json",
+      "sha256": "5bde1b749e97fe15ed422539831e0de606b04b3aa5171412e5fa054a872e7fdd",
+      "nodes": 12,
+      "group": "original_exact_set",
+      "declared_seed": null,
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_05_support_cap1.00_cost0.02",
+      "path": "benchmarks/graph/exact_cases/random_05_support_cap1.00_cost0.02.json",
+      "sha256": "680db47c150bc00cbcc81847b0bfda031d1d4ffd13ed0a8c117d2605f68a07d6",
+      "nodes": 12,
+      "group": "original_exact_set",
+      "declared_seed": null,
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_06_lb0.88",
+      "path": "benchmarks/graph/exact_cases/random_06_lb0.88.json",
+      "sha256": "fa861fee2afb946cfafc7c9830c79dbf4378e5950733fa163282cb982df05871",
+      "nodes": 8,
+      "group": "original_exact_set",
+      "declared_seed": null,
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_06_lb0.90",
+      "path": "benchmarks/graph/exact_cases/random_06_lb0.90.json",
+      "sha256": "248ea84cc8d5587b0e412cd8c1a0a2842e42e4d2146ca864d50921cf1db1d513",
+      "nodes": 8,
+      "group": "original_exact_set",
+      "declared_seed": null,
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_06_lb0.92",
+      "path": "benchmarks/graph/exact_cases/random_06_lb0.92.json",
+      "sha256": "5914af3a955a98b05768ce6df7442ca4f293a041f86012501771da487404e69e",
+      "nodes": 8,
+      "group": "original_exact_set",
+      "declared_seed": null,
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_06_support_cap0.75_cost0.00",
+      "path": "benchmarks/graph/exact_cases/random_06_support_cap0.75_cost0.00.json",
+      "sha256": "f40646ef4ae15cbe6788828b30b97aaf3c384197742c3f58ceb2543d158582c8",
+      "nodes": 8,
+      "group": "original_exact_set",
+      "declared_seed": null,
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_06_support_cap1.25_cost0.00",
+      "path": "benchmarks/graph/exact_cases/random_06_support_cap1.25_cost0.00.json",
+      "sha256": "7fccdce9bb1520d241b2343784be563f88b4a6637a2137e9f71d239e7987a7b1",
+      "nodes": 8,
+      "group": "original_exact_set",
+      "declared_seed": null,
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_06_support_cap1.00_cost0.02",
+      "path": "benchmarks/graph/exact_cases/random_06_support_cap1.00_cost0.02.json",
+      "sha256": "564be91630fb8ad6711308e8e8f6b310608872e3f53dc4220498590c72ec6f05",
+      "nodes": 8,
+      "group": "original_exact_set",
+      "declared_seed": null,
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_10000",
+      "path": "benchmarks/graph/exact_cases/random_10000.json",
+      "sha256": "f4ee04c4a1c73600b89918621bfae6c93d28a75c0c9fafc08cc4126bb16b6764",
+      "nodes": 6,
+      "group": "new_fixed_seed_graphs",
+      "declared_seed": "20270616",
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_10001",
+      "path": "benchmarks/graph/exact_cases/random_10001.json",
+      "sha256": "bfb7d582e7a5f493b540cf6eb978db463e97472de0e9184dbb146eafc6a2c244",
+      "nodes": 8,
+      "group": "new_fixed_seed_graphs",
+      "declared_seed": "20270617",
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_10002",
+      "path": "benchmarks/graph/exact_cases/random_10002.json",
+      "sha256": "59e5b23257a87bc354f7925d1a4777a799490d9f216ff6fd6dda119cfc579ccf",
+      "nodes": 10,
+      "group": "new_fixed_seed_graphs",
+      "declared_seed": "20270618",
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_10003",
+      "path": "benchmarks/graph/exact_cases/random_10003.json",
+      "sha256": "93a9fadc12fa2f7565c1e4ea24e31dbbe67b149a83bc32550eb29f244f97f546",
+      "nodes": 12,
+      "group": "new_fixed_seed_graphs",
+      "declared_seed": "20270619",
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_10004",
+      "path": "benchmarks/graph/exact_cases/random_10004.json",
+      "sha256": "76d111a3205f78308466013b64e79876c7c71c8ae858f27042a9d6e9621d5cd3",
+      "nodes": 6,
+      "group": "new_fixed_seed_graphs",
+      "declared_seed": "20270620",
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_10005",
+      "path": "benchmarks/graph/exact_cases/random_10005.json",
+      "sha256": "20e81814c32125127e468e4f5ec09d9dba0de73c5bc9f593bca4030a644a2f10",
+      "nodes": 8,
+      "group": "new_fixed_seed_graphs",
+      "declared_seed": "20270621",
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_10006",
+      "path": "benchmarks/graph/exact_cases/random_10006.json",
+      "sha256": "c17d6fd3d6f3eee1a0f2c6155a2a0500279012e160aadfee3d55961977057414",
+      "nodes": 10,
+      "group": "new_fixed_seed_graphs",
+      "declared_seed": "20270622",
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_10007",
+      "path": "benchmarks/graph/exact_cases/random_10007.json",
+      "sha256": "ade2c0200a754a35a40667efbc863eedd5c80b2eecfd19a1da8924b00b9e7900",
+      "nodes": 12,
+      "group": "new_fixed_seed_graphs",
+      "declared_seed": "20270623",
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_10008",
+      "path": "benchmarks/graph/exact_cases/random_10008.json",
+      "sha256": "252d348593564e6d38f940a248fc55839f2acd38e09d17acfa6a1ae1a07954a1",
+      "nodes": 6,
+      "group": "new_fixed_seed_graphs",
+      "declared_seed": "20270624",
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_10009",
+      "path": "benchmarks/graph/exact_cases/random_10009.json",
+      "sha256": "73f3bde4c5e9ace0044d9e11d799562be355bd4a3c12cffee33f2ef4c09259a5",
+      "nodes": 8,
+      "group": "new_fixed_seed_graphs",
+      "declared_seed": "20270625",
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_10010",
+      "path": "benchmarks/graph/exact_cases/random_10010.json",
+      "sha256": "3cbde981bc2a3049fe9d1f97d3cfbd179a8dc56f641d3e6ce4a7ca2c194a7a5b",
+      "nodes": 10,
+      "group": "new_fixed_seed_graphs",
+      "declared_seed": "20270626",
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_10011",
+      "path": "benchmarks/graph/exact_cases/random_10011.json",
+      "sha256": "6234a98e0fecff2578d4447027be41ab6d34320b4fd5085d1f2348aa30b1dca2",
+      "nodes": 12,
+      "group": "new_fixed_seed_graphs",
+      "declared_seed": "20270627",
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_10012",
+      "path": "benchmarks/graph/exact_cases/random_10012.json",
+      "sha256": "cc4f7002c76cd0ec105fc028a8535c2355f2846f1e239d276e88b4d5230e8f6e",
+      "nodes": 6,
+      "group": "new_fixed_seed_graphs",
+      "declared_seed": "20270628",
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_10013",
+      "path": "benchmarks/graph/exact_cases/random_10013.json",
+      "sha256": "4818fdea9f020c241cb2d18e62219d937c556d03c253f7d6cd9fb11a4f88a371",
+      "nodes": 8,
+      "group": "new_fixed_seed_graphs",
+      "declared_seed": "20270629",
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_10014",
+      "path": "benchmarks/graph/exact_cases/random_10014.json",
+      "sha256": "bdb8c36aa71c42a6fb676538fe7c484ce48e8200c575c4c0f8aa4c331a399f19",
+      "nodes": 10,
+      "group": "new_fixed_seed_graphs",
+      "declared_seed": "20270630",
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_10015",
+      "path": "benchmarks/graph/exact_cases/random_10015.json",
+      "sha256": "917d5e6ee561fedc34736aea335140f6d9c46f58d73970f962514dae263b39fc",
+      "nodes": 12,
+      "group": "new_fixed_seed_graphs",
+      "declared_seed": "20270631",
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_10016",
+      "path": "benchmarks/graph/exact_cases/random_10016.json",
+      "sha256": "260fbafb9c8a6bef110685dd5e3a2196fd4f55e275d6159eff62c22b213f0e3c",
+      "nodes": 6,
+      "group": "new_fixed_seed_graphs",
+      "declared_seed": "20270632",
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_10017",
+      "path": "benchmarks/graph/exact_cases/random_10017.json",
+      "sha256": "a4ca66bf3212f5e3ff1ff9169d171b3a6b2f2bd0aaa74854c3f20e53e31a8969",
+      "nodes": 8,
+      "group": "new_fixed_seed_graphs",
+      "declared_seed": "20270633",
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_10018",
+      "path": "benchmarks/graph/exact_cases/random_10018.json",
+      "sha256": "490af54035bd120aaa7a50793af7226bbdab7a046f0549a9b6e6c754e7a6511b",
+      "nodes": 10,
+      "group": "new_fixed_seed_graphs",
+      "declared_seed": "20270634",
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_10019",
+      "path": "benchmarks/graph/exact_cases/random_10019.json",
+      "sha256": "ecbac513ce8f263b7f9b9c901aedc15ac5ee4df64a46a3de0bece24a0ae57961",
+      "nodes": 12,
+      "group": "new_fixed_seed_graphs",
+      "declared_seed": "20270635",
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_10020",
+      "path": "benchmarks/graph/exact_cases/random_10020.json",
+      "sha256": "03dd5a68d43a7e1153dbd262892f63db9817a43dd364b146243c7ad1e5e42898",
+      "nodes": 6,
+      "group": "new_fixed_seed_graphs",
+      "declared_seed": "20270636",
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_10021",
+      "path": "benchmarks/graph/exact_cases/random_10021.json",
+      "sha256": "0dd690b000c7d4ce342f269f117ea55fb742fcc35af64745de20608a4b34ff18",
+      "nodes": 8,
+      "group": "new_fixed_seed_graphs",
+      "declared_seed": "20270637",
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_10022",
+      "path": "benchmarks/graph/exact_cases/random_10022.json",
+      "sha256": "de844670c76a10f99d4e69f3163974c16c78ece856a935ce881d7246525f6f42",
+      "nodes": 10,
+      "group": "new_fixed_seed_graphs",
+      "declared_seed": "20270638",
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_10023",
+      "path": "benchmarks/graph/exact_cases/random_10023.json",
+      "sha256": "4e920dca540e9fe086e87ff0d5a3c83014bc578526fd79a0f40086accf0a1e11",
+      "nodes": 12,
+      "group": "new_fixed_seed_graphs",
+      "declared_seed": "20270639",
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_10024",
+      "path": "benchmarks/graph/exact_cases/random_10024.json",
+      "sha256": "ee8a11e8f12021301cb2c729431d8479b1d82dc6da4b111c8a69f33142c709eb",
+      "nodes": 6,
+      "group": "new_fixed_seed_graphs",
+      "declared_seed": "20270640",
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_10025",
+      "path": "benchmarks/graph/exact_cases/random_10025.json",
+      "sha256": "930133267668f102cf7cc54e71acbee250a347e926351cd6c31d97eaa84bdfe3",
+      "nodes": 8,
+      "group": "new_fixed_seed_graphs",
+      "declared_seed": "20270641",
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_10026",
+      "path": "benchmarks/graph/exact_cases/random_10026.json",
+      "sha256": "b8c029d1cf260ae6afa3b572abb732d591736e4a7bf408d0fadefa92f52c45d4",
+      "nodes": 10,
+      "group": "new_fixed_seed_graphs",
+      "declared_seed": "20270642",
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_10027",
+      "path": "benchmarks/graph/exact_cases/random_10027.json",
+      "sha256": "3b06b0e4995a4f95dcd5cff06e0a367ea9884238b36e5a77ae069c7d013079a9",
+      "nodes": 12,
+      "group": "new_fixed_seed_graphs",
+      "declared_seed": "20270643",
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_10028",
+      "path": "benchmarks/graph/exact_cases/random_10028.json",
+      "sha256": "160f800c906ab626391788df0e3188875ccc77014408866951b4ad485b65c44d",
+      "nodes": 6,
+      "group": "new_fixed_seed_graphs",
+      "declared_seed": "20270644",
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_10029",
+      "path": "benchmarks/graph/exact_cases/random_10029.json",
+      "sha256": "cdfee41990f65d76370f8d60611e7f43624c76cc5a8e9704d3beee105bb81619",
+      "nodes": 8,
+      "group": "new_fixed_seed_graphs",
+      "declared_seed": "20270645",
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_10030",
+      "path": "benchmarks/graph/exact_cases/random_10030.json",
+      "sha256": "01ed00f78d346fb0e22c7c18f54d8d5d62728732412383ec31d5de6446104e59",
+      "nodes": 10,
+      "group": "new_fixed_seed_graphs",
+      "declared_seed": "20270646",
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_10031",
+      "path": "benchmarks/graph/exact_cases/random_10031.json",
+      "sha256": "b371af9238b78475356d6bb34e7b71199a6da5ba8f56b3c2fed3b771882ea7b5",
+      "nodes": 12,
+      "group": "new_fixed_seed_graphs",
+      "declared_seed": "20270647",
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_10032",
+      "path": "benchmarks/graph/exact_cases/random_10032.json",
+      "sha256": "9dc1c9be6a98dd0b7cc7b11aabb5c1bed7e440e799c4422d94ebc581e72f1a5d",
+      "nodes": 6,
+      "group": "new_fixed_seed_graphs",
+      "declared_seed": "20270648",
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_10033",
+      "path": "benchmarks/graph/exact_cases/random_10033.json",
+      "sha256": "16c27b3007a54720739241fd368ea2f2c39d76206c84ad4f6dabe85de4962909",
+      "nodes": 8,
+      "group": "new_fixed_seed_graphs",
+      "declared_seed": "20270649",
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_10034",
+      "path": "benchmarks/graph/exact_cases/random_10034.json",
+      "sha256": "464a3719c087b0d6c3af76c4c6f196a77a902f6a61bb6643c803ca8d683f5eea",
+      "nodes": 10,
+      "group": "new_fixed_seed_graphs",
+      "declared_seed": "20270650",
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_10035",
+      "path": "benchmarks/graph/exact_cases/random_10035.json",
+      "sha256": "13f18a679ede83d67e90a937fa1e7d5268cd13c728aedd51ae13b15dfd6d7fd7",
+      "nodes": 12,
+      "group": "new_fixed_seed_graphs",
+      "declared_seed": "20270651",
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_10036",
+      "path": "benchmarks/graph/exact_cases/random_10036.json",
+      "sha256": "ebb65a70ae773d4403e8e12278ec6628ca115b00d6f42a2c5a49af792f1995b9",
+      "nodes": 6,
+      "group": "new_fixed_seed_graphs",
+      "declared_seed": "20270652",
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_10037",
+      "path": "benchmarks/graph/exact_cases/random_10037.json",
+      "sha256": "a08be806bab091e502d8e6a0df77138046fa0523565e6064b84c1468207e7261",
+      "nodes": 8,
+      "group": "new_fixed_seed_graphs",
+      "declared_seed": "20270653",
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_10038",
+      "path": "benchmarks/graph/exact_cases/random_10038.json",
+      "sha256": "a2f2054d5bec5ad32ceb96f013a93582e5adaff04495e474baf72d4fa1659bd8",
+      "nodes": 10,
+      "group": "new_fixed_seed_graphs",
+      "declared_seed": "20270654",
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_10039",
+      "path": "benchmarks/graph/exact_cases/random_10039.json",
+      "sha256": "730b44fb1dc8cf9b8abcf0aef08dab893763723e55b1416f2ffcc5f2aaef93e0",
+      "nodes": 12,
+      "group": "new_fixed_seed_graphs",
+      "declared_seed": "20270655",
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_10040",
+      "path": "benchmarks/graph/exact_cases/random_10040.json",
+      "sha256": "cb14e18cad6dd08873f66e549d65787b0af2a077071b588ed3c09be1256af49b",
+      "nodes": 6,
+      "group": "new_fixed_seed_graphs",
+      "declared_seed": "20270656",
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_10041",
+      "path": "benchmarks/graph/exact_cases/random_10041.json",
+      "sha256": "c6f87071cca7a66496333aaed58c28a087183723988ae6401031c3de11f16b7b",
+      "nodes": 8,
+      "group": "new_fixed_seed_graphs",
+      "declared_seed": "20270657",
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_10042",
+      "path": "benchmarks/graph/exact_cases/random_10042.json",
+      "sha256": "647af976f4f24bf90e1a456b4be290993faf339847542d9e43377f64eda4eeef",
+      "nodes": 10,
+      "group": "new_fixed_seed_graphs",
+      "declared_seed": "20270658",
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_10043",
+      "path": "benchmarks/graph/exact_cases/random_10043.json",
+      "sha256": "b16b1e43826845feffb0c0e54e3e9b685c5d1e375ebc6bd63fdd5c6fd694951b",
+      "nodes": 12,
+      "group": "new_fixed_seed_graphs",
+      "declared_seed": "20270659",
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_10044",
+      "path": "benchmarks/graph/exact_cases/random_10044.json",
+      "sha256": "83c612f86fdc4042b5745337f1d75c0708a85b5969c7b7a2986113af3a8c5dcf",
+      "nodes": 6,
+      "group": "new_fixed_seed_graphs",
+      "declared_seed": "20270660",
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_10045",
+      "path": "benchmarks/graph/exact_cases/random_10045.json",
+      "sha256": "21ac054f6548f85ef78f5f15ade0e749400fd43c6339957ba6f3180dfbe9d8f9",
+      "nodes": 8,
+      "group": "new_fixed_seed_graphs",
+      "declared_seed": "20270661",
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_10046",
+      "path": "benchmarks/graph/exact_cases/random_10046.json",
+      "sha256": "4f54af6922cbf6d12ea2f424ff107fbd49f43d64e2f04fa9e8865c5243f6f0ae",
+      "nodes": 10,
+      "group": "new_fixed_seed_graphs",
+      "declared_seed": "20270662",
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_10047",
+      "path": "benchmarks/graph/exact_cases/random_10047.json",
+      "sha256": "69bb18d657c131d9da14e06e613d2558d4ecfaaf1e1f2472f715df6d9057985d",
+      "nodes": 12,
+      "group": "new_fixed_seed_graphs",
+      "declared_seed": "20270663",
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_10048",
+      "path": "benchmarks/graph/exact_cases/random_10048.json",
+      "sha256": "18ef526ba056ca050a046585412f093a9360ca732506df09b114ff3e1aef23ec",
+      "nodes": 6,
+      "group": "new_fixed_seed_graphs",
+      "declared_seed": "20270664",
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_10049",
+      "path": "benchmarks/graph/exact_cases/random_10049.json",
+      "sha256": "e710968215790ca074bc53d32e8b955d99e3a297a56734e1950d1e6c72c430f3",
+      "nodes": 8,
+      "group": "new_fixed_seed_graphs",
+      "declared_seed": "20270665",
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_10050",
+      "path": "benchmarks/graph/exact_cases/random_10050.json",
+      "sha256": "982f3ed831e1501ad5292686b83424841f84b3393772a77f61ca380552e9f4b7",
+      "nodes": 10,
+      "group": "new_fixed_seed_graphs",
+      "declared_seed": "20270666",
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_10051",
+      "path": "benchmarks/graph/exact_cases/random_10051.json",
+      "sha256": "b1be42b190165c5736d6887aa4142ae08155753135ee687d166bb8e3d31555c3",
+      "nodes": 12,
+      "group": "new_fixed_seed_graphs",
+      "declared_seed": "20270667",
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_10052",
+      "path": "benchmarks/graph/exact_cases/random_10052.json",
+      "sha256": "84f7a93c0c3d88319249e40c6cf4d7dfa3aebaa012e4de835e804a8e9be4bf36",
+      "nodes": 6,
+      "group": "new_fixed_seed_graphs",
+      "declared_seed": "20270668",
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_10053",
+      "path": "benchmarks/graph/exact_cases/random_10053.json",
+      "sha256": "9a6c58333c2697481d43e7f91427f29bf226158ff82ba376d855a3cc2fd4cdf5",
+      "nodes": 8,
+      "group": "new_fixed_seed_graphs",
+      "declared_seed": "20270669",
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_10054",
+      "path": "benchmarks/graph/exact_cases/random_10054.json",
+      "sha256": "0d4c0f5d955a00e5c5905436f954f4fde1574ffee4fdf67e6b57561c90421bf0",
+      "nodes": 10,
+      "group": "new_fixed_seed_graphs",
+      "declared_seed": "20270670",
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_10055",
+      "path": "benchmarks/graph/exact_cases/random_10055.json",
+      "sha256": "f4d48b3927f000ee676d4338d709496a840d40eb4b20f0accddd68f3e187ad94",
+      "nodes": 12,
+      "group": "new_fixed_seed_graphs",
+      "declared_seed": "20270671",
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_10056",
+      "path": "benchmarks/graph/exact_cases/random_10056.json",
+      "sha256": "6aadf807c0ce950dfa1f0f5c6a7590fb052a3149e33c3a7884e3b7842c1ca6a6",
+      "nodes": 6,
+      "group": "new_fixed_seed_graphs",
+      "declared_seed": "20270672",
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_10057",
+      "path": "benchmarks/graph/exact_cases/random_10057.json",
+      "sha256": "42c0a9b9f0ea4c857747e0991fab1a96a1ff5154ade05514c765b79bbe5e558e",
+      "nodes": 8,
+      "group": "new_fixed_seed_graphs",
+      "declared_seed": "20270673",
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_10058",
+      "path": "benchmarks/graph/exact_cases/random_10058.json",
+      "sha256": "d2a8c2a48e7f50a73223b3c55ec6c8b71a15ee8a9a184fbc2bbe70b2ee9df70a",
+      "nodes": 10,
+      "group": "new_fixed_seed_graphs",
+      "declared_seed": "20270674",
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_10059",
+      "path": "benchmarks/graph/exact_cases/random_10059.json",
+      "sha256": "f688f586d2d91af2fed2d8ccf5ce3e3e068cbe8153d45d3abedeef45d78196a2",
+      "nodes": 12,
+      "group": "new_fixed_seed_graphs",
+      "declared_seed": "20270675",
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_10060",
+      "path": "benchmarks/graph/exact_cases/random_10060.json",
+      "sha256": "355ba96d9f67873915b07dc2be1033a883246e4cf0d88a1712830af173594d2a",
+      "nodes": 6,
+      "group": "new_fixed_seed_graphs",
+      "declared_seed": "20270676",
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_10061",
+      "path": "benchmarks/graph/exact_cases/random_10061.json",
+      "sha256": "0f0d29ab0bd84d2b1b5a5445a4ffa6470043b4435427ca8e9cac4efac3297106",
+      "nodes": 8,
+      "group": "new_fixed_seed_graphs",
+      "declared_seed": "20270677",
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_10062",
+      "path": "benchmarks/graph/exact_cases/random_10062.json",
+      "sha256": "758f3fb76cd90fbfae90c454fe4db10c578d74c9015419fbe08031c9a54747f5",
+      "nodes": 10,
+      "group": "new_fixed_seed_graphs",
+      "declared_seed": "20270678",
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_10063",
+      "path": "benchmarks/graph/exact_cases/random_10063.json",
+      "sha256": "5505060ce91f26751c29f7a318878008999300c50feeccc86a0026250dcbf2c1",
+      "nodes": 12,
+      "group": "new_fixed_seed_graphs",
+      "declared_seed": "20270679",
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_10064",
+      "path": "benchmarks/graph/exact_cases/random_10064.json",
+      "sha256": "705d235cf4047a40825b61d2a989927f64b5eb03964087c77f1479f1db139b26",
+      "nodes": 6,
+      "group": "new_fixed_seed_graphs",
+      "declared_seed": "20270680",
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_10065",
+      "path": "benchmarks/graph/exact_cases/random_10065.json",
+      "sha256": "abada412b63b5cc8410fdf8dd75d05edde1479bb0b8cf16f96931e73418d4435",
+      "nodes": 8,
+      "group": "new_fixed_seed_graphs",
+      "declared_seed": "20270681",
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_10066",
+      "path": "benchmarks/graph/exact_cases/random_10066.json",
+      "sha256": "abe3df160cfaa10c04729a52350d0c720419eef4d7da8f0c199d21cc9a5ff280",
+      "nodes": 10,
+      "group": "new_fixed_seed_graphs",
+      "declared_seed": "20270682",
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_10067",
+      "path": "benchmarks/graph/exact_cases/random_10067.json",
+      "sha256": "ba9425a9fd289d1224a6e138e9828e508a493ff9689e1d35aed24b2f196e1abe",
+      "nodes": 12,
+      "group": "new_fixed_seed_graphs",
+      "declared_seed": "20270683",
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_10068",
+      "path": "benchmarks/graph/exact_cases/random_10068.json",
+      "sha256": "24c595f7cc93ab583b4b2040d229a13b1c3e7bece41dd37b01b8b9351afb494d",
+      "nodes": 6,
+      "group": "new_fixed_seed_graphs",
+      "declared_seed": "20270684",
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_10069",
+      "path": "benchmarks/graph/exact_cases/random_10069.json",
+      "sha256": "028aea50aa09ab0233dffb65c5fd5d9327e857ecd35b8871d3c6f6ea2bd1cd64",
+      "nodes": 8,
+      "group": "new_fixed_seed_graphs",
+      "declared_seed": "20270685",
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_10070",
+      "path": "benchmarks/graph/exact_cases/random_10070.json",
+      "sha256": "c2095e819f6b250674d1aff42812b95227dac4e6027eccf50502eb22ca35e0fb",
+      "nodes": 10,
+      "group": "new_fixed_seed_graphs",
+      "declared_seed": "20270686",
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_10071",
+      "path": "benchmarks/graph/exact_cases/random_10071.json",
+      "sha256": "68d910b4f3965bee3e5c8bb7a7c32263de8a7b95e95b50df8278c508e46700d7",
+      "nodes": 12,
+      "group": "new_fixed_seed_graphs",
+      "declared_seed": "20270687",
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_10072",
+      "path": "benchmarks/graph/exact_cases/random_10072.json",
+      "sha256": "43ac437fa0d416ccceca0ab6b24ff1d3ebf570ca052e150b5248dc39bd5e5fa6",
+      "nodes": 6,
+      "group": "new_fixed_seed_graphs",
+      "declared_seed": "20270688",
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_10073",
+      "path": "benchmarks/graph/exact_cases/random_10073.json",
+      "sha256": "acead9b144974f569d9f3a37c1d04c3c96f494da1c34802d305ab3a442469c79",
+      "nodes": 8,
+      "group": "new_fixed_seed_graphs",
+      "declared_seed": "20270689",
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_10074",
+      "path": "benchmarks/graph/exact_cases/random_10074.json",
+      "sha256": "8f8b7f51017c0ae1b3e10a90081eefe9fba14e8705ccaa8798c5ab0237486af4",
+      "nodes": 10,
+      "group": "new_fixed_seed_graphs",
+      "declared_seed": "20270690",
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_10075",
+      "path": "benchmarks/graph/exact_cases/random_10075.json",
+      "sha256": "5ba5a315fd515d4349ca31944dfc9ff691b49c3bca1675a11286760530d07d6e",
+      "nodes": 12,
+      "group": "new_fixed_seed_graphs",
+      "declared_seed": "20270691",
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_10076",
+      "path": "benchmarks/graph/exact_cases/random_10076.json",
+      "sha256": "1e5ee4f6c326da5bdcb50253759b11d0ad77d47695231d186d7ff67926167304",
+      "nodes": 6,
+      "group": "new_fixed_seed_graphs",
+      "declared_seed": "20270692",
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_10077",
+      "path": "benchmarks/graph/exact_cases/random_10077.json",
+      "sha256": "b2b1597e9ceb3753e383582a9469ecd8000c31e5633c7515bf965bb09785fdf5",
+      "nodes": 8,
+      "group": "new_fixed_seed_graphs",
+      "declared_seed": "20270693",
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_10078",
+      "path": "benchmarks/graph/exact_cases/random_10078.json",
+      "sha256": "df4e62abca04e05a6ccc5d13e257d9f6aa9ae87770a181bf9840a16df997a889",
+      "nodes": 10,
+      "group": "new_fixed_seed_graphs",
+      "declared_seed": "20270694",
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_10079",
+      "path": "benchmarks/graph/exact_cases/random_10079.json",
+      "sha256": "f20f13bbcbb4086ca7dbc6871a5c1070ac20758c24e46bab38eea58b857f6d00",
+      "nodes": 12,
+      "group": "new_fixed_seed_graphs",
+      "declared_seed": "20270695",
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_10080",
+      "path": "benchmarks/graph/exact_cases/random_10080.json",
+      "sha256": "4ebbe353e739297b86f930559efe05135d6f7b4449a5ecfb284be62ddc16bfb6",
+      "nodes": 6,
+      "group": "new_fixed_seed_graphs",
+      "declared_seed": "20270696",
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_10081",
+      "path": "benchmarks/graph/exact_cases/random_10081.json",
+      "sha256": "1de6ae6e4ca3bb1a404f555fb24052ae29c462461244b75e73c0774e083ea5b4",
+      "nodes": 8,
+      "group": "new_fixed_seed_graphs",
+      "declared_seed": "20270697",
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_10082",
+      "path": "benchmarks/graph/exact_cases/random_10082.json",
+      "sha256": "1050c1d6603eae3abcd73cd5c4f5a00671d421cd432bea8c0b532b07c5eee986",
+      "nodes": 10,
+      "group": "new_fixed_seed_graphs",
+      "declared_seed": "20270698",
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_10083",
+      "path": "benchmarks/graph/exact_cases/random_10083.json",
+      "sha256": "ee1bc5770bde5fb32cf7d6252a25492f0a716461eb3747d46320ee6eec485550",
+      "nodes": 12,
+      "group": "new_fixed_seed_graphs",
+      "declared_seed": "20270699",
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_10084",
+      "path": "benchmarks/graph/exact_cases/random_10084.json",
+      "sha256": "3fc9683b6a2404f16025d6d22fc5f3bbf85d1f1e7c28814fdd64701a6ad7f665",
+      "nodes": 6,
+      "group": "new_fixed_seed_graphs",
+      "declared_seed": "20270700",
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_10085",
+      "path": "benchmarks/graph/exact_cases/random_10085.json",
+      "sha256": "e40269e4405b6cade265e1722d12cfa7020e5b1849c48d43dd0d788ffd30b892",
+      "nodes": 8,
+      "group": "new_fixed_seed_graphs",
+      "declared_seed": "20270701",
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_10086",
+      "path": "benchmarks/graph/exact_cases/random_10086.json",
+      "sha256": "dd0a65e1e67627897ea04462e19e39ffd75bfc521936a6449a221fa3d874d297",
+      "nodes": 10,
+      "group": "new_fixed_seed_graphs",
+      "declared_seed": "20270702",
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_10087",
+      "path": "benchmarks/graph/exact_cases/random_10087.json",
+      "sha256": "5716072cb9ad42f40196089f662fe4a3a6bd38f78c93641ff85ed8c6b301b77b",
+      "nodes": 12,
+      "group": "new_fixed_seed_graphs",
+      "declared_seed": "20270703",
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_10088",
+      "path": "benchmarks/graph/exact_cases/random_10088.json",
+      "sha256": "bd97ebf40453c3f7cd5ebbb05d6837e47502a53c345c89af610818c8d676fd0d",
+      "nodes": 6,
+      "group": "new_fixed_seed_graphs",
+      "declared_seed": "20270704",
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_10089",
+      "path": "benchmarks/graph/exact_cases/random_10089.json",
+      "sha256": "df70d472544fdedbee5b67b9af6d44f7c3ac74f614839f496ab20ecda59bd9d1",
+      "nodes": 8,
+      "group": "new_fixed_seed_graphs",
+      "declared_seed": "20270705",
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_10090",
+      "path": "benchmarks/graph/exact_cases/random_10090.json",
+      "sha256": "81465109da1477d09d8db9012ae5616cf7c6db5b3c65305a29e64b39b5598365",
+      "nodes": 10,
+      "group": "new_fixed_seed_graphs",
+      "declared_seed": "20270706",
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_10091",
+      "path": "benchmarks/graph/exact_cases/random_10091.json",
+      "sha256": "5e81c956532d4c5cb3f56f63f9ac1923f4fb69c2b106473e26a3cf9ff46a356f",
+      "nodes": 12,
+      "group": "new_fixed_seed_graphs",
+      "declared_seed": "20270707",
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_10092",
+      "path": "benchmarks/graph/exact_cases/random_10092.json",
+      "sha256": "50d15b60f6088b3a4b36d6ea8290884e2386c2f9bbd8ef3ee7f130ac19fbdcca",
+      "nodes": 6,
+      "group": "new_fixed_seed_graphs",
+      "declared_seed": "20270708",
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_10093",
+      "path": "benchmarks/graph/exact_cases/random_10093.json",
+      "sha256": "0c99af8b5bd0a36a4203e785055c9491b905dd4bd1dc3d28beb1da23f52d1c04",
+      "nodes": 8,
+      "group": "new_fixed_seed_graphs",
+      "declared_seed": "20270709",
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_10094",
+      "path": "benchmarks/graph/exact_cases/random_10094.json",
+      "sha256": "3bf775145790ae8933df99b5e316ad44fa79b2402efbeea16ee867c699485383",
+      "nodes": 10,
+      "group": "new_fixed_seed_graphs",
+      "declared_seed": "20270710",
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_10095",
+      "path": "benchmarks/graph/exact_cases/random_10095.json",
+      "sha256": "bd42b6c5a14c6053eed1914da36a4c03f8d43c3faf6cb4a0b82fd70cfcb2919d",
+      "nodes": 12,
+      "group": "new_fixed_seed_graphs",
+      "declared_seed": "20270711",
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_10096",
+      "path": "benchmarks/graph/exact_cases/random_10096.json",
+      "sha256": "beb994e473091aaf3df67b99b9e2f17299c8687819543d65b19ead8bd93b4161",
+      "nodes": 6,
+      "group": "new_fixed_seed_graphs",
+      "declared_seed": "20270712",
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_10097",
+      "path": "benchmarks/graph/exact_cases/random_10097.json",
+      "sha256": "67c1c9d8113ca8f5559cec5f568e1f61137b8636ab2efe6793943e5cce7c85e8",
+      "nodes": 8,
+      "group": "new_fixed_seed_graphs",
+      "declared_seed": "20270713",
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_10098",
+      "path": "benchmarks/graph/exact_cases/random_10098.json",
+      "sha256": "5694e373273236ab3918da44c3da29216cfb13b756adaf40b9cbbc8fca9fc8c8",
+      "nodes": 10,
+      "group": "new_fixed_seed_graphs",
+      "declared_seed": "20270714",
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "random_10099",
+      "path": "benchmarks/graph/exact_cases/random_10099.json",
+      "sha256": "78f8c8b75cbb3074142490d5b3cb41d944a04836b25a5a6e7aa61c203aea2577",
+      "nodes": 12,
+      "group": "new_fixed_seed_graphs",
+      "declared_seed": "20270715",
+      "provenance": "frozen_227_authored_small_graphs"
+    },
+    {
+      "case": "REVIEW_ONLY_constructed",
+      "path": "benchmarks/graph/adversarial_13.json",
+      "sha256": "25780ed3a79a96b1b1c8fceb2523de77b68cae6ae6c039b474ef90b81b3836ff",
+      "nodes": 13,
+      "group": "separate_adverse_case",
+      "declared_seed": null,
+      "provenance": "frozen_adaptive_suboptimality_counterexample"
+    },
+    {
+      "case": "REVIEWER_SYNTHETIC_GRAPH",
+      "path": "benchmarks/graph/smoke_4node.json",
+      "sha256": "2a003eaed086bfcf6f34904982976c1b7a0480085c8449f635ccc3f56ef7b7b4",
+      "nodes": 4,
+      "group": "historical_smoke_only",
+      "declared_seed": null,
+      "provenance": "historical_minimal_fixture_not_formal_benchmark"
+    }
+  ]
+}

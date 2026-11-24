@@ -1,0 +1,8 @@
+﻿job_id,provenance,status,feasible,error_message
+main_pegase1354_exact_lc,NEW_R3,RESOURCE_LIMIT,NA,Global resident-label budget exhausted
+main_pegase2869_exact_lc,NEW_R3,RESOURCE_LIMIT,NA,Global resident-label budget exhausted
+main_ieee300_exact_lc,NEW_R3,RESOURCE_LIMIT,NA,Global resident-label budget exhausted
+main_pegase2869_ha_reference,REUSED_HISTORICAL,RESOURCE_LIMIT,NA,"Predefined label/expansion budget exhausted, not infeasibility"
+main_pegase1354_ha_reference,REUSED_HISTORICAL,RESOURCE_LIMIT,NA,"Predefined label/expansion budget exhausted, not infeasibility"
+main_synthetic_5000_ha_reference,REUSED_HISTORICAL,RESOURCE_LIMIT,NA,"Predefined label/expansion budget exhausted, not infeasibility"
+main_synthetic_5000_exact_lc,NEW_R3,RESOURCE_LIMIT,NA,Global resident-label budget exhausted

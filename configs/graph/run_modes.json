@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "budgets": {
+    "timeout_seconds": 10.0,
+    "max_expansions": 20000,
+    "max_labels": 60000,
+    "max_resident": 20000
+  },
+  "budgets_scope": "Global search safety budgets. Adaptive preserves the archived per-attempt limits and shared query deadline. These small representative checks are not a rerun of the formal benchmark campaign.",
+  "smoke_expected": {
+    "case": "REVIEWER_SYNTHETIC_GRAPH",
+    "objective": 0.02020304050607081,
+    "path": [
+      1,
+      2,
+      4
+    ],
+    "support_nodes": [],
+    "reference_kind": "Four-node analytic check: 0.01 + 0.01/(0.99^2); independently enumerated by the smoke runner. Not a paper-scale benchmark."
+  },
+  "retained_adverse_case": {
+    "case": "REVIEW_ONLY_constructed",
+    "nodes": 13,
+    "independent_optimum": 0.012134412970375784,
+    "adaptive_objective": 0.012266122446467888,
+    "adaptive_gap_percent": 1.0854210781654738,
+    "expected_outcome": "SUBOPTIMAL_UNCERTIFIED_WITNESS",
+    "reference_path": "benchmarks/graph/adversarial_13_reference.json"
+  },
+  "modes": {
+    "smoke": {
+      "scope": "L1: historical four-node authored smoke fixture only; 3 genuine methods and fresh enumeration. This is not the full paper benchmark.",
+      "cases": [
+        "REVIEWER_SYNTHETIC_GRAPH"
+      ],
+      "methods": [
+        "exact_lc",
+        "ha_reference",
+        "adaptive"
+      ]
+    },
+    "correctness": {
+      "scope": "L2: 8 fixed representative frozen small cases plus the separate 13-node adverse case; 3 methods and fresh enumeration. The 227 saved inputs are included, but this command does not rerun the full 227-case study.",
+      "cases": [
+        "path_history_dominance_counterexample",
+        "synthetic_6_node",
+        "synthetic_12_node",
+        "random_00",
+        "random_01",
+        "random_02",
+        "random_10000",
+        "random_10003",
+        "REVIEW_ONLY_constructed"
+      ],
+      "methods": [
+        "exact_lc",
+        "ha_reference",
+        "adaptive"
+      ]
+    },
+    "caps": {
+      "scope": "L3: representative cap sensitivity on 4 frozen small cases plus the separate 13-node adverse case; caps 3/5/10/20/40 and 3 comparison methods. Not the formal 249-row campaign.",
+      "cases": [
+        "path_history_dominance_counterexample",
+        "synthetic_12_node",
+        "random_02",
+        "random_10003",
+        "REVIEW_ONLY_constructed"
+      ],
+      "methods": [
+        "cap_3",
+        "cap_5",
+        "cap_10",
+        "cap_20",
+        "cap_40",
+        "exact_lc",
+        "ha_reference",
+        "adaptive"
+      ]
+    }
+  },
+  "ch_hl": {
+    "scope": "L2 supplementary static check: Minimal CH and weighted directed hub-label correctness on 4/6/8-node authored graphs, all ordered source-target pairs, with independent NetworkX Dijkstra and original-edge reconstruction checks. Static weights only.",
+    "cases": [
+      "REVIEWER_SYNTHETIC_GRAPH",
+      "synthetic_6_node",
+      "random_00"
+    ],
+    "budgets": {
+      "preprocessing_timeout_s": 10.0,
+      "memory_cap_mb": 128.0,
+      "query_timeout_s": 2.0
+    },
+    "expected_query_count": 232
+  }
+}

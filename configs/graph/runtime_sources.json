@@ -1,0 +1,207 @@
+{
+  "schema_version": 1,
+  "archive_sha256": "be882f13bf3b2f91bf6e740963c8a1789a52d8bf7a8bcb65e2a17d424cac33a9",
+  "scope": "Provenance of runtime sources and tests included in the author-authorized public release",
+  "files": [
+    {
+      "archive_member": "input/graph_reference/scripts/common9.py",
+      "public_path": "src/graph_runtime/scripts/common9.py",
+      "before_sha256": "d929f917bc9afc77b159d4fd17b930865278ad2ec89a840c9959c3a3fd871d39",
+      "after_sha256": "d929f917bc9afc77b159d4fd17b930865278ad2ec89a840c9959c3a3fd871d39",
+      "transformation": "BYTE_IDENTICAL",
+      "rights_evidence": "Author confirmed the necessary rights and authorized public distribution of the selected research material. No additional author license is granted.",
+      "role": "runtime source"
+    },
+    {
+      "archive_member": "input/graph_reference/scripts/joint_search.py",
+      "public_path": "src/graph_runtime/scripts/joint_search.py",
+      "before_sha256": "41c259e42596766c1e1a24a0a6dada800ccd456b6ecc55091c5324110e3b450c",
+      "after_sha256": "41c259e42596766c1e1a24a0a6dada800ccd456b6ecc55091c5324110e3b450c",
+      "transformation": "BYTE_IDENTICAL",
+      "rights_evidence": "Author confirmed the necessary rights and authorized public distribution of the selected research material. No additional author license is granted.",
+      "role": "runtime source"
+    },
+    {
+      "archive_member": "input/graph_reference/vendor/search/evidence_core.py",
+      "public_path": "src/graph_runtime/vendor/search/evidence_core.py",
+      "before_sha256": "781047f5a413036da9581bb820f0fab4005eda817367f84a764f3dfa1d82b4fa",
+      "after_sha256": "781047f5a413036da9581bb820f0fab4005eda817367f84a764f3dfa1d82b4fa",
+      "transformation": "BYTE_IDENTICAL",
+      "rights_evidence": "Author confirmed the necessary rights and authorized public distribution of the selected research material. No additional author license is granted.",
+      "role": "runtime source"
+    },
+    {
+      "archive_member": "input/graph_reference/vendor/search/vendor_round5/src/__init__.py",
+      "public_path": "src/graph_runtime/vendor/search/vendor_round5/src/__init__.py",
+      "before_sha256": "7013b35e6c2c489404d27bffa08fc9cefe2e0f19ac4ff0ee0dca1a3327123c0f",
+      "after_sha256": "7013b35e6c2c489404d27bffa08fc9cefe2e0f19ac4ff0ee0dca1a3327123c0f",
+      "transformation": "BYTE_IDENTICAL",
+      "rights_evidence": "Author confirmed the necessary rights and authorized public distribution of the selected research material. No additional author license is granted.",
+      "role": "runtime source"
+    },
+    {
+      "archive_member": "input/graph_reference/vendor/search/vendor_round5/src/round5/__init__.py",
+      "public_path": "src/graph_runtime/vendor/search/vendor_round5/src/round5/__init__.py",
+      "before_sha256": "90a4a55664bb17e73a334d688fcd38a60c3c01aac9772a1a7013b8a2af792c74",
+      "after_sha256": "90a4a55664bb17e73a334d688fcd38a60c3c01aac9772a1a7013b8a2af792c74",
+      "transformation": "BYTE_IDENTICAL",
+      "rights_evidence": "Author confirmed the necessary rights and authorized public distribution of the selected research material. No additional author license is granted.",
+      "role": "runtime source"
+    },
+    {
+      "archive_member": "input/graph_reference/vendor/search/vendor_round5/src/round5/baselines.py",
+      "public_path": "src/graph_runtime/vendor/search/vendor_round5/src/round5/baselines.py",
+      "before_sha256": "55d16cbe7af9df4c2a4a2bc87ddc0ef44037783aac6003bb5de3a9c35f5109ec",
+      "after_sha256": "55d16cbe7af9df4c2a4a2bc87ddc0ef44037783aac6003bb5de3a9c35f5109ec",
+      "transformation": "BYTE_IDENTICAL",
+      "rights_evidence": "Author confirmed the necessary rights and authorized public distribution of the selected research material. No additional author license is granted.",
+      "role": "runtime source"
+    },
+    {
+      "archive_member": "input/graph_reference/vendor/search/vendor_round5/src/round5/exact_enumeration.py",
+      "public_path": "src/graph_runtime/vendor/search/vendor_round5/src/round5/exact_enumeration.py",
+      "before_sha256": "c4b42f4b00139e828e5b37b52ffb78c73255a5af3d621d6d7d3433e137a26841",
+      "after_sha256": "c4b42f4b00139e828e5b37b52ffb78c73255a5af3d621d6d7d3433e137a26841",
+      "transformation": "BYTE_IDENTICAL",
+      "rights_evidence": "Author confirmed the necessary rights and authorized public distribution of the selected research material. No additional author license is granted.",
+      "role": "runtime source"
+    },
+    {
+      "archive_member": "input/graph_reference/vendor/search/vendor_round5/src/round5/models.py",
+      "public_path": "src/graph_runtime/vendor/search/vendor_round5/src/round5/models.py",
+      "before_sha256": "fab86fa0f3c0c64b8d044b8ffd388c84338d45c4a04669d1bbcd20af68af06d0",
+      "after_sha256": "fab86fa0f3c0c64b8d044b8ffd388c84338d45c4a04669d1bbcd20af68af06d0",
+      "transformation": "BYTE_IDENTICAL",
+      "rights_evidence": "Author confirmed the necessary rights and authorized public distribution of the selected research material. No additional author license is granted.",
+      "role": "runtime source"
+    },
+    {
+      "archive_member": "input/graph_reference/vendor/search/vendor_round5/src/round5/per_unit.py",
+      "public_path": "src/graph_runtime/vendor/search/vendor_round5/src/round5/per_unit.py",
+      "before_sha256": "44206f96f68b25c47bf32237e2e7f19349e6c05c44b4ee9e470ed3082d258399",
+      "after_sha256": "44206f96f68b25c47bf32237e2e7f19349e6c05c44b4ee9e470ed3082d258399",
+      "transformation": "BYTE_IDENTICAL",
+      "rights_evidence": "Author confirmed the necessary rights and authorized public distribution of the selected research material. No additional author license is granted.",
+      "role": "runtime source"
+    },
+    {
+      "archive_member": "input/graph_reference/vendor/search/vendor_round5/src/round5/power_flow_approximation.py",
+      "public_path": "src/graph_runtime/vendor/search/vendor_round5/src/round5/power_flow_approximation.py",
+      "before_sha256": "b6783ec8d2b2645b266a22fae04b22f8c0a5d57eda892eb0d5de4b11026bec6e",
+      "after_sha256": "b6783ec8d2b2645b266a22fae04b22f8c0a5d57eda892eb0d5de4b11026bec6e",
+      "transformation": "BYTE_IDENTICAL",
+      "rights_evidence": "Author confirmed the necessary rights and authorized public distribution of the selected research material. No additional author license is granted.",
+      "role": "runtime source"
+    },
+    {
+      "archive_member": "input/graph_reference/vendor/search/vendor_round5/src/round5/vamls.py",
+      "public_path": "src/graph_runtime/vendor/search/vendor_round5/src/round5/vamls.py",
+      "before_sha256": "db3de5fff395ed2a27339bb29fbeb1b23fb64117319a26062b3c56528510b739",
+      "after_sha256": "db3de5fff395ed2a27339bb29fbeb1b23fb64117319a26062b3c56528510b739",
+      "transformation": "BYTE_IDENTICAL",
+      "rights_evidence": "Author confirmed the necessary rights and authorized public distribution of the selected research material. No additional author license is granted.",
+      "role": "runtime source"
+    },
+    {
+      "archive_member": "input/graph_reference/vendor/search/vendor_round5/src/round5/test_cases.py",
+      "public_path": "src/graph_runtime/vendor/search/vendor_round5/src/round5/test_cases.py",
+      "before_sha256": "899a0eada5cc8bbd85403e033eb779c8253ff3afd0481e8508745e69400794b6",
+      "after_sha256": "899a0eada5cc8bbd85403e033eb779c8253ff3afd0481e8508745e69400794b6",
+      "transformation": "BYTE_IDENTICAL",
+      "rights_evidence": "Author confirmed the necessary rights and authorized public distribution of the selected research material. No additional author license is granted.",
+      "role": "runtime source"
+    },
+    {
+      "archive_member": "src/exact_label_correcting.py",
+      "public_path": "src/graph_runtime/exact_label_correcting.py",
+      "before_sha256": "24a349e10c3320cc6f422cc5519ef35b305e9f19909a0403c16ca03742e8fbec",
+      "after_sha256": "8ff4eb5c0b8d1b4f23a2056bc7870cb0909ff99c83afbf75d94919f17256e84d",
+      "transformation": "PATH_ONLY: relocate _REFERENCE to local graph_runtime directory and update the adaptation-note pointer; algorithm body unchanged.",
+      "rights_evidence": "Author confirmed the necessary rights and authorized public distribution of the selected research material. No additional author license is granted.",
+      "role": "independent Exact-LC runtime"
+    },
+    {
+      "archive_member": "historical_private_repro/reproduction/frozen/baseline/static_engines/__init__.py",
+      "public_path": "src/static_engines/__init__.py",
+      "before_sha256": "8d216f58e4a5b1a226d75451c71a499364c202bfc24b496f1f36d4f3cf8be5d1",
+      "after_sha256": "8d216f58e4a5b1a226d75451c71a499364c202bfc24b496f1f36d4f3cf8be5d1",
+      "transformation": "BYTE_IDENTICAL",
+      "rights_evidence": "Author confirmed the necessary rights and authorized public distribution of the selected research material. No additional author license is granted.",
+      "role": "authored static CH/HL engine; not publisher-released code"
+    },
+    {
+      "archive_member": "historical_private_repro/reproduction/frozen/baseline/static_engines/ch.py",
+      "public_path": "src/static_engines/ch.py",
+      "before_sha256": "1ea00be11f4a717118e75c833887a33961b040d6cddda29340a7e3312b538284",
+      "after_sha256": "1ea00be11f4a717118e75c833887a33961b040d6cddda29340a7e3312b538284",
+      "transformation": "BYTE_IDENTICAL",
+      "rights_evidence": "Author confirmed the necessary rights and authorized public distribution of the selected research material. No additional author license is granted.",
+      "role": "authored static CH/HL engine; not publisher-released code"
+    },
+    {
+      "archive_member": "historical_private_repro/reproduction/frozen/baseline/static_engines/common.py",
+      "public_path": "src/static_engines/common.py",
+      "before_sha256": "afb158164d7a0e45c5c6bd0ca980e7f67edcf772242c593c4cd935765dd142e3",
+      "after_sha256": "afb158164d7a0e45c5c6bd0ca980e7f67edcf772242c593c4cd935765dd142e3",
+      "transformation": "BYTE_IDENTICAL",
+      "rights_evidence": "Author confirmed the necessary rights and authorized public distribution of the selected research material. No additional author license is granted.",
+      "role": "authored static CH/HL engine; not publisher-released code"
+    },
+    {
+      "archive_member": "historical_private_repro/reproduction/frozen/baseline/static_engines/hl.py",
+      "public_path": "src/static_engines/hl.py",
+      "before_sha256": "12524e67b36953f5b3a9aaab8c3f1faa2a82c42a51a380c845870cdaed87afaf",
+      "after_sha256": "12524e67b36953f5b3a9aaab8c3f1faa2a82c42a51a380c845870cdaed87afaf",
+      "transformation": "BYTE_IDENTICAL",
+      "rights_evidence": "Author confirmed the necessary rights and authorized public distribution of the selected research material. No additional author license is granted.",
+      "role": "authored static CH/HL engine; not publisher-released code"
+    },
+    {
+      "archive_member": "tests/test_exact_label_correcting.py",
+      "public_path": "tests/test_exact_label_correcting.py",
+      "before_sha256": "5b73e5311377581fef8dba83f5ced1a407faef952cdd8e6ca089dc14d54c7662",
+      "after_sha256": "36c8c4fe9a0fc3ebf6e2b34808cb671082ca8d4fb1b67422934d57ceca03fb81",
+      "transformation": "PATH_ONLY: adapt test import bootstrap to src/graph_runtime; all 11 original test bodies unchanged.",
+      "rights_evidence": "Author confirmed the necessary rights and authorized public distribution of the selected research material. No additional author license is granted.",
+      "role": "official 11 Exact-LC unit tests"
+    },
+    {
+      "archive_member": "frozen/executed_source_v1/graph_campaign.py",
+      "public_path": "src/graph_runtime/fixed_cap.py",
+      "before_sha256": "c2e8f00e21b383a78cdb0eeb9ae82d1039391bee2f29eb9cc033edd87ac931f4",
+      "after_sha256": "3f8444254738fde38332e1a995080f18cd611c93f85fbc1819aa3e11fd336275",
+      "transformation": "FUNCTION_EXTRACTION: run_fixed_cap is verbatim from executed source; new imports/reference_module bootstrap only. Extracted function SHA256=4b87c9ce7f5ab8b2ab0baa499ee33ba46daafa12e36e0a9bd3ab262c22d9ecee",
+      "rights_evidence": "Author confirmed the necessary rights and authorized public distribution of the selected research material. No additional author license is granted.",
+      "role": "genuine executed R3 fixed-cap adapter"
+    }
+  ],
+  "algorithm_bodies": [
+    {
+      "archive_member": "src/exact_label_correcting.py",
+      "public_path": "src/graph_runtime/exact_label_correcting.py",
+      "top_level_names": [
+        "_BudgetReached",
+        "_continuation_covers",
+        "run"
+      ],
+      "archived_ast_sha256": "0806fe40ecbbaafaacf655b83542b3e9bc446d6efd52b3001e17b5f0f6303c4e"
+    },
+    {
+      "archive_member": "frozen/executed_source_v1/graph_campaign.py",
+      "public_path": "src/graph_runtime/fixed_cap.py",
+      "top_level_names": [
+        "run_fixed_cap"
+      ],
+      "archived_ast_sha256": "b60bdd2cfa11d2c01792a4f1ed552d5fbba7c656210cbf28f3f22839c805f9ad"
+    },
+    {
+      "archive_member": "tests/test_exact_label_correcting.py",
+      "public_path": "tests/test_exact_label_correcting.py",
+      "top_level_names": [
+        "case",
+        "ExactLabelCorrectingTests"
+      ],
+      "archived_ast_sha256": "79e52f6e49d086a44bd2ae93b773f0c3c9fbe7ca31c71eb497d53eeea410e5e2"
+    }
+  ]
+}

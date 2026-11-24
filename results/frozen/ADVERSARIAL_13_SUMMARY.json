@@ -1,0 +1,12 @@
+{
+  "case": "REVIEW_ONLY_constructed",
+  "nodes": 13,
+  "independent_enumeration_objective": 0.012134412970375784,
+  "historical_adaptive_objective": 0.012266122446467888,
+  "historical_adaptive_gap_percent": 1.0854210781654738,
+  "historical_adaptive_exact_certified": false,
+  "new_exact_status": "COMPLETED_FEASIBLE",
+  "new_exact_objective": 0.012134412970375784,
+  "new_exact_certified": true,
+  "counting": "Separate retained adverse case; excluded from 227 and primary 249 counts"
+}

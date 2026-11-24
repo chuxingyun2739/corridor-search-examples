@@ -1,0 +1,80 @@
+{
+  "case": "path_history_dominance_counterexample",
+  "nodes": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "source": 1,
+  "target": 5,
+  "branches": [
+    {
+      "source": 1,
+      "target": 4,
+      "r_pu": 0.02,
+      "x_pu": 0.002,
+      "rate_pu": null
+    },
+    {
+      "source": 1,
+      "target": 2,
+      "r_pu": 0.06,
+      "x_pu": 0.002,
+      "rate_pu": null
+    },
+    {
+      "source": 2,
+      "target": 3,
+      "r_pu": 0.06,
+      "x_pu": 0.002,
+      "rate_pu": null
+    },
+    {
+      "source": 3,
+      "target": 4,
+      "r_pu": 0.005,
+      "x_pu": 0.002,
+      "rate_pu": null
+    },
+    {
+      "source": 4,
+      "target": 3,
+      "r_pu": 0.005,
+      "x_pu": 0.002,
+      "rate_pu": null
+    },
+    {
+      "source": 4,
+      "target": 5,
+      "r_pu": 0.06,
+      "x_pu": 0.01,
+      "rate_pu": null
+    }
+  ],
+  "supports": {
+    "3": {
+      "capacity_pu": 0.2,
+      "fixed_cost": 0.0,
+      "unit_cost": 0.0,
+      "available": true
+    }
+  },
+  "config": {
+    "nominal_voltage_pu": 1.0,
+    "voltage_lower_bound": 0.92,
+    "voltage_upper_bound": 1.1,
+    "max_support_nodes": 1,
+    "p_transfer_pu": 1.0,
+    "q_transfer_pu": 0.05,
+    "lambda_support_count": 0.01,
+    "lambda_support_capacity": 0.0,
+    "dominance_eps": 1e-10,
+    "heuristic_label_cap": null,
+    "allow_support_at_source": false,
+    "allow_support_at_target": false
+  },
+  "network_type": "synthetic_exact_validation",
+  "directed": true
+}

@@ -1,0 +1,550 @@
+{
+  "scenario_id": "ieee57_L115_CAP20",
+  "native_case_id": "ieee57_L115",
+  "split": "SEEN_REGRESSION",
+  "method": "DVR_MLS_PORTFOLIO_V2_ANCHOR",
+  "ranker": "demand",
+  "source": 1,
+  "target": 31,
+  "protocol_sha256": "3c13662fe49582d492276a72a6dc3d029fcb043aa669035d7f0ae7b07c5dfe93",
+  "candidate_cap": 8,
+  "method_budget_s": 180.0,
+  "redispatch_fraction_load": 0.2,
+  "max_optimizer_calls": 32,
+  "max_total_ac_calls": 256,
+  "status": "RESOURCE_LIMIT",
+  "certified": false,
+  "metrics": null,
+  "selected": null,
+  "candidates": [
+    {
+      "candidate_slot": 1,
+      "path": [
+        1,
+        15,
+        14,
+        46,
+        47,
+        48,
+        38,
+        22,
+        23,
+        24,
+        25,
+        30,
+        31
+      ],
+      "hosts": [
+        47,
+        38,
+        14
+      ],
+      "status": "UNKNOWN",
+      "certified": false,
+      "unique_solve_id": 1,
+      "cache_reuse": false,
+      "seconds": 7.950866999999562,
+      "support_nodes": [
+        23,
+        25
+      ],
+      "hostset": [
+        47,
+        38,
+        14
+      ],
+      "common_evaluation": {
+        "feasible": true,
+        "objective": 0.03632582046400447,
+        "active_loss": 0.011425916297060319,
+        "reactive_loss": 0.03828806234029116,
+        "voltage_drop": 0.17905816105727576,
+        "terminal_voltage": 0.9109322556371389,
+        "minimum_voltage": 0.9109322556371389,
+        "pre": [
+          1.0,
+          0.9948135,
+          0.9909397588414813,
+          0.9883808242772203,
+          0.9833311512388448,
+          0.9803851955489936,
+          0.9750292395188135,
+          0.9717208771956569,
+          0.9700095833055853,
+          0.972078,
+          0.9301276626813898,
+          0.9674093801327702,
+          0.9109322556371389
+        ],
+        "operational": [
+          1.0,
+          0.9948135,
+          0.9909397588414813,
+          0.9883808242772203,
+          0.9833311512388448,
+          0.9803851955489936,
+          0.9750292395188135,
+          0.9717208771956569,
+          1.0,
+          0.972078,
+          0.9901276626813897,
+          0.9674093801327702,
+          0.9109322556371389
+        ],
+        "support_events": [
+          {
+            "node": 23,
+            "before": 0.9700095833055853,
+            "after": 1.0,
+            "used_capacity": 0.029990416694414712,
+            "cost": 0.012299904166944148
+          },
+          {
+            "node": 25,
+            "before": 0.9301276626813898,
+            "after": 0.9901276626813897,
+            "used_capacity": 0.05999999999999994,
+            "cost": 0.0126
+          }
+        ],
+        "reasons": []
+      },
+      "voltage_history": [
+        1.0,
+        0.9948135,
+        0.9909397588414813,
+        0.9883808242772203,
+        0.9833311512388448,
+        0.9803851955489936,
+        0.9750292395188135,
+        0.9717208771956569,
+        1.0,
+        0.972078,
+        0.9901276626813897,
+        0.9674093801327702,
+        0.9109322556371389
+      ],
+      "pre_support_voltage_history": [
+        1.0,
+        0.9948135,
+        0.9909397588414813,
+        0.9883808242772203,
+        0.9833311512388448,
+        0.9803851955489936,
+        0.9750292395188135,
+        0.9717208771956569,
+        0.9700095833055853,
+        0.972078,
+        0.9301276626813898,
+        0.9674093801327702,
+        0.9109322556371389
+      ],
+      "support_events": [
+        {
+          "node": 23,
+          "before": 0.9700095833055853,
+          "after": 1.0,
+          "used_capacity": 0.029990416694414712,
+          "cost": 0.012299904166944148
+        },
+        {
+          "node": 25,
+          "before": 0.9301276626813898,
+          "after": 0.9901276626813897,
+          "used_capacity": 0.05999999999999994,
+          "cost": 0.0126
+        }
+      ],
+      "objective": 0.03632582046400447,
+      "voltage_margin": 0.010932255637138844,
+      "is_anchor": true,
+      "anchor_identity": "44002a38fe5470dc96616cb71492d49d2a600e058ebe15655e0cafebf021107c",
+      "witness": {
+        "kind": "recomputed_frozen_original_anchor",
+        "path": [
+          1,
+          15,
+          14,
+          46,
+          47,
+          48,
+          38,
+          22,
+          23,
+          24,
+          25,
+          30,
+          31
+        ],
+        "visited_nodes": [
+          1,
+          14,
+          15,
+          22,
+          23,
+          24,
+          25,
+          30,
+          31,
+          38,
+          46,
+          47,
+          48
+        ],
+        "support_nodes": [
+          23,
+          25
+        ],
+        "objective": 0.03632582046400447,
+        "voltage_pu": 0.9109322556371389
+      },
+      "path_cost": 0.01100460185,
+      "failure_reason": "NO_STRICT_CERTIFICATE"
+    },
+    {
+      "candidate_slot": 2,
+      "path": null,
+      "hosts": null,
+      "status": "NOT_RUN",
+      "certified": false,
+      "unique_solve_id": null,
+      "cache_reuse": false,
+      "seconds": null,
+      "failure_reason": "NO_GENERATED_CANDIDATE"
+    },
+    {
+      "candidate_slot": 3,
+      "path": null,
+      "hosts": null,
+      "status": "NOT_RUN",
+      "certified": false,
+      "unique_solve_id": null,
+      "cache_reuse": false,
+      "seconds": null,
+      "failure_reason": "NO_GENERATED_CANDIDATE"
+    },
+    {
+      "candidate_slot": 4,
+      "path": null,
+      "hosts": null,
+      "status": "NOT_RUN",
+      "certified": false,
+      "unique_solve_id": null,
+      "cache_reuse": false,
+      "seconds": null,
+      "failure_reason": "NO_GENERATED_CANDIDATE"
+    },
+    {
+      "candidate_slot": 5,
+      "path": null,
+      "hosts": null,
+      "status": "NOT_RUN",
+      "certified": false,
+      "unique_solve_id": null,
+      "cache_reuse": false,
+      "seconds": null,
+      "failure_reason": "NO_GENERATED_CANDIDATE"
+    },
+    {
+      "candidate_slot": 6,
+      "path": null,
+      "hosts": null,
+      "status": "NOT_RUN",
+      "certified": false,
+      "unique_solve_id": null,
+      "cache_reuse": false,
+      "seconds": null,
+      "failure_reason": "NO_GENERATED_CANDIDATE"
+    },
+    {
+      "candidate_slot": 7,
+      "path": null,
+      "hosts": null,
+      "status": "NOT_RUN",
+      "certified": false,
+      "unique_solve_id": null,
+      "cache_reuse": false,
+      "seconds": null,
+      "failure_reason": "NO_GENERATED_CANDIDATE"
+    },
+    {
+      "candidate_slot": 8,
+      "path": null,
+      "hosts": null,
+      "status": "NOT_RUN",
+      "certified": false,
+      "unique_solve_id": null,
+      "cache_reuse": false,
+      "seconds": null,
+      "failure_reason": "NO_GENERATED_CANDIDATE"
+    }
+  ],
+  "events": [
+    {
+      "attempt_id": "flat_A_FEAS",
+      "start": "flat",
+      "stage": "A_FEAS",
+      "status": "UNKNOWN",
+      "certified": false,
+      "physical_certificate_pass": false,
+      "optimizer_converged": false,
+      "on_time": true,
+      "metrics": null,
+      "solver_message": "Infeasible_Problem_Detected",
+      "runtime_seconds": 1.290569400000095,
+      "completed_perf_counter": 38975.0638627,
+      "completed_method_seconds": 7.83253269999841,
+      "started_method_seconds": 6.541963299998315,
+      "optimizer_calls": 1,
+      "pf_calls": 1,
+      "certificate_file": "raw\\ac\\ieee57_L115_CAP20\\demand\\DVR_MLS_PORTFOLIO_V2_ANCHOR\\hostset_001\\flat_A_FEAS\\certificate.json",
+      "max_required_residual": 0.7108067230042037,
+      "support_controls": [
+        4.5787334747752004e-10,
+        13.333333333206005,
+        5.627396137820436
+      ],
+      "unique_solve_id": 1,
+      "candidate_slot": 1,
+      "path": [
+        1,
+        15,
+        14,
+        46,
+        47,
+        48,
+        38,
+        22,
+        23,
+        24,
+        25,
+        30,
+        31
+      ],
+      "hosts": [
+        14,
+        38,
+        47
+      ],
+      "path_cost": 0.01100460185
+    },
+    {
+      "attempt_id": "flat_B_LOSS",
+      "status": "NOT_APPLICABLE",
+      "certified": false,
+      "reason": "FEASIBILITY_NOT_CERTIFIED",
+      "unique_solve_id": 1,
+      "candidate_slot": 1,
+      "path": [
+        1,
+        15,
+        14,
+        46,
+        47,
+        48,
+        38,
+        22,
+        23,
+        24,
+        25,
+        30,
+        31
+      ],
+      "hosts": [
+        14,
+        38,
+        47
+      ],
+      "path_cost": 0.01100460185
+    },
+    {
+      "attempt_id": "dc_A_FEAS",
+      "start": "dc",
+      "stage": "A_FEAS",
+      "status": "UNKNOWN",
+      "certified": false,
+      "physical_certificate_pass": false,
+      "optimizer_converged": false,
+      "on_time": true,
+      "metrics": null,
+      "solver_message": "Infeasible_Problem_Detected",
+      "runtime_seconds": 0.9595139999946696,
+      "completed_perf_counter": 38976.0418705,
+      "completed_method_seconds": 8.810540499995113,
+      "started_method_seconds": 7.851026500000444,
+      "optimizer_calls": 1,
+      "pf_calls": 1,
+      "certificate_file": "raw\\ac\\ieee57_L115_CAP20\\demand\\DVR_MLS_PORTFOLIO_V2_ANCHOR\\hostset_001\\dc_A_FEAS\\certificate.json",
+      "max_required_residual": 0.7108067230043473,
+      "support_controls": [
+        4.5787334963704165e-10,
+        13.333333333206005,
+        5.627396137823442
+      ],
+      "unique_solve_id": 1,
+      "candidate_slot": 1,
+      "path": [
+        1,
+        15,
+        14,
+        46,
+        47,
+        48,
+        38,
+        22,
+        23,
+        24,
+        25,
+        30,
+        31
+      ],
+      "hosts": [
+        14,
+        38,
+        47
+      ],
+      "path_cost": 0.01100460185
+    },
+    {
+      "attempt_id": "dc_B_LOSS",
+      "status": "NOT_APPLICABLE",
+      "certified": false,
+      "reason": "FEASIBILITY_NOT_CERTIFIED",
+      "unique_solve_id": 1,
+      "candidate_slot": 1,
+      "path": [
+        1,
+        15,
+        14,
+        46,
+        47,
+        48,
+        38,
+        22,
+        23,
+        24,
+        25,
+        30,
+        31
+      ],
+      "hosts": [
+        14,
+        38,
+        47
+      ],
+      "path_cost": 0.01100460185
+    }
+  ],
+  "unique_solves": [
+    {
+      "unique_solve_id": 1,
+      "hosts": [
+        14,
+        38,
+        47
+      ],
+      "status": "UNKNOWN",
+      "certified": false,
+      "seconds": 7.950866999999562,
+      "result_folder": "raw\\ac\\ieee57_L115_CAP20\\demand\\DVR_MLS_PORTFOLIO_V2_ANCHOR\\hostset_001",
+      "partial_optimizer_calls": 0,
+      "error": ""
+    }
+  ],
+  "time_to_first_certificate": null,
+  "total_runtime": 8.866465799997968,
+  "memory_peak_combined_rss_bytes": 527323136,
+  "memory_measurement_scope": "Parent phase boundaries plus parent+child samples every 25ms during AC worker; not continuous whole-method peak",
+  "method_deadline_scope": "Nominal acceptance cutoff; synchronous preprocessing can overrun; actual total_runtime always reported",
+  "optimizer_solve_count": 2,
+  "certificate_pf_count": 2,
+  "reference_pf_count": 2,
+  "sensitivity_pf_count": 0,
+  "AC_solve_count": 6,
+  "pf_call_ledger": [
+    {
+      "call_id": 1,
+      "category": "reference",
+      "status": "RETURNED",
+      "started_method_seconds": 0.1371179999987362,
+      "completed_method_seconds": 0.16168249999464024,
+      "ledger_source": "parent"
+    },
+    {
+      "call_id": 1,
+      "category": "reference",
+      "status": "RETURNED",
+      "started_method_seconds": 6.405730200000107,
+      "completed_method_seconds": 6.442331899997953,
+      "ledger_source": "hostset_001"
+    },
+    {
+      "call_id": 2,
+      "category": "certificate",
+      "status": "RETURNED",
+      "started_method_seconds": 7.745492899994133,
+      "completed_method_seconds": 7.77704399999493,
+      "ledger_source": "hostset_001"
+    },
+    {
+      "call_id": 3,
+      "category": "certificate",
+      "status": "RETURNED",
+      "started_method_seconds": 8.749350099998992,
+      "completed_method_seconds": 8.772907899998245,
+      "ledger_source": "hostset_001"
+    }
+  ],
+  "generation_seconds": 0.7118311000012909,
+  "generation_status": "RESOURCE_LIMIT",
+  "index_build_seconds": 0.0,
+  "ranking_seconds": 4.999965312890708e-07,
+  "model_hash": "d48d18cb75ee678acefbd4158512e3d7fd51bc8b81f4de91e05f022534589be3",
+  "native_identity": {
+    "bus": "5d542a226eac795e035ea3b673809d8e24a067d1a98a602e9ae4ef90358c1646",
+    "load": "85fe793311b36cd94fbc4341c068ffca9338e307a02718ba027653c62d5ea9ce",
+    "gen": "5df02865923d345740087b33f0aece33f824a772b2da709e29f7da7676b4d7cd",
+    "ext_grid": "eeb570eed4ae180f433b6cafaacfef8133755328b5f40fb6ee127b4e33ce6aed",
+    "line": "93bc79d7a7ab13fb370acad474779e9dfea02f9b10acc269ecf3c465058d0ef4",
+    "trafo": "cdf71269a05861e1595108e0be728b75858877e774e9465d57c749c9ebb0e54a",
+    "shunt": "073c2144d0b9a58ed3e445b6ee1106ddc98e1fad036a36cf947bc6472f8be605",
+    "sgen": "768733e15b88e6b1294075d0127c3f09ec8f63ca664ff6906533ea9a78e22c6e",
+    "impedance": "7b319ef88c5e3ab50b29d9d9c6e6f43af56f25ec0b3cfe0c763acc2b20f11c0b",
+    "dcline": "886ad413d499eaf60bbf531cc537991d62359f799b3f7461560cf0013852e512",
+    "switch": "c8ddf672a1a315302e42249d1a942731e4efe858e0f8f848d6bde76e54ee7d34"
+  },
+  "failure_reason": "RESOURCE_LIMIT",
+  "graph_support_actions_are_not_AC_controls": true,
+  "cross_method_cache": false,
+  "local_optimum_only": true,
+  "actual_call_budget_records": [
+    {
+      "total_limit": 255,
+      "optimizer_limit": 32,
+      "optimizer_used": 2,
+      "pf_used": 3,
+      "total_used": 5,
+      "blocked": []
+    }
+  ],
+  "parent_call_budget_record": {
+    "total_limit": 256,
+    "optimizer_limit": 32,
+    "optimizer_used": 0,
+    "pf_used": 1,
+    "total_used": 1,
+    "blocked": []
+  },
+  "call_budget_reconciliation": {
+    "optimizer_admissions": 2,
+    "pf_admissions": 4,
+    "total_admissions": 6,
+    "optimizer_recorded_calls": 2,
+    "pf_recorded_calls": 4,
+    "optimizer_unreconciled_admissions": 0,
+    "pf_unreconciled_admissions": 0,
+    "ledger_reconciled": true,
+    "scope": "Admissions reserve allowance before invocation; unmatched admissions are uncertain work, not zero calls"
+  },
+  "call_budget_verified": true
+}

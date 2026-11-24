@@ -1,0 +1,57 @@
+{
+  "case": "REVIEWER_SYNTHETIC_GRAPH",
+  "nodes": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "source": 1,
+  "target": 4,
+  "branches": [
+    {
+      "source": 1,
+      "target": 2,
+      "r_pu": 0.01,
+      "x_pu": 0.0
+    },
+    {
+      "source": 2,
+      "target": 4,
+      "r_pu": 0.01,
+      "x_pu": 0.0
+    },
+    {
+      "source": 1,
+      "target": 3,
+      "r_pu": 0.03,
+      "x_pu": 0.0
+    },
+    {
+      "source": 3,
+      "target": 4,
+      "r_pu": 0.01,
+      "x_pu": 0.0
+    }
+  ],
+  "supports": {
+    "2": {
+      "capacity_pu": 0.06,
+      "fixed_cost": 0.002,
+      "unit_cost": 0.01,
+      "available": true
+    }
+  },
+  "config": {
+    "nominal_voltage_pu": 1.0,
+    "p_transfer_pu": 1.0,
+    "q_transfer_pu": 0.0,
+    "voltage_lower_bound": 0.9,
+    "voltage_upper_bound": 1.1,
+    "max_support_nodes": 2,
+    "lambda_support_count": 0.01,
+    "lambda_support_capacity": 0.0,
+    "allow_support_at_source": false,
+    "allow_support_at_target": false
+  }
+}
